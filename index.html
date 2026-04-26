@@ -891,8 +891,52 @@ async function downloadBoth() {
   showToast('✅ Both cards downloaded!');
 }
 
+// ── URL PARAMETER AUTO-POPULATION ──
+function loadFromURL() {
+  const p = new URLSearchParams(window.location.search);
+
+  const fieldMap = {
+    player: 'f-player', market: 'f-market', home: 'f-home', away: 'f-away',
+    comp: 'f-comp', ko: 'f-ko', platform: 'f-platform', boosttype: 'f-boost-type',
+    oddswas: 'f-odds-was', oddsnow: 'f-odds-now', rating: 'f-rating', stake: 'f-stake',
+    s1v: 's1v', s1d: 's1d', s2v: 's2v', s2d: 's2d',
+    s3v: 's3v', s3d: 's3d', s4v: 's4v', s4d: 's4d',
+    homesummary: 'f-home-summary', awaysummary: 'f-away-summary',
+    modifier: 'f-modifier', r1: 'r1', r2: 'r2', r3: 'r3', risk: 'f-risk'
+  };
+
+  let populated = false;
+  for (const [key, id] of Object.entries(fieldMap)) {
+    if (p.has(key)) {
+      document.getElementById(id).value = p.get(key);
+      populated = true;
+    }
+  }
+
+  // Home/away form pills: e.g. homeform=WWWDW
+  if (p.has('homeform')) {
+    const vals = p.get('homeform').toUpperCase().split('');
+    vals.forEach((v, i) => { if (i < 5 && ['W','D','L'].includes(v)) homePills[i] = v; });
+    renderPillRow('home-pills', homePills, 'home');
+  }
+  if (p.has('awayform')) {
+    const vals = p.get('awayform').toUpperCase().split('');
+    vals.forEach((v, i) => { if (i < 5 && ['W','D','L'].includes(v)) awayPills[i] = v; });
+    renderPillRow('away-pills', awayPills, 'away');
+  }
+
+  // Update form labels if team names came in
+  if (p.has('home')) document.getElementById('home-form-label').textContent = p.get('home');
+  if (p.has('away')) document.getElementById('away-form-label').textContent = p.get('away');
+
+  if (populated) {
+    setTimeout(() => showToast('✅ Cards auto-populated from analysis!'), 500);
+  }
+}
+
 // ── INIT ──
 initPills();
+loadFromURL();
 updatePreview();
 </script>
 </body>
