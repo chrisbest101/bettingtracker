@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemBets Card Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+  :root {
+    --red: #e02020;
+    --red-dark: #cc1a1a;
+    --red-bright: #ff4444;
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --surface2: #1a1a1a;
+    --border: rgba(255,255,255,0.07);
+    --text: #e8e8e8;
+    --text-muted: #888;
+    --text-dim: #555;
+    --green: #4ade80;
+    --green-bg: rgba(34,197,94,0.15);
+    --green-border: rgba(34,197,94,0.25);
+    --loss: #f87171;
+    --loss-bg: rgba(224,32,32,0.12);
+    --loss-border: rgba(224,32,32,0.2);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── APP SHELL ── */
+  .app-header {
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+
+  .app-logo { display: flex; align-items: center; gap: 12px; }
+  .app-logo svg { width: 32px; height: 32px; }
+  .app-logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  .app-logo-text span { color: var(--red); }
+
+  .app-subtitle {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    min-height: calc(100vh - 73px);
+  }
+
+  /* ── FORM PANEL ── */
+  .form-panel {
+    border-right: 1px solid var(--border);
+    padding: 28px 24px;
+    overflow-y: auto;
+    max-height: calc(100vh - 73px);
+  }
+
+  .form-section {
+    margin-bottom: 28px;
+  }
+
+  .form-section-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(224,32,32,0.15);
+  }
+
+  .field-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .field-group.full { grid-template-columns: 1fr; }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .field label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .field input, .field select, .field textarea {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    padding: 9px 12px;
+    transition: border-color 0.15s;
+    width: 100%;
+  }
+
+  .field input:focus, .field select:focus, .field textarea:focus {
+    outline: none;
+    border-color: rgba(224,32,32,0.4);
+  }
+
+  .field textarea { resize: vertical; min-height: 64px; line-height: 1.5; }
+
+  .field select option { background: #1a1a1a; }
+
+  /* Form pills for W/D/L */
+  .form-pills-row {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .form-pills-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 90px;
+    flex-shrink: 0;
+  }
+
+  .pill-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pill-btn.active-w { background: var(--green-bg); color: var(--green); border-color: var(--green-border); }
+  .pill-btn.active-d { background: rgba(255,255,255,0.08); color: #ccc; border-color: rgba(255,255,255,0.15); }
+  .pill-btn.active-l { background: var(--loss-bg); color: var(--loss); border-color: var(--loss-border); }
+
+  .pill-cycle { font-size: 10px; color: var(--text-dim); margin-left: 4px; }
+
+  .generate-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    border: none;
+    letter-spacing: 0.3px;
+  }
+
+  .btn-primary {
+    background: var(--red);
+    color: white;
+  }
+  .btn-primary:hover { background: var(--red-bright); transform: translateY(-1px); }
+
+  .btn-secondary {
+    background: var(--surface2);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn-secondary:hover { border-color: rgba(224,32,32,0.3); }
+
+  .btn-download {
+    background: transparent;
+    color: var(--green);
+    border: 1px solid var(--green-border);
+  }
+  .btn-download:hover { background: var(--green-bg); }
+
+  /* ── PREVIEW PANEL ── */
+  .preview-panel {
+    padding: 32px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .preview-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-dim);
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+  }
+
+  /* ── CARD STYLES (shared between preview + export) ── */
+  .gb-card {
+    width: 540px;
+    background: #111111;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .gb-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #cc1a1a, #ff4444, #cc1a1a);
+    z-index: 2;
+  }
+
+  .gb-header {
+    padding: 26px 32px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+
+  .gb-logo { display: flex; align-items: center; gap: 10px; }
+  .gb-logo svg { width: 28px; height: 28px; }
+  .gb-logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: #e8e8e8;
+    letter-spacing: 1px;
+  }
+  .gb-logo-text span { color: #e02020; }
+
+  .gb-badge-rating {
+    background: #e02020;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    padding: 6px 14px;
+    border-radius: 6px;
+  }
+
+  .gb-badge-research {
+    font-size: 11px;
+    font-weight: 600;
+    color: #e02020;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid rgba(224,32,32,0.3);
+    padding: 5px 12px;
+    border-radius: 6px;
+  }
+
+  .gb-divider { height: 1px; background: rgba(255,255,255,0.06); margin: 0 32px; }
+
+  /* BET CARD specific */
+  .gb-hero { padding: 26px 32px 22px; position: relative; z-index: 1; }
+  .gb-match-label { font-size: 12px; font-weight: 500; color: #e02020; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+  .gb-player-name { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: #ffffff; line-height: 0.95; letter-spacing: 1px; margin-bottom: 6px; }
+  .gb-market-name { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: #e02020; letter-spacing: 1px; margin-bottom: 18px; }
+  .gb-match-info { font-size: 13px; color: #999; font-weight: 500; }
+
+  .gb-odds-block {
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(224,32,32,0.06);
+    border-top: 1px solid rgba(224,32,32,0.12);
+    border-bottom: 1px solid rgba(224,32,32,0.12);
+    position: relative; z-index: 1;
+  }
+  .gb-odds-was { font-size: 14px; color: #666; font-weight: 500; text-decoration: line-through; }
+  .gb-odds-arrow { color: #e02020; font-size: 18px; }
+  .gb-odds-now { font-family: 'Bebas Neue', sans-serif; font-size: 46px; color: #e02020; line-height: 1; }
+  .gb-boost-pill { margin-left: auto; background: #e02020; color: white; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 12px; border-radius: 20px; }
+
+  .gb-meta-row { padding: 14px 32px; display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 1; }
+  .gb-meta-label { font-size: 11px; color: #555; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+  .gb-meta-value { font-size: 13px; color: #bbb; font-weight: 500; }
+  .gb-stake-value { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: #ffffff; }
+
+  /* RESEARCH CARD specific */
+  .gb-title-block { padding: 22px 32px 18px; position: relative; z-index: 1; }
+  .gb-r-player { font-family: 'Bebas Neue', sans-serif; font-size: 34px; color: #fff; letter-spacing: 1px; line-height: 1; margin-bottom: 4px; }
+  .gb-r-market { font-size: 13px; color: #e02020; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+
+  .gb-stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 32px 18px; position: relative; z-index: 1; }
+  .gb-stat { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 13px 15px; }
+  .gb-stat.hl { border-color: rgba(224,32,32,0.25); background: rgba(224,32,32,0.05); }
+  .gb-stat-val { font-family: 'Bebas Neue', sans-serif; font-size: 30px; color: #fff; line-height: 1; margin-bottom: 4px; }
+  .gb-stat.hl .gb-stat-val { color: #e02020; }
+  .gb-stat-desc { font-size: 11px; color: #999; font-weight: 500; line-height: 1.4; }
+
+  .gb-form-section { padding: 0 32px 18px; position: relative; z-index: 1; }
+  .gb-section-label { font-size: 10px; font-weight: 700; color: #555; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 11px; }
+  .gb-form-teams { display: flex; flex-direction: column; gap: 9px; }
+  .gb-form-row { display: flex; align-items: center; gap: 10px; }
+  .gb-form-team { font-size: 12px; font-weight: 600; color: #ccc; width: 105px; flex-shrink: 0; }
+  .gb-form-pills { display: flex; gap: 4px; }
+  .gb-pill { width: 26px; height: 26px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; }
+  .gb-pill-w { background: rgba(34,197,94,0.15); color: #4ade80; border: 1px solid rgba(34,197,94,0.25); }
+  .gb-pill-d { background: rgba(255,255,255,0.06); color: #aaa; border: 1px solid rgba(255,255,255,0.1); }
+  .gb-pill-l { background: rgba(224,32,32,0.12); color: #f87171; border: 1px solid rgba(224,32,32,0.2); }
+  .gb-form-summary { font-size: 11px; color: #777; margin-left: auto; white-space: nowrap; }
+  .gb-form-modifier { margin-top: 9px; font-size: 12px; color: #4ade80; font-weight: 500; }
+  .gb-form-modifier.neg { color: #f87171; }
+
+  .gb-reasons { padding: 0 32px 18px; display: flex; flex-direction: column; gap: 9px; position: relative; z-index: 1; }
+  .gb-reason { display: flex; align-items: flex-start; gap: 11px; }
+  .gb-reason-dot { width: 5px; height: 5px; border-radius: 50%; background: #e02020; margin-top: 7px; flex-shrink: 0; }
+  .gb-reason-text { font-size: 12px; color: #ccc; line-height: 1.6; }
+  .gb-reason-text strong { color: #eee; font-weight: 600; }
+
+  .gb-risk { margin: 0 32px 20px; padding: 12px 15px; border-left: 3px solid #2a2a2a; background: rgba(255,255,255,0.02); border-radius: 0 8px 8px 0; position: relative; z-index: 1; }
+  .gb-risk-label { font-size: 10px; color: #777; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 5px; }
+  .gb-risk-text { font-size: 12px; color: #999; line-height: 1.5; }
+
+  .gb-footer { padding: 14px 32px 18px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.05); position: relative; z-index: 1; }
+  .gb-tagline { font-size: 11px; color: #333; font-weight: 500; }
+  .gb-handle { font-size: 12px; color: #e02020; font-weight: 600; }
+  .gb-disclaimer { padding: 0 32px 16px; font-size: 10px; color: #222; line-height: 1.5; position: relative; z-index: 1; }
+
+  /* Glow effect */
+  .gb-glow-tr { position: absolute; top: -60px; right: -60px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(224,32,32,0.07) 0%, transparent 70%); pointer-events: none; z-index: 0; }
+  .gb-glow-bl { position: absolute; bottom: -80px; left: -80px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(224,32,32,0.05) 0%, transparent 70%); pointer-events: none; z-index: 0; }
+
+  /* ── DOWNLOAD AREA ── */
+  .download-row {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 540px;
+    justify-content: center;
+  }
+
+  /* ── HIDDEN EXPORT AREA ── */
+  #export-area {
+    position: fixed;
+    left: -9999px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    background: #0a0a0a;
+  }
+
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: var(--text-dim);
+    font-size: 14px;
+    gap: 12px;
+    padding: 60px 20px;
+  }
+
+  .empty-state svg { opacity: 0.2; width: 48px; height: 48px; }
+
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--surface2);
+    border: 1px solid var(--green-border);
+    color: var(--green);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    z-index: 999;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-logo">
+    <svg viewBox="0 0 100 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M30 5 L70 5 L95 35 L50 80 L5 35 Z" stroke="#e02020" stroke-width="5" fill="none"/>
+      <path d="M5 35 L30 5 L50 35 L30 5" stroke="#e02020" stroke-width="4" fill="none"/>
+      <path d="M70 5 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+      <path d="M30 5 L50 35 L70 5" stroke="#e02020" stroke-width="4" fill="none"/>
+      <path d="M5 35 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+      <path d="M50 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+      <path d="M5 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+      <path d="M95 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+    </svg>
+    <span class="app-logo-text">Gem<span>Bets</span></span>
+  </div>
+  <span class="app-subtitle">Card Generator</span>
+</header>
+
+<div class="layout">
+
+  <!-- FORM -->
+  <div class="form-panel">
+
+    <div class="form-section">
+      <div class="form-section-title">Bet Details</div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Player Name</label>
+          <input id="f-player" type="text" placeholder="Ollie Watkins" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Market</label>
+          <input id="f-market" type="text" placeholder="1+ Shot on Target" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Home Team</label>
+          <input id="f-home" type="text" placeholder="Fulham" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Away Team</label>
+          <input id="f-away" type="text" placeholder="Aston Villa" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Competition</label>
+          <input id="f-comp" type="text" placeholder="Premier League" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>KO Time</label>
+          <input id="f-ko" type="text" placeholder="Sat 26 Apr · 15:00" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Platform</label>
+          <select id="f-platform" oninput="updatePreview()">
+            <option>Paddy Power</option>
+            <option>Sky Bet</option>
+            <option>Bet365</option>
+            <option>Betfair</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Boost Type</label>
+          <select id="f-boost-type" oninput="updatePreview()">
+            <option>Super Boost</option>
+            <option>Power Price</option>
+            <option>OddsBoost</option>
+            <option>Enhanced</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Odds (Was)</label>
+          <input id="f-odds-was" type="text" placeholder="1.40" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Odds (Now)</label>
+          <input id="f-odds-now" type="text" placeholder="2.00" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Rating (/10)</label>
+          <input id="f-rating" type="text" placeholder="9" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Stake (£)</label>
+          <input id="f-stake" type="text" placeholder="10.00" oninput="updatePreview()">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <div class="form-section-title">Key Stats (Research Card)</div>
+      <div class="field-group">
+        <div class="field">
+          <label>Stat 1 Value</label>
+          <input id="s1v" type="text" placeholder="1.06" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Stat 1 Description</label>
+          <input id="s1d" type="text" placeholder="SOT per 90 this season" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Stat 2 Value</label>
+          <input id="s2v" type="text" placeholder="7" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Stat 2 Description</label>
+          <input id="s2d" type="text" placeholder="Consecutive SOT vs Fulham" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Stat 3 Value</label>
+          <input id="s3v" type="text" placeholder="6" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Stat 3 Description</label>
+          <input id="s3d" type="text" placeholder="Goals in last 5 games" oninput="updatePreview()">
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field">
+          <label>Stat 4 Value</label>
+          <input id="s4v" type="text" placeholder="5" oninput="updatePreview()">
+        </div>
+        <div class="field">
+          <label>Stat 4 Description</label>
+          <input id="s4d" type="text" placeholder="Goals vs Fulham last 5 PL" oninput="updatePreview()">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <div class="form-section-title">Team Form (Last 5)</div>
+      <div class="form-pills-row" style="margin-bottom:6px">
+        <span class="form-pills-label" id="home-form-label">Home</span>
+        <div id="home-pills" class="form-pills-row" style="width:auto;margin:0;gap:5px"></div>
+        <input id="f-home-summary" type="text" placeholder="4W 1D · 11 scored" oninput="updatePreview()" style="flex:1;background:#1a1a1a;border:1px solid rgba(255,255,255,0.07);border-radius:7px;color:#e8e8e8;font-family:'DM Sans',sans-serif;font-size:12px;padding:6px 10px;">
+      </div>
+      <div class="form-pills-row">
+        <span class="form-pills-label" id="away-form-label">Away</span>
+        <div id="away-pills" class="form-pills-row" style="width:auto;margin:0;gap:5px"></div>
+        <input id="f-away-summary" type="text" placeholder="1W 2D 2L · mixed" oninput="updatePreview()" style="flex:1;background:#1a1a1a;border:1px solid rgba(255,255,255,0.07);border-radius:7px;color:#e8e8e8;font-family:'DM Sans',sans-serif;font-size:12px;padding:6px 10px;">
+      </div>
+      <div class="field-group full" style="margin-top:10px">
+        <div class="field">
+          <label>Form Modifier</label>
+          <input id="f-modifier" type="text" placeholder="↑ +0.5 — Villa in strong form, CL motivation" oninput="updatePreview()">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <div class="form-section-title">Reasons & Risk</div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Reason 1</label>
+          <textarea id="r1" placeholder="Exceptional recent form — 6 goals in last 5 games..." oninput="updatePreview()"></textarea>
+        </div>
+      </div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Reason 2</label>
+          <textarea id="r2" placeholder="Dominant H2H record — scored in every last 5 PL games vs Fulham..." oninput="updatePreview()"></textarea>
+        </div>
+      </div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Reason 3</label>
+          <textarea id="r3" placeholder="High motivation — Villa pushing for CL qualification..." oninput="updatePreview()"></textarea>
+        </div>
+      </div>
+      <div class="field-group full">
+        <div class="field">
+          <label>Risk</label>
+          <textarea id="f-risk" placeholder="Fulham defensively solid at home. Could sit deep and limit chances." oninput="updatePreview()"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="generate-btns">
+      <button class="btn btn-primary" onclick="downloadBetCard()">⬇ Download Bet Card PNG</button>
+      <button class="btn btn-primary" onclick="downloadResearchCard()">⬇ Download Research Card PNG</button>
+      <button class="btn btn-secondary" onclick="downloadBoth()">⬇ Download Both</button>
+    </div>
+
+  </div>
+
+  <!-- PREVIEW -->
+  <div class="preview-panel" id="preview-panel">
+    <div class="preview-label">Bet Card Preview</div>
+    <div id="preview-bet"></div>
+    <div class="preview-label">Research Card Preview</div>
+    <div id="preview-research"></div>
+  </div>
+
+</div>
+
+<!-- Hidden export area -->
+<div id="export-area">
+  <div id="export-bet"></div>
+  <div id="export-research"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── FORM STATE ──
+const homePills = ['W','W','W','D','W'];
+const awayPills = ['W','L','D','L','D'];
+
+function initPills() {
+  renderPillRow('home-pills', homePills, 'home');
+  renderPillRow('away-pills', awayPills, 'away');
+  // Update labels when team names change
+  document.getElementById('f-home').addEventListener('input', () => {
+    document.getElementById('home-form-label').textContent = document.getElementById('f-home').value || 'Home';
+  });
+  document.getElementById('f-away').addEventListener('input', () => {
+    document.getElementById('away-form-label').textContent = document.getElementById('f-away').value || 'Away';
+  });
+}
+
+function renderPillRow(containerId, arr, team) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+  arr.forEach((val, i) => {
+    const btn = document.createElement('button');
+    btn.className = `pill-btn active-${val.toLowerCase()}`;
+    btn.textContent = val;
+    btn.onclick = () => {
+      const order = ['W','D','L'];
+      const next = order[(order.indexOf(val) + 1) % 3];
+      arr[i] = next;
+      renderPillRow(containerId, arr, team);
+      updatePreview();
+    };
+    container.appendChild(btn);
+  });
+}
+
+// ── DIAMOND SVG ──
+function diamondSVG(size=28) {
+  return `<svg width="${size}" height="${size}" viewBox="0 0 100 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M30 5 L70 5 L95 35 L50 80 L5 35 Z" stroke="#e02020" stroke-width="5" fill="none"/>
+    <path d="M5 35 L30 5 L50 35 L30 5" stroke="#e02020" stroke-width="4" fill="none"/>
+    <path d="M70 5 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+    <path d="M30 5 L50 35 L70 5" stroke="#e02020" stroke-width="4" fill="none"/>
+    <path d="M5 35 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+    <path d="M50 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+    <path d="M5 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+    <path d="M95 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+  </svg>`;
+}
+
+function logoHTML(badgeHTML) {
+  return `<div class="gb-header">
+    <div class="gb-logo">${diamondSVG(28)}<span class="gb-logo-text">Gem<span>Bets</span></span></div>
+    ${badgeHTML}
+  </div>`;
+}
+
+function formPillsHTML(arr) {
+  return arr.map(v => `<div class="gb-pill gb-pill-${v.toLowerCase()}">${v}</div>`).join('');
+}
+
+// ── BUILD BET CARD ──
+function buildBetCard() {
+  const player = document.getElementById('f-player').value || 'Player Name';
+  const market = document.getElementById('f-market').value || '1+ Shot on Target';
+  const home = document.getElementById('f-home').value || 'Home';
+  const away = document.getElementById('f-away').value || 'Away';
+  const comp = document.getElementById('f-comp').value || 'Premier League';
+  const ko = document.getElementById('f-ko').value || 'Today · KO TBC';
+  const platform = document.getElementById('f-platform').value;
+  const boostType = document.getElementById('f-boost-type').value;
+  const oddsWas = document.getElementById('f-odds-was').value || '—';
+  const oddsNow = document.getElementById('f-odds-now').value || '—';
+  const rating = document.getElementById('f-rating').value || '—';
+  const stake = document.getElementById('f-stake').value || '—';
+
+  // Split player name for big display
+  const nameParts = player.split(' ');
+  const nameDisplay = nameParts.length >= 2
+    ? nameParts.slice(0, -1).join(' ') + '<br>' + nameParts[nameParts.length - 1]
+    : player;
+
+  return `<div class="gb-card" style="width:540px">
+    <div class="gb-glow-tr"></div>
+    ${logoHTML(`<div class="gb-badge-rating">⚡ ${rating}/10</div>`)}
+    <div class="gb-divider"></div>
+    <div class="gb-hero">
+      <div class="gb-match-label">${home} vs ${away} · ${comp}</div>
+      <div class="gb-player-name">${nameDisplay}</div>
+      <div class="gb-market-name">${market}</div>
+      <div class="gb-match-info">${ko}</div>
+    </div>
+    <div class="gb-odds-block">
+      <span class="gb-odds-was">Was ${oddsWas}</span>
+      <span class="gb-odds-arrow">→</span>
+      <span class="gb-odds-now">${oddsNow}</span>
+      <span class="gb-boost-pill">${boostType}</span>
+    </div>
+    <div class="gb-meta-row">
+      <span class="gb-meta-label">Platform</span>
+      <span class="gb-meta-value">${platform}</span>
+    </div>
+    <div class="gb-meta-row" style="padding-top:0">
+      <span class="gb-meta-label">Our Stake</span>
+      <span class="gb-stake-value">£${stake}</span>
+    </div>
+    <div class="gb-footer">
+      <span class="gb-tagline">Bet Smarter. Win Bigger.</span>
+      <span class="gb-handle">@gembets_</span>
+    </div>
+    <div class="gb-disclaimer">18+ | Gambling can be addictive. Please play responsibly. begambleaware.org</div>
+  </div>`;
+}
+
+// ── BUILD RESEARCH CARD ──
+function buildResearchCard() {
+  const player = document.getElementById('f-player').value || 'Player Name';
+  const market = document.getElementById('f-market').value || '1+ Shot on Target';
+  const home = document.getElementById('f-home').value || 'Home';
+  const away = document.getElementById('f-away').value || 'Away';
+
+  const s1v = document.getElementById('s1v').value || '—';
+  const s1d = document.getElementById('s1d').value || 'Stat description';
+  const s2v = document.getElementById('s2v').value || '—';
+  const s2d = document.getElementById('s2d').value || 'Stat description';
+  const s3v = document.getElementById('s3v').value || '—';
+  const s3d = document.getElementById('s3d').value || 'Stat description';
+  const s4v = document.getElementById('s4v').value || '—';
+  const s4d = document.getElementById('s4d').value || 'Stat description';
+
+  const homeSummary = document.getElementById('f-home-summary').value || '';
+  const awaySummary = document.getElementById('f-away-summary').value || '';
+  const modifier = document.getElementById('f-modifier').value || '';
+  const modNeg = modifier.startsWith('↓') || modifier.startsWith('-');
+
+  const r1 = document.getElementById('r1').value || '';
+  const r2 = document.getElementById('r2').value || '';
+  const r3 = document.getElementById('r3').value || '';
+  const risk = document.getElementById('f-risk').value || '';
+
+  function reasonHTML(text) {
+    if (!text) return '';
+    // Bold first phrase before —
+    const formatted = text.replace(/^([^—]+—)/, '<strong>$1</strong>');
+    return `<div class="gb-reason"><div class="gb-reason-dot"></div><div class="gb-reason-text">${formatted}</div></div>`;
+  }
+
+  return `<div class="gb-card" style="width:540px">
+    <div class="gb-glow-bl"></div>
+    ${logoHTML(`<div class="gb-badge-research">Research</div>`)}
+    <div class="gb-divider"></div>
+    <div class="gb-title-block">
+      <div class="gb-r-player">${player}</div>
+      <div class="gb-r-market">${market} · ${home} vs ${away}</div>
+    </div>
+    <div class="gb-stats-grid">
+      <div class="gb-stat hl"><div class="gb-stat-val">${s1v}</div><div class="gb-stat-desc">${s1d}</div></div>
+      <div class="gb-stat hl"><div class="gb-stat-val">${s2v}</div><div class="gb-stat-desc">${s2d}</div></div>
+      <div class="gb-stat"><div class="gb-stat-val">${s3v}</div><div class="gb-stat-desc">${s3d}</div></div>
+      <div class="gb-stat"><div class="gb-stat-val">${s4v}</div><div class="gb-stat-desc">${s4d}</div></div>
+    </div>
+    <div class="gb-form-section">
+      <div class="gb-section-label">Team form — last 5</div>
+      <div class="gb-form-teams">
+        <div class="gb-form-row">
+          <span class="gb-form-team">${home}</span>
+          <div class="gb-form-pills">${formPillsHTML(homePills)}</div>
+          <span class="gb-form-summary">${homeSummary}</span>
+        </div>
+        <div class="gb-form-row">
+          <span class="gb-form-team">${away}</span>
+          <div class="gb-form-pills">${formPillsHTML(awayPills)}</div>
+          <span class="gb-form-summary">${awaySummary}</span>
+        </div>
+      </div>
+      ${modifier ? `<div class="gb-form-modifier${modNeg?' neg':''}">${modifier}</div>` : ''}
+    </div>
+    <div class="gb-divider" style="margin-bottom:16px"></div>
+    <div class="gb-reasons">
+      ${reasonHTML(r1)}
+      ${reasonHTML(r2)}
+      ${reasonHTML(r3)}
+    </div>
+    ${risk ? `<div class="gb-risk"><div class="gb-risk-label">The risk</div><div class="gb-risk-text">${risk}</div></div>` : ''}
+    <div class="gb-footer">
+      <span class="gb-tagline">Bet Smarter. Win Bigger.</span>
+      <span class="gb-handle">@gembets_</span>
+    </div>
+    <div class="gb-disclaimer">18+ | Please gamble responsibly. begambleaware.org</div>
+  </div>`;
+}
+
+// ── UPDATE PREVIEW ──
+function updatePreview() {
+  document.getElementById('preview-bet').innerHTML = buildBetCard();
+  document.getElementById('preview-research').innerHTML = buildResearchCard();
+}
+
+// ── DOWNLOAD ──
+async function captureCard(html, filename) {
+  const area = document.getElementById('export-area');
+  const wrapper = document.createElement('div');
+  wrapper.innerHTML = html;
+  const card = wrapper.firstChild;
+  area.appendChild(card);
+
+  await new Promise(r => setTimeout(r, 300));
+
+  const canvas = await html2canvas(card, {
+    scale: 2.5,
+    backgroundColor: '#111111',
+    useCORS: true,
+    allowTaint: true,
+    logging: false
+  });
+
+  area.removeChild(card);
+
+  const link = document.createElement('a');
+  link.download = filename;
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+async function downloadBetCard() {
+  showToast('Generating Bet Card...');
+  await captureCard(buildBetCard(), `gembets-bet-card-${Date.now()}.png`);
+  showToast('✅ Bet Card downloaded!');
+}
+
+async function downloadResearchCard() {
+  showToast('Generating Research Card...');
+  await captureCard(buildResearchCard(), `gembets-research-card-${Date.now()}.png`);
+  showToast('✅ Research Card downloaded!');
+}
+
+async function downloadBoth() {
+  showToast('Generating both cards...');
+  await captureCard(buildBetCard(), `gembets-bet-card-${Date.now()}.png`);
+  await captureCard(buildResearchCard(), `gembets-research-card-${Date.now()}.png`);
+  showToast('✅ Both cards downloaded!');
+}
+
+// ── INIT ──
+initPills();
+updatePreview();
+</script>
+</body>
+</html>
