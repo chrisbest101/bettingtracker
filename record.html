@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GemBets Record Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .card {
+    width: 560px;
+    background: #0f0f0f;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* Top red bar */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #cc1a1a, #ff4444, #cc1a1a);
+    z-index: 2;
+  }
+
+  /* Background grid */
+  .card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(224,32,32,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(224,32,32,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .glow-top {
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(224,32,32,0.08) 0%, transparent 65%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .glow-bottom {
+    position: absolute;
+    bottom: -80px; left: -80px;
+    width: 250px; height: 250px;
+    background: radial-gradient(circle, rgba(224,32,32,0.05) 0%, transparent 65%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    padding: 26px 32px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo { display: flex; align-items: center; gap: 10px; }
+
+  .logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    color: #e8e8e8;
+    letter-spacing: 1px;
+  }
+  .logo-text span { color: #e02020; }
+
+  .period-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: #e02020;
+    border: 1px solid rgba(224,32,32,0.3);
+    padding: 5px 12px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+  }
+
+  .divider {
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin: 0 32px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ── BIG P&L ── */
+  .pnl-block {
+    padding: 28px 32px 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pnl-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .pnl-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    line-height: 0.9;
+    color: #4ade80;
+    letter-spacing: 2px;
+  }
+
+  .pnl-value.neg { color: #f87171; }
+
+  .pnl-sub {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+  /* ── STAT ROW ── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.05);
+    margin: 0 32px 28px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+  }
+
+  .stat-cell {
+    background: #141414;
+    padding: 16px 14px;
+    text-align: center;
+  }
+
+  .stat-cell:first-child { border-radius: 14px 0 0 14px; }
+  .stat-cell:last-child { border-radius: 0 14px 14px 0; }
+
+  .stat-val {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #e8e8e8;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stat-val.green { color: #4ade80; }
+  .stat-val.red { color: #f87171; }
+
+  .stat-lbl {
+    font-size: 10px;
+    color: #555;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* ── RECENT RESULTS ── */
+  .recent-section {
+    padding: 0 32px 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: #444;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .result-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 10px;
+  }
+
+  .result-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    font-weight: 700;
+  }
+
+  .result-icon.w { background: rgba(74,222,128,0.15); color: #4ade80; }
+  .result-icon.l { background: rgba(248,113,113,0.15); color: #f87171; }
+  .result-icon.v { background: rgba(255,255,255,0.06); color: #888; }
+
+  .result-player {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ddd;
+    flex: 1;
+  }
+
+  .result-market {
+    font-size: 11px;
+    color: #555;
+    flex: 1;
+  }
+
+  .result-odds {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: #777;
+    width: 36px;
+    text-align: center;
+  }
+
+  .result-net {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    width: 56px;
+    text-align: right;
+  }
+
+  .result-net.pos { color: #4ade80; }
+  .result-net.neg { color: #f87171; }
+  .result-net.neu { color: #555; }
+
+  /* ── WIN RATE BAR ── */
+  .winrate-section {
+    padding: 0 32px 26px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .wr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .wr-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #444;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+
+  .wr-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #4ade80;
+  }
+
+  .wr-track {
+    height: 6px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .wr-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #e02020, #ff6b6b);
+    border-radius: 3px;
+    width: 68%;
+  }
+
+  .wr-fill.green {
+    background: linear-gradient(90deg, #16a34a, #4ade80);
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    padding: 16px 32px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+    z-index: 2;
+  }
+
+  .footer-tagline {
+    font-size: 11px;
+    color: #2a2a2a;
+    font-weight: 500;
+  }
+
+  .footer-handle {
+    font-size: 12px;
+    color: #e02020;
+    font-weight: 600;
+  }
+
+  .disclaimer {
+    padding: 0 32px 16px;
+    font-size: 10px;
+    color: #1e1e1e;
+    position: relative;
+    z-index: 2;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="glow-top"></div>
+  <div class="glow-bottom"></div>
+
+  <div class="header">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 100 85" fill="none">
+        <path d="M30 5 L70 5 L95 35 L50 80 L5 35 Z" stroke="#e02020" stroke-width="5" fill="none"/>
+        <path d="M5 35 L30 5 L50 35 L30 5" stroke="#e02020" stroke-width="4" fill="none"/>
+        <path d="M70 5 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+        <path d="M30 5 L50 35 L70 5" stroke="#e02020" stroke-width="4" fill="none"/>
+        <path d="M5 35 L50 35 L95 35" stroke="#e02020" stroke-width="4" fill="none"/>
+        <path d="M50 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+        <path d="M5 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+        <path d="M95 35 L50 80" stroke="#e02020" stroke-width="3" fill="none"/>
+      </svg>
+      <span class="logo-text">Gem<span>Bets</span></span>
+    </div>
+    <div class="period-badge">APR 2026 · RECORD</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="pnl-block">
+    <div class="pnl-label">Running P&L</div>
+    <div class="pnl-value">+£52.33</div>
+    <div class="pnl-sub">from £155.50 staked · system started 4 Apr 2026</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-cell">
+      <div class="stat-val">23</div>
+      <div class="stat-lbl">Bets</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-val green">13</div>
+      <div class="stat-lbl">Won</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-val red">6</div>
+      <div class="stat-lbl">Lost</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-val">68%</div>
+      <div class="stat-lbl">Win Rate</div>
+    </div>
+  </div>
+
+  <div class="recent-section">
+    <div class="section-title">Recent Results</div>
+    <div class="results-list">
+      <div class="result-row">
+        <div class="result-icon w">W</div>
+        <span class="result-player">Nico O'Reilly</span>
+        <span class="result-market">1+ SOT</span>
+        <span class="result-odds">2.0</span>
+        <span class="result-net pos">+£7.00</span>
+      </div>
+      <div class="result-row">
+        <div class="result-icon w">W</div>
+        <span class="result-player">Man City</span>
+        <span class="result-market">Win to Nil</span>
+        <span class="result-odds">2.0</span>
+        <span class="result-net pos">+£7.00</span>
+      </div>
+      <div class="result-row">
+        <div class="result-icon w">W</div>
+        <span class="result-player">Haaland</span>
+        <span class="result-market">1+ SOT 1st Half</span>
+        <span class="result-odds">2.0</span>
+        <span class="result-net pos">+£7.00</span>
+      </div>
+      <div class="result-row">
+        <div class="result-icon w">W</div>
+        <span class="result-player">Rayan Cherki</span>
+        <span class="result-market">1+ SOT</span>
+        <span class="result-odds">2.0</span>
+        <span class="result-net pos">+£5.00</span>
+      </div>
+      <div class="result-row">
+        <div class="result-icon v">V</div>
+        <span class="result-player">Cole Palmer</span>
+        <span class="result-market">1+ SOT</span>
+        <span class="result-odds">2.0</span>
+        <span class="result-net neu">£0.00</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="winrate-section">
+    <div class="wr-header">
+      <span class="wr-label">Win Rate</span>
+      <span class="wr-value">68%</span>
+    </div>
+    <div class="wr-track">
+      <div class="wr-fill green" style="width:68%"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="footer-tagline">Bet Smarter. Win Bigger.</span>
+    <span class="footer-handle">@gembets_</span>
+  </div>
+  <div class="disclaimer">18+ | Please gamble responsibly. begambleaware.org</div>
+</div>
+</body>
+</html>
