@@ -443,5 +443,48 @@
   </div>
   <div class="disclaimer">18+ | Please gamble responsibly. begambleaware.org</div>
 </div>
+
+<script>
+function loadFromURL() {
+  const p = new URLSearchParams(window.location.search);
+
+  if (p.has('pnl')) document.querySelector('.pnl-value').textContent = p.get('pnl');
+  if (p.has('pnlneg')) document.querySelector('.pnl-value').classList.add('neg');
+  if (p.has('staked')) document.querySelector('.pnl-sub').textContent = 'from £' + p.get('staked') + ' staked · system started 4 Apr 2026';
+  if (p.has('total')) document.querySelectorAll('.stat-val')[0].textContent = p.get('total');
+  if (p.has('won')) document.querySelectorAll('.stat-val')[1].textContent = p.get('won');
+  if (p.has('lost')) document.querySelectorAll('.stat-val')[2].textContent = p.get('lost');
+  if (p.has('wr')) {
+    const wr = p.get('wr');
+    document.querySelectorAll('.stat-val')[3].textContent = wr + '%';
+    document.querySelector('.wr-value').textContent = wr + '%';
+    document.querySelector('.wr-fill').style.width = wr + '%';
+  }
+  if (p.has('period')) document.querySelector('.period-badge').textContent = p.get('period');
+
+  // Recent results: pass as r1 through r5
+  // Format: PLAYER|MARKET|ODDS|NET|W/L/V
+  const rows = document.querySelectorAll('.result-row');
+  ['r1','r2','r3','r4','r5'].forEach((key, i) => {
+    if (p.has(key) && rows[i]) {
+      const parts = p.get(key).split('|');
+      if (parts.length >= 5) {
+        const [player, market, odds, net, result] = parts;
+        const icon = rows[i].querySelector('.result-icon');
+        icon.textContent = result.toUpperCase();
+        icon.className = 'result-icon ' + result.toLowerCase();
+        rows[i].querySelector('.result-player').textContent = player;
+        rows[i].querySelector('.result-market').textContent = market;
+        rows[i].querySelector('.result-odds').textContent = odds;
+        const netEl = rows[i].querySelector('.result-net');
+        netEl.textContent = net;
+        netEl.className = 'result-net ' + (result === 'W' ? 'pos' : result === 'L' ? 'neg' : 'neu');
+      }
+    }
+  });
+}
+
+loadFromURL();
+</script>
 </body>
 </html>
