@@ -1,0 +1,40 @@
+[
+  {
+    "id": 41,
+    "date": "2026-05-07",
+    "player": "Morgan Rogers",
+    "market": "1+ Shot on Target",
+    "competition": "UEFA Europa League SF 2nd Leg",
+    "home": "Aston Villa",
+    "away": "Nottingham Forest",
+    "platform": "Paddy Power",
+    "boost_type": "Price Boost",
+    "odds_was": 1.33,
+    "odds_now": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "W",
+    "net": 5.0,
+    "tag": "PLAYER MARKET",
+    "classification": "Outlier"
+  },
+  {
+    "id": 42,
+    "date": "2026-05-07",
+    "player": "Igor Jesus",
+    "market": "1+ Shot on Target",
+    "competition": "UEFA Europa League SF 2nd Leg",
+    "home": "Aston Villa",
+    "away": "Nottingham Forest",
+    "platform": "Sky Bet",
+    "boost_type": "Power Price",
+    "odds_was": 1.73,
+    "odds_now": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "L",
+    "net": -7.0,
+    "tag": "PLAYER MARKET",
+    "classification": "Outlier \u2014 Forest defended 1-0 lead, Jesus isolated"
+  }
+]
