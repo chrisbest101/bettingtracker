@@ -74,5 +74,43 @@
     "net": 5.5,
     "tag": "TEAM MARKET",
     "classification": "Won \u2014 Konate goal min 7"
+  },
+  {
+    "id": 45,
+    "date": "2026-05-09",
+    "player": "Haaland 2+ SOT / Thiago 1+ SOT / Jensen 1+ Fouls",
+    "market": "Build A Bet Treble \u2014 25% Boost",
+    "competition": "Premier League",
+    "home": "Man City",
+    "away": "Brentford",
+    "platform": "Sky Bet",
+    "boost_type": "Build A Bet 25% Booster",
+    "odds_was": 2.86,
+    "odds_now": 3.32,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "W",
+    "net": 11.61,
+    "tag": "BOOSTER BUILD",
+    "classification": "Won \u2014 Haaland 4 SOT, Thiago 1 SOT, Jensen 1 foul. City 2-0 Brentford"
+  },
+  {
+    "id": 46,
+    "date": "2026-05-09",
+    "player": "Bruno Fernandes",
+    "market": "To Assist & Man Utd to Win",
+    "competition": "Premier League",
+    "home": "Sunderland",
+    "away": "Man Utd",
+    "platform": "Sky Bet",
+    "boost_type": "Power Prices",
+    "odds_was": 2.88,
+    "odds_now": 3.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "L",
+    "net": -3.0,
+    "tag": "COMBINED MARKET",
+    "classification": "Lost \u2014 Fernandes did not assist"
   }
 ]
