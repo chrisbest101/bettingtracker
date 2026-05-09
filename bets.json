@@ -36,5 +36,24 @@
     "net": -7.0,
     "tag": "PLAYER MARKET",
     "classification": "Outlier \u2014 Forest defended 1-0 lead, Jesus isolated"
+  },
+  {
+    "id": 43,
+    "date": "2026-05-09",
+    "player": "Moises Caicedo",
+    "market": "1+ Fouls Committed H1",
+    "competition": "Premier League",
+    "home": "Liverpool",
+    "away": "Chelsea",
+    "platform": "Betfair",
+    "boost_type": "Super Boost",
+    "odds_was": 1.44,
+    "odds_now": 1.66,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "W",
+    "net": 2.0,
+    "tag": "PLAYER MARKET",
+    "classification": "Won \u2014 settled at 1.66 (safe sub rounding)"
   }
 ]
