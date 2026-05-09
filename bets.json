@@ -55,5 +55,24 @@
     "net": 2.0,
     "tag": "PLAYER MARKET",
     "classification": "Won \u2014 settled at 1.66 (safe sub rounding)"
+  },
+  {
+    "id": 44,
+    "date": "2026-05-09",
+    "player": "Liverpool",
+    "market": "Home Team to Score in 1st Half",
+    "competition": "Premier League",
+    "home": "Liverpool",
+    "away": "Chelsea",
+    "platform": "Bet365",
+    "boost_type": "Super Boost",
+    "odds_was": 1.72,
+    "odds_now": 2.1,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "W",
+    "net": 5.5,
+    "tag": "TEAM MARKET",
+    "classification": "Won \u2014 Konate goal min 7"
   }
 ]
