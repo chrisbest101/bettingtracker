@@ -112,5 +112,24 @@
     "net": -3.0,
     "tag": "COMBINED MARKET",
     "classification": "Lost \u2014 Fernandes did not assist"
+  },
+  {
+    "id": 47,
+    "date": "2026-05-10",
+    "player": "Benjamin Nygren",
+    "market": "To Score or Assist",
+    "competition": "Scottish Premiership",
+    "home": "Celtic",
+    "away": "Rangers",
+    "platform": "Betfair",
+    "boost_type": "Super Boost",
+    "odds_was": 1.91,
+    "odds_now": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "L",
+    "net": -7.0,
+    "tag": "SUPER BOOST",
+    "classification": "Lost \u2014 Nygren did not score or assist"
   }
 ]
