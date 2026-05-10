@@ -131,5 +131,43 @@
     "net": -7.0,
     "tag": "SUPER BOOST",
     "classification": "Lost \u2014 Nygren did not score or assist"
+  },
+  {
+    "id": 48,
+    "date": "2026-05-10",
+    "player": "Viktor Gy\u00f6keres",
+    "market": "1+ Shot on Target",
+    "competition": "Premier League",
+    "home": "West Ham",
+    "away": "Arsenal",
+    "platform": "Paddy Power",
+    "boost_type": "Power Price",
+    "odds_was": 1.5,
+    "odds_now": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "L",
+    "net": -3.0,
+    "tag": "PLAYER MARKET",
+    "classification": "Lost \u2014 Gyokeres failed to register SOT"
+  },
+  {
+    "id": 49,
+    "date": "2026-05-10",
+    "player": "Bukayo Saka",
+    "market": "1+ Shot on Target",
+    "competition": "Premier League",
+    "home": "West Ham",
+    "away": "Arsenal",
+    "platform": "Sky Bet",
+    "boost_type": "Super Boost",
+    "odds_was": 1.4,
+    "odds_now": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "L",
+    "net": -5.0,
+    "tag": "PLAYER MARKET",
+    "classification": "Lost \u2014 Saka failed to register SOT"
   }
 ]
