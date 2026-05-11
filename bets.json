@@ -14,9 +14,7 @@
     "rating": 7,
     "stake": 5.0,
     "result": "W",
-    "net": 5.0,
-    "tag": "PLAYER MARKET",
-    "classification": "Outlier"
+    "net": 5.0
   },
   {
     "id": 42,
@@ -33,9 +31,7 @@
     "rating": 8,
     "stake": 7.0,
     "result": "L",
-    "net": -7.0,
-    "tag": "PLAYER MARKET",
-    "classification": "Outlier \u2014 Forest defended 1-0 lead, Jesus isolated"
+    "net": -7.0
   },
   {
     "id": 43,
@@ -52,9 +48,7 @@
     "rating": 6,
     "stake": 3.0,
     "result": "W",
-    "net": 2.0,
-    "tag": "PLAYER MARKET",
-    "classification": "Won \u2014 settled at 1.66 (safe sub rounding)"
+    "net": 2.0
   },
   {
     "id": 44,
@@ -71,15 +65,13 @@
     "rating": 7,
     "stake": 5.0,
     "result": "W",
-    "net": 5.5,
-    "tag": "TEAM MARKET",
-    "classification": "Won \u2014 Konate goal min 7"
+    "net": 5.5
   },
   {
     "id": 45,
     "date": "2026-05-09",
     "player": "Haaland 2+ SOT / Thiago 1+ SOT / Jensen 1+ Fouls",
-    "market": "Build A Bet Treble \u2014 25% Boost",
+    "market": "Build A Bet Treble 25% Boost",
     "competition": "Premier League",
     "home": "Man City",
     "away": "Brentford",
@@ -90,9 +82,7 @@
     "rating": 7,
     "stake": 5.0,
     "result": "W",
-    "net": 11.61,
-    "tag": "BOOSTER BUILD",
-    "classification": "Won \u2014 Haaland 4 SOT, Thiago 1 SOT, Jensen 1 foul. City 2-0 Brentford"
+    "net": 11.61
   },
   {
     "id": 46,
@@ -109,9 +99,7 @@
     "rating": 6,
     "stake": 3.0,
     "result": "L",
-    "net": -3.0,
-    "tag": "COMBINED MARKET",
-    "classification": "Lost \u2014 Fernandes did not assist"
+    "net": -3.0
   },
   {
     "id": 47,
@@ -128,14 +116,12 @@
     "rating": 8,
     "stake": 7.0,
     "result": "L",
-    "net": -7.0,
-    "tag": "SUPER BOOST",
-    "classification": "Lost \u2014 Nygren did not score or assist"
+    "net": -7.0
   },
   {
     "id": 48,
     "date": "2026-05-10",
-    "player": "Viktor Gy\u00f6keres",
+    "player": "Viktor Gyokeres",
     "market": "1+ Shot on Target",
     "competition": "Premier League",
     "home": "West Ham",
@@ -147,9 +133,7 @@
     "rating": 6,
     "stake": 3.0,
     "result": "L",
-    "net": -3.0,
-    "tag": "PLAYER MARKET",
-    "classification": "Lost \u2014 Gyokeres failed to register SOT"
+    "net": -3.0
   },
   {
     "id": 49,
@@ -166,8 +150,23 @@
     "rating": 7,
     "stake": 5.0,
     "result": "L",
-    "net": -5.0,
-    "tag": "PLAYER MARKET",
-    "classification": "Lost \u2014 Saka failed to register SOT"
+    "net": -5.0
+  },
+  {
+    "id": 50,
+    "date": "2026-05-10",
+    "player": "Vini Junior",
+    "market": "2+ Shots on Target",
+    "competition": "La Liga",
+    "home": "Barcelona",
+    "away": "Real Madrid",
+    "platform": "Sky Bet",
+    "boost_type": "Price Boost",
+    "odds_was": 2.2,
+    "odds_now": 2.38,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "W",
+    "net": 6.88
   }
 ]
