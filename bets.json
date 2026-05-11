@@ -1,5 +1,23 @@
 [
   {
+    "id": 0,
+    "date": "2026-04-04 to 2026-05-06",
+    "player": "PRE-TRACKER AGGREGATE",
+    "market": "Bets 1-40 \u2014 see session records",
+    "competition": "Various",
+    "home": "\u2014",
+    "away": "\u2014",
+    "platform": "Various",
+    "boost_type": "Various",
+    "odds_was": 0,
+    "odds_now": 0,
+    "rating": 0,
+    "stake": 167.5,
+    "result": "AGG",
+    "net": 92.37,
+    "note": "Aggregate of bets 1-40. 19W 7L 3V/C from 29 bets. P&L +92.37. Staked 167.50. Win rate 73%. Best return +17.50 (Kvaratskhelia 2+ SOT & fouls). System launched 4 Apr 2026."
+  },
+  {
     "id": 41,
     "date": "2026-05-07",
     "player": "Morgan Rogers",
