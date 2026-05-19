@@ -414,5 +414,57 @@
     "result": "pending",
     "net_pl": null,
     "rating": 7
+  },
+  {
+    "id": "033",
+    "date": "2026-05-19",
+    "player": "Semenyo",
+    "market": "To Score or Assist",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 7.5
+  },
+  {
+    "id": "034",
+    "date": "2026-05-19",
+    "player": "Man City",
+    "market": "To Score 1st Half",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 1.67,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 6
+  },
+  {
+    "id": "035",
+    "date": "2026-05-19",
+    "player": "Palmer",
+    "market": "1+ Shot on Target",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 8
+  },
+  {
+    "id": "036",
+    "date": "2026-05-19",
+    "player": "Kroupi & Semenyo",
+    "market": "1+ SOT Each",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 8.5
   }
 ]
