@@ -466,5 +466,18 @@
     "result": "pending",
     "net_pl": null,
     "rating": 8.5
+  },
+  {
+    "id": "037",
+    "date": "2026-05-19",
+    "player": "Palmer + Joao Pedro + Chelsea Win",
+    "market": "Bet Builder Booster 100%",
+    "platform": "Sky Bet",
+    "type": "builder",
+    "odds": 8.8,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 7.5
   }
 ]
