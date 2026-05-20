@@ -501,7 +501,7 @@
     "platform": "Bet365",
     "type": "builder",
     "odds": 6.25,
-    "stake": 7.0,
+    "stake": 1.0,
     "result": "pending",
     "net_pl": null,
     "rating": 8
