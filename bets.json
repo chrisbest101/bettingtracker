@@ -479,5 +479,18 @@
     "result": "cashed_out",
     "net_pl": 11.75,
     "rating": 7.5
+  },
+  {
+    "id": "038",
+    "date": "2026-05-20",
+    "player": "McGinn",
+    "market": "1+ Shot on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 7
   }
 ]
