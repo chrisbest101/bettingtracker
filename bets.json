@@ -424,8 +424,8 @@
     "type": "boost",
     "odds": 2.0,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "lost",
+    "net_pl": -5.0,
     "rating": 7.5
   },
   {
@@ -437,8 +437,8 @@
     "type": "boost",
     "odds": 1.67,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "lost",
+    "net_pl": -3.0,
     "rating": 6
   },
   {
@@ -449,9 +449,9 @@
     "platform": "Paddy Power",
     "type": "boost",
     "odds": 2.0,
-    "stake": 7.0,
-    "result": "pending",
-    "net_pl": null,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 5.0,
     "rating": 8
   },
   {
@@ -463,8 +463,8 @@
     "type": "boost",
     "odds": 3.0,
     "stake": 7.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "won",
+    "net_pl": 14.0,
     "rating": 8.5
   },
   {
@@ -476,8 +476,8 @@
     "type": "builder",
     "odds": 6.16,
     "stake": 10.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "cashed_out",
+    "net_pl": 11.75,
     "rating": 7.5
   }
 ]
