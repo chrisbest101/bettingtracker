@@ -492,5 +492,18 @@
     "result": "pending",
     "net_pl": null,
     "rating": 7
+  },
+  {
+    "id": "039",
+    "date": "2026-05-20",
+    "player": "Watkins + Grifo + BTTS",
+    "market": "Bet Builder Booster 50%",
+    "platform": "Bet365",
+    "type": "builder",
+    "odds": 5.52,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 8
   }
 ]
