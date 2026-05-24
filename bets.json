@@ -505,5 +505,18 @@
     "result": "lost",
     "net_pl": -1.0,
     "rating": 8
+  },
+  {
+    "id": "040",
+    "date": "2026-05-24",
+    "player": "Gakpo SOT + Jensen Foul + Liverpool Win",
+    "market": "Bet Builder 30% Boost",
+    "platform": "Paddy Power",
+    "type": "builder",
+    "odds": 3.86,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 6.5
   }
 ]
