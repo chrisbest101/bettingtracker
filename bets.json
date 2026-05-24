@@ -518,5 +518,18 @@
     "result": "pending",
     "net_pl": null,
     "rating": 6.5
+  },
+  {
+    "id": "041",
+    "date": "2026-05-24",
+    "player": "Over 0.5 First Half Goals",
+    "market": "First Half Goals - Tottenham v Everton",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 9
   }
 ]
