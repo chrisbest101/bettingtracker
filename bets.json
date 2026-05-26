@@ -531,5 +531,18 @@
     "result": "pending",
     "net_pl": null,
     "rating": 9
+  },
+  {
+    "id": "042",
+    "date": "2026-05-24",
+    "player": "Kohli",
+    "market": "To Hit a Four & a Six",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 8.5
   }
 ]
