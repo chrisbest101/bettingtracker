@@ -515,8 +515,8 @@
     "type": "builder",
     "odds": 3.86,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "lost",
+    "net_pl": -5.0,
     "rating": 6.5
   },
   {
@@ -528,8 +528,8 @@
     "type": "boost",
     "odds": 2.0,
     "stake": 1.0,
-    "result": "pending",
-    "net_pl": null,
+    "result": "won",
+    "net_pl": 1.0,
     "rating": 9
   },
   {
