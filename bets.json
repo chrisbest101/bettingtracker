@@ -557,5 +557,31 @@
     "result": "pending",
     "net_pl": null,
     "rating": 8.5
+  },
+  {
+    "id": "044",
+    "date": "2026-05-28",
+    "player": "Crystal Palace",
+    "market": "1+ Goal First Half",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 2.25,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 6
+  },
+  {
+    "id": "045",
+    "date": "2026-05-28",
+    "player": "Crystal Palace",
+    "market": "To Lift the Trophy",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": null,
+    "rating": 8
   }
 ]
