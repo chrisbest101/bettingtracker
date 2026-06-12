@@ -596,5 +596,18 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 5
+  },
+  {
+    "id": "047",
+    "date": "2026-06-12",
+    "player": "Jonathan David & Edin Dzeko & Amar Dedic",
+    "market": "Bet Builder 50% Winnings Boost",
+    "platform": "Bet365",
+    "type": "builder",
+    "odds": 2.05,
+    "stake": 2.75,
+    "result": "won",
+    "net_pl": 4.32,
+    "rating": 7
   }
 ]
