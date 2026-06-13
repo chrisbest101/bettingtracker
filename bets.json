@@ -635,5 +635,22 @@
     "result": "lost",
     "net_pl": -2.0,
     "rating": 5
+  },
+  {
+    "id": "050",
+    "date": "2026-06-13",
+    "fixture": "Brazil v Morocco",
+    "type": "builder",
+    "platform": "Sky Bet",
+    "legs": [
+      "Marquinhos 1+ Fouls Committed",
+      "Vinicius Junior To Score or Assist",
+      "Raphinha 1+ Shot on Target"
+    ],
+    "odds": 6.85,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
