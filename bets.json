@@ -609,5 +609,31 @@
     "result": "won",
     "net_pl": 4.32,
     "rating": 7
+  },
+  {
+    "id": "048",
+    "date": "2026-06-12",
+    "player": "Pulisic",
+    "market": "To Score or Assist",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.75,
+    "stake": 7.0,
+    "result": "won",
+    "net_pl": 12.25,
+    "rating": 8
+  },
+  {
+    "id": "049",
+    "date": "2026-06-12",
+    "player": "Jonathan David",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 2.0,
+    "result": "lost",
+    "net_pl": -2.0,
+    "rating": 5
   }
 ]
