@@ -666,5 +666,32 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "052",
+    "date": "2026-06-13",
+    "fixture": "Haiti v Scotland",
+    "market": "Scott McTominay & Wilson Isidor 1+ Shot on Target each",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
+  },
+  {
+    "id": "053",
+    "date": "2026-06-13",
+    "fixture": "Qatar v Switzerland",
+    "player": "Granit Xhaka",
+    "market": "1+ Fouls Committed",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 6
   }
 ]
