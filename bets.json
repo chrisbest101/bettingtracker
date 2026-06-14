@@ -719,5 +719,18 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "049",
+    "date": "2026-06-14",
+    "player": "Daichi Kamada",
+    "market": "3+ Fouls Committed",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 4.33,
+    "stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 5
   }
 ]
