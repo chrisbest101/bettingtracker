@@ -649,8 +649,8 @@
     ],
     "odds": 6.85,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "loss",
+    "net_pl": -5.0,
     "rating": 7
   },
   {
