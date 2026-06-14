@@ -706,5 +706,18 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 6
+  },
+  {
+    "id": "048",
+    "date": "2026-06-14",
+    "player": "Kai Havertz",
+    "market": "To Score at Any Time",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
