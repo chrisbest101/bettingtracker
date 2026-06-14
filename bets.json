@@ -618,7 +618,7 @@
     "platform": "Sky Bet",
     "type": "boost",
     "odds": 2.75,
-    "stake": 7.0,
+    "stake": 1.0,
     "result": "won",
     "net_pl": 12.25,
     "rating": 8
@@ -715,7 +715,7 @@
     "platform": "Bet365",
     "type": "boost",
     "odds": 2.0,
-    "stake": 7.0,
+    "stake": 1.0,
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
