@@ -759,5 +759,19 @@
     "result": "loss",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "059",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "player": "Michael Olise",
+    "market": "1+ Shot on Target",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 1.0,
+    "result": "win",
+    "net_pl": 1.0,
+    "rating": 9
   }
 ]
