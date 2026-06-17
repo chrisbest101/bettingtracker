@@ -855,5 +855,23 @@
     "result": "pending",
     "net_pl": -1.0,
     "rating": 7
+  },
+  {
+    "id": "065",
+    "date": "2026-06-17",
+    "fixture": "Portugal v DR Congo",
+    "market": "Bet Builder: Fernandes 2+ SOT / Ronaldo 1+ SOT / Mbemba to be Booked",
+    "legs": [
+      "Bruno Fernandes 2+ Shots on Target",
+      "Cristiano Ronaldo 1+ Shot on Target",
+      "Chancel Mbemba to be Booked"
+    ],
+    "platform": "Bet365",
+    "type": "free_bet",
+    "odds": 23.0,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
