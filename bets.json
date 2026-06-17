@@ -787,5 +787,23 @@
     "result": "win",
     "net_pl": 7.0,
     "rating": 8
+  },
+  {
+    "id": "061",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "market": "Bet Builder: Kane 2+ Fouls Won / Bellingham 1+ SOT / Kovacic to be Carded",
+    "legs": [
+      "Kane 2+ Fouls Won",
+      "Bellingham 1+ Shot on Target",
+      "Kovacic to be Carded"
+    ],
+    "platform": "Paddy Power",
+    "type": "free_bet",
+    "odds": 12.79,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
