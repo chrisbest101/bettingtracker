@@ -732,5 +732,19 @@
     "result": "lost",
     "net_pl": -2.0,
     "rating": 5
+  },
+  {
+    "id": "057",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "player": "Ousmane Dembele",
+    "market": "3+ Shots Created",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.1,
+    "stake": 5.0,
+    "result": "loss",
+    "net_pl": -5.0,
+    "rating": 7
   }
 ]
