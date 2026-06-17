@@ -823,5 +823,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "063",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "player": "Harry Kane",
+    "market": "1+ Shot on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9
   }
 ]
