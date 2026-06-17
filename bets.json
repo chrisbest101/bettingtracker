@@ -805,5 +805,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "062",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "market": "Bet Builder: Kane Anytime Scorer / Baturina 1+ SOT / Modric to be Carded",
+    "legs": [
+      "Kane Anytime Scorer",
+      "Baturina 1+ Shot on Target",
+      "Modric to be Carded"
+    ],
+    "platform": "Sky Bet",
+    "type": "free_bet",
+    "odds": 32.9,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
