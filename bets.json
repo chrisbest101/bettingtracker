@@ -746,5 +746,18 @@
     "result": "loss",
     "net_pl": -5.0,
     "rating": 7
+  },
+  {
+    "id": "058",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "market": "Bet Builder: Mbappe 2+ SOT / Tchouameni 1+ Foul / Pape Sarr Booked",
+    "platform": "Bet365",
+    "type": "free_bet",
+    "odds": 8.0,
+    "stake": 0.0,
+    "result": "loss",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
