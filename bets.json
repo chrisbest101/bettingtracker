@@ -837,5 +837,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 9
+  },
+  {
+    "id": "064",
+    "date": "2026-06-17",
+    "fixture": "Uzbekistan v Colombia",
+    "market": "Bet Builder: Diaz 2+ SOT / Lerma 1+ Foul / Colombia Over 2 Goals",
+    "legs": [
+      "Luis Diaz 2+ Shots on Target",
+      "Jefferson Lerma 1+ Foul Committed",
+      "Colombia Over 2 Goals"
+    ],
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 7.0,
+    "stake": 1.0,
+    "result": "pending",
+    "net_pl": -1.0,
+    "rating": 7
   }
 ]
