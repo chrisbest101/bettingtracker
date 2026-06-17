@@ -773,5 +773,19 @@
     "result": "win",
     "net_pl": 1.0,
     "rating": 9
+  },
+  {
+    "id": "060",
+    "date": "2026-06-16",
+    "fixture": "Iraq v Norway",
+    "player": "Erling Haaland",
+    "market": "Anytime Goalscorer",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "win",
+    "net_pl": 7.0,
+    "rating": 8
   }
 ]
