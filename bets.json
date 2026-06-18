@@ -802,7 +802,7 @@
     "type": "free_bet",
     "odds": 12.79,
     "stake": 0.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 8
   },
@@ -820,7 +820,7 @@
     "type": "free_bet",
     "odds": 32.9,
     "stake": 0.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 8
   },
@@ -834,8 +834,8 @@
     "type": "boost",
     "odds": 2.0,
     "stake": 10.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 10.0,
     "rating": 9
   },
   {
@@ -852,7 +852,7 @@
     "type": "boost",
     "odds": 7.0,
     "stake": 1.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": -1.0,
     "rating": 7
   },
@@ -870,7 +870,7 @@
     "type": "free_bet",
     "odds": 23.0,
     "stake": 0.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 8
   }
