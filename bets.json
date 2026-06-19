@@ -900,5 +900,18 @@
     "result": "lost",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "067",
+    "date": "2026-06-19",
+    "player": "Scott McTominay",
+    "market": "1+ Shot on Target (incl. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.5,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
