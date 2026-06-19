@@ -913,5 +913,33 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "068",
+    "date": "2026-06-19",
+    "fixture": "Scotland v Morocco",
+    "type": "builder",
+    "platform": "Sky Bet",
+    "legs": [
+      {
+        "player": "John McGinn",
+        "market": "1+ Fouls Committed - Super Sub"
+      },
+      {
+        "player": "Che Adams",
+        "market": "1+ Shots on Target - Super Sub"
+      },
+      {
+        "player": "Brahim Diaz",
+        "market": "To Score or Assist - Super Sub"
+      }
+    ],
+    "boost": "100%",
+    "pre_boost_odds": 4.25,
+    "boosted_odds": 7.5,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
