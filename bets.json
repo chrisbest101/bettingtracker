@@ -941,5 +941,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "069",
+    "date": "2026-06-20",
+    "fixture": "Brazil v Haiti",
+    "player": "Casemiro",
+    "market": "1+ Headed Shot on Target",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7
   }
 ]
