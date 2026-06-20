@@ -955,5 +955,24 @@
     "result": "lost",
     "net_pl": -5.0,
     "rating": 7
+  },
+  {
+    "id": "070",
+    "date": "2026-06-20",
+    "platform": "Bet365",
+    "fixture": "Germany v Ivory Coast",
+    "type": "builder",
+    "legs": [
+      "Jamal Musiala 2+ Fouls Won",
+      "Result: Germany",
+      "Germany Over 1.5 Team Goals"
+    ],
+    "boost": "50%",
+    "pre_boost_odds": 2.7,
+    "boosted_odds": 2.7,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 12.75,
+    "rating": 7
   }
 ]
