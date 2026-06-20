@@ -974,5 +974,19 @@
     "result": "won",
     "net_pl": 12.75,
     "rating": 7
+  },
+  {
+    "id": "071",
+    "date": "2026-06-20",
+    "platform": "Sky Bet",
+    "fixture": "Netherlands v Sweden",
+    "player": "Alexander Isak & Viktor Gyokeres",
+    "market": "Both 1+ Shot on Target",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 2.0,
+    "result": "won",
+    "net_pl": 4.0,
+    "rating": 5
   }
 ]
