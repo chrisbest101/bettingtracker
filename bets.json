@@ -988,5 +988,33 @@
     "result": "won",
     "net_pl": 4.0,
     "rating": 5
+  },
+  {
+    "id": "072",
+    "date": "2026-06-21",
+    "fixture": "Spain v Saudi Arabia",
+    "player": "Lamine Yamal",
+    "market": "5+ Shots Created",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 3.5,
+    "stake": 5.0,
+    "result": "loss",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "073",
+    "date": "2026-06-21",
+    "fixture": "Spain v Saudi Arabia",
+    "player": "Lamine Yamal",
+    "market": "To Score Anytime",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "win",
+    "net_pl": 3.0,
+    "rating": 6
   }
 ]
