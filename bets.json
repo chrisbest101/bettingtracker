@@ -1058,5 +1058,24 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 9.0
+  },
+  {
+    "id": "077",
+    "date": "2026-06-22",
+    "fixture": "Norway v Senegal",
+    "type": "builder",
+    "platform": "Bet365",
+    "legs": [
+      "Idrissa Gana Gueye 1+ Fouls Committed",
+      "Erling Haaland Anytime Scorer",
+      "Ismaila Sarr 1+ Shot on Target"
+    ],
+    "boost": "50%",
+    "pre_boost_odds": 3.5,
+    "boosted_odds": 5.25,
+    "stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
