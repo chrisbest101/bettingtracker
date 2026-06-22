@@ -1091,5 +1091,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8.0
+  },
+  {
+    "id": "079",
+    "date": "2026-06-22",
+    "fixture": "Norway v Senegal",
+    "player": "Ismaila Sarr",
+    "market": "1+ Shot on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.0
   }
 ]
