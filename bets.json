@@ -1016,5 +1016,47 @@
     "result": "win",
     "net_pl": 3.0,
     "rating": 6
+  },
+  {
+    "id": "074",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "1+ SOT from Outside the Box",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.5
+  },
+  {
+    "id": "075",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "To Score",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.5,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.0
+  },
+  {
+    "id": "076",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "To Score or Assist",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9.0
   }
 ]
