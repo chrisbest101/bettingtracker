@@ -1077,5 +1077,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "078",
+    "date": "2026-06-22",
+    "fixture": "France v Iraq",
+    "player": "Michael Olise",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.0
   }
 ]
