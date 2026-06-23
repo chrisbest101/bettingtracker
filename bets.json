@@ -1105,5 +1105,19 @@
     "result": "won",
     "net_pl": 7.0,
     "rating": 8.0
+  },
+  {
+    "id": "080",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "player": "Jude Bellingham",
+    "market": "1+ Shots on Target (inc. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9.0
   }
 ]
