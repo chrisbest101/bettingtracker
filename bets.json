@@ -1119,5 +1119,59 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 9.0
+  },
+  {
+    "id": "081",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "platform": "Paddy Power",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Antoine Semenyo",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Harry Kane",
+        "market": "Player to Score"
+      },
+      {
+        "player": "Thomas Partey",
+        "market": "Player Shown a Card"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 9.64,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7.0
+  },
+  {
+    "id": "082",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Anthony Gordon",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Kamaldeen Sulemana",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "market": "Player to be Carded"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 12.79,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7.0
   }
 ]
