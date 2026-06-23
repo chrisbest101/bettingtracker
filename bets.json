@@ -1173,5 +1173,46 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7.0
+  },
+  {
+    "id": "083",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "player": "Harry Kane",
+    "market": "1+ Shot on Target in 1st Half",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9.0
+  },
+  {
+    "id": "084",
+    "date": "2026-06-23",
+    "fixture": "Portugal v Uzbekistan",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Abdukodir Khusanov",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Abbosbek Fayzullaev",
+        "market": "Player to be Carded"
+      },
+      {
+        "player": "Bruno Fernandes",
+        "market": "To Score or Assist"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 10.58,
+    "stake": 0.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7.0
   }
 ]
