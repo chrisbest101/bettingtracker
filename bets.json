@@ -1228,5 +1228,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7.0
+  },
+  {
+    "id": "086",
+    "date": "2026-06-24",
+    "fixture": "Panama v Croatia",
+    "player": "Ivan Perisic",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.3,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7.0
   }
 ]
