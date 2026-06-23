@@ -1242,5 +1242,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7.0
+  },
+  {
+    "id": "087",
+    "date": "2026-06-24",
+    "fixture": "Colombia v DR Congo",
+    "player": "Luis Diaz",
+    "market": "Anytime Goalscorer",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.0
   }
 ]
