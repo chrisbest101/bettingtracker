@@ -1273,5 +1273,33 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 6.0
+  },
+  {
+    "id": "089",
+    "date": "2026-06-24",
+    "fixture": "Scotland v Brazil",
+    "platform": "Sky Bet",
+    "type": "bet_builder_boost",
+    "boost": "100%",
+    "legs": [
+      {
+        "player": "Casemiro",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Matheus Cunha",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Vinicius Junior",
+        "market": "To Score or Assist"
+      }
+    ],
+    "pre_boost_odds": 3.08,
+    "boosted_odds": 6.16,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7.0
   }
 ]
