@@ -1301,5 +1301,32 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7.0
+  },
+  {
+    "id": "090",
+    "date": "2026-06-24",
+    "fixture": "Switzerland v Canada",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Jonathan David",
+        "market": "To Score in 90mins"
+      },
+      {
+        "player": "Breel Embolo",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Granit Xhaka",
+        "market": "2+ Fouls Committed"
+      }
+    ],
+    "odds": 8.74,
+    "stake": 0.0,
+    "free_bet_stake": 2.5,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8.0
   }
 ]
