@@ -1256,5 +1256,22 @@
     "result": "lost",
     "net_pl": -7.0,
     "rating": 8.0
+  },
+  {
+    "id": "088",
+    "date": "2026-06-24",
+    "fixture": "Scotland v Brazil",
+    "players": [
+      "Vinicius Junior",
+      "Matheus Cunha"
+    ],
+    "market": "Both 1+ Shot on Target (inc. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 6.0
   }
 ]
