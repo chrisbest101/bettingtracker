@@ -1365,8 +1365,8 @@
     "type": "builder",
     "odds": 2.37,
     "stake": 1.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -1.0,
     "rating": 7
   },
   {
