@@ -1396,5 +1396,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 0
+  },
+  {
+    "id": "095",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Harry Kane",
+    "market": "FIFA Golden Boot Winner",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 7.5,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
   }
 ]
