@@ -1328,5 +1328,19 @@
     "result": "lost",
     "net_pl": 0.0,
     "rating": 8.0
+  },
+  {
+    "id": "091",
+    "date": "2026-06-25",
+    "fixture": "Ecuador v Germany",
+    "player": "Gonzalo Plata",
+    "market": "1+ Shot on Target",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9
   }
 ]
