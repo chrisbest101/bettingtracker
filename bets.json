@@ -1424,5 +1424,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 0
+  },
+  {
+    "id": "097",
+    "date": "2026-06-25",
+    "fixture": "Japan v Sweden",
+    "player": "Viktor Gyokeres & Ayase Ueda",
+    "market": "1+ Shot on Target Each",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.25,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
