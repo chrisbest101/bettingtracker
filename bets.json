@@ -1410,5 +1410,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 0
+  },
+  {
+    "id": "096",
+    "date": "2026-05-30",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Spain",
+    "market": "Tournament Winner",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 5.5,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
   }
 ]
