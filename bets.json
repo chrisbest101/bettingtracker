@@ -1342,5 +1342,31 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 9
+  },
+  {
+    "id": "092",
+    "date": "2026-06-25",
+    "fixture": "Ecuador v Germany",
+    "legs": [
+      {
+        "player": "Moises Caicedo",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Deniz Undav",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Enner Valencia",
+        "market": "1+ Fouls Won"
+      }
+    ],
+    "platform": "Bet365",
+    "type": "builder",
+    "odds": 2.37,
+    "stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
