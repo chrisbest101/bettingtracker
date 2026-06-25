@@ -1438,5 +1438,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "098",
+    "date": "2026-06-25",
+    "fixture": "Japan v Sweden",
+    "player": "Alexander Isak",
+    "market": "To Score or Assist",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.3,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9
   }
 ]
