@@ -1368,5 +1368,33 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "093",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Kylian Mbappe",
+    "market": "FIFA Golden Boot Winner",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 6.5,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
+  },
+  {
+    "id": "094",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Scott McTominay",
+    "market": "2+ Tournament Goals (excl. pens)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 4.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
   }
 ]
