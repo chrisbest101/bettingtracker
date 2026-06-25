@@ -1452,5 +1452,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 9
+  },
+  {
+    "id": "099",
+    "date": "2026-06-25",
+    "fixture": "Tunisia v Netherlands",
+    "player": "Cody Gakpo",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 1.85,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
