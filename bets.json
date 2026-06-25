@@ -1270,8 +1270,8 @@
     "type": "boost",
     "odds": 2.0,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 3.0,
     "rating": 6.0
   },
   {
@@ -1298,8 +1298,8 @@
     "pre_boost_odds": 3.08,
     "boosted_odds": 6.16,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 25.8,
     "rating": 7.0
   },
   {
@@ -1325,7 +1325,7 @@
     "odds": 8.74,
     "stake": 0.0,
     "free_bet_stake": 2.5,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 8.0
   }
