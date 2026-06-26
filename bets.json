@@ -1480,7 +1480,7 @@
     "type": "super_boost",
     "odds": 3.0,
     "stake": 5.0,
-    "result": "pending",
+    "result": "void",
     "net_pl": 0.0,
     "rating": 8
   },
