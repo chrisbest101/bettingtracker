@@ -1449,8 +1449,8 @@
     "type": "boost",
     "odds": 2.3,
     "stake": 10.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -10.0,
     "rating": 9
   },
   {
@@ -1463,8 +1463,8 @@
     "type": "boost",
     "odds": 1.85,
     "stake": 7.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -7.0,
     "rating": 8
   }
 ]
