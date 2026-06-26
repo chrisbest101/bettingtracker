@@ -1483,5 +1483,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "101",
+    "date": "2026-06-26",
+    "fixture": "Uruguay v Spain",
+    "player": "Lamine Yamal",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.5,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
