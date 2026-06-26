@@ -1511,5 +1511,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "103",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "player": "Michael Olise",
+    "market": "1+ Assists",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.88,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
