@@ -1525,5 +1525,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "104",
+    "date": "2026-06-26",
+    "fixture": "New Zealand v Belgium",
+    "player": "Leandro Trossard",
+    "market": "3+ Shots Created",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9
   }
 ]
