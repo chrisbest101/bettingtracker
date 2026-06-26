@@ -1497,5 +1497,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "102",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "player": "Kylian Mbappe",
+    "market": "2+ Shots on Target (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
