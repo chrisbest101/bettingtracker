@@ -1466,5 +1466,22 @@
     "result": "lost",
     "net_pl": -7.0,
     "rating": 8
+  },
+  {
+    "id": "100",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "players": [
+      "Kylian Mbappe",
+      "Erling Haaland"
+    ],
+    "market": "Mbappe 2+ SOT & Haaland 1+ SOT (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
