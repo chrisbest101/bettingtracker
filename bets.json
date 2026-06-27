@@ -1590,5 +1590,20 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "108",
+    "date": "2026-06-27",
+    "fixture": "Croatia v Ghana",
+    "player": "Antoine Semenyo",
+    "market": "1+ SOT and 1+ Fouls Won",
+    "platform": "Bet365",
+    "type": "super_boost",
+    "odds": 4.0,
+    "stake": 1.0,
+    "free_bet_stake": 0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
