@@ -1605,5 +1605,25 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "109",
+    "date": "2026-06-27",
+    "fixture": "Colombia v Portugal",
+    "type": "builder_boost",
+    "platform": "Bet365",
+    "boost": "50% winnings boost",
+    "odds": 3.4,
+    "boosted_odds": 4.6,
+    "stake": 1.0,
+    "free_bet_stake": 0,
+    "legs": [
+      "Jefferson Lerma - 2+ Fouls Committed",
+      "Cristiano Ronaldo - 1+ Shots on Target",
+      "Bruno Fernandes - 1+ Fouls Committed"
+    ],
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
