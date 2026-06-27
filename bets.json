@@ -1572,5 +1572,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "107",
+    "date": "2026-06-27",
+    "fixture": "Panama v England",
+    "type": "free_bet_builder",
+    "platform": "Sky Bet",
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "odds": 8.51,
+    "legs": [
+      "Carlos Harvey - 3+ Fouls Committed",
+      "Anthony Gordon - 2+ Shots on Target",
+      "England Away Over 2.5 Goals"
+    ],
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
