@@ -1554,5 +1554,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 8
+  },
+  {
+    "id": "106",
+    "date": "2026-06-27",
+    "fixture": "Panama v England",
+    "type": "free_bet_builder",
+    "platform": "Paddy Power",
+    "stake": 0.0,
+    "free_bet_stake": 0.5,
+    "odds": 7.8,
+    "legs": [
+      "Harry Kane - Player To Score",
+      "Jude Bellingham - 1+ SOT incl. woodwork",
+      "Amir Murillo - Player Shown a Card"
+    ],
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
