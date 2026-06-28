@@ -1587,9 +1587,10 @@
       "Anthony Gordon - 2+ Shots on Target",
       "England Away Over 2.5 Goals"
     ],
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
-    "rating": 8
+    "rating": 8,
+    "notes": "Free bet loss. Gordon leg voided (Super Sub). Over 2.5 away goals lost (England 2-0). No P&L impact."
   },
   {
     "id": "108",
