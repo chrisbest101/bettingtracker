@@ -1551,8 +1551,8 @@
     "odds": 2.0,
     "stake": 5.0,
     "free_bet_stake": 0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 5.0,
     "rating": 8
   },
   {
@@ -1569,7 +1569,7 @@
       "Jude Bellingham - 1+ SOT incl. woodwork",
       "Amir Murillo - Player Shown a Card"
     ],
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 8
   },
