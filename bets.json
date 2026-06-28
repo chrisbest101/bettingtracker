@@ -1393,8 +1393,8 @@
     "type": "boost",
     "odds": 4.0,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -5.0,
     "rating": 0
   },
   {
