@@ -1644,5 +1644,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "111",
+    "date": "2026-06-28",
+    "fixture": "South Africa v Canada",
+    "platform": "Betfair",
+    "type": "free_bet_builder",
+    "legs": [
+      "Cyle Larin anytime scorer",
+      "Thalente Mbatha to be carded",
+      "Canada away 5.5+ corners"
+    ],
+    "odds": 19.32,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
