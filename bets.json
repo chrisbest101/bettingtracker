@@ -1603,8 +1603,8 @@
     "odds": 4.0,
     "stake": 1.0,
     "free_bet_stake": 0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -1.0,
     "rating": 7
   },
   {
@@ -1623,8 +1623,8 @@
       "Cristiano Ronaldo - 1+ Shots on Target",
       "Bruno Fernandes - 1+ Fouls Committed"
     ],
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -1.0,
     "rating": 7
   }
 ]
