@@ -1626,5 +1626,23 @@
     "result": "lost",
     "net_pl": -1.0,
     "rating": 7
+  },
+  {
+    "id": "110",
+    "date": "2026-06-28",
+    "fixture": "South Africa v Canada",
+    "platform": "Paddy Power",
+    "type": "free_bet_builder",
+    "legs": [
+      "Canada 4.5+ corners (away)",
+      "Jonathan David to score",
+      "Khuliso Mudau to be carded"
+    ],
+    "odds": 10.93,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
