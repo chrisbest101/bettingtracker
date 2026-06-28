@@ -1641,7 +1641,7 @@
     "odds": 10.93,
     "stake": 0.0,
     "free_bet_stake": 2.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 7
   },
@@ -1659,7 +1659,7 @@
     "odds": 19.32,
     "stake": 0.0,
     "free_bet_stake": 1.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 7
   }
