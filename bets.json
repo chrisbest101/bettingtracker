@@ -1731,8 +1731,8 @@
     "odds": 8.97,
     "stake": 0.0,
     "free_bet_stake": 2.5,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "cashed_out",
+    "net_pl": 1.1,
     "rating": 0
   },
   {
