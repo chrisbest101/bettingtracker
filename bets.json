@@ -1719,5 +1719,20 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 0
+  },
+  {
+    "id": "116",
+    "date": "2026-06-29",
+    "fixture": "Germany v Paraguay",
+    "player": "Leroy Sane / Andres Cubas / Kai Havertz",
+    "market": "Sane 2+ Fouls Won / Cubas to be Carded / Havertz Anytime Scorer (incl. ET)",
+    "platform": "Sky Bet",
+    "type": "free_bet",
+    "odds": 8.97,
+    "stake": 0.0,
+    "free_bet_stake": 2.5,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
   }
 ]
