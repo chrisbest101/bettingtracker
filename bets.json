@@ -1734,5 +1734,21 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 0
+  },
+  {
+    "id": "117",
+    "date": "2026-06-29",
+    "fixture": "Germany v Paraguay",
+    "player": "Jamal Musiala / Aleksandar Pavlovic / Germany",
+    "market": "Musiala Score or Assist / Pavlovic 1+ Fouls Committed / Germany Over 3 Corners (incl. ET) \u2014 50% Winnings Boost",
+    "platform": "Bet365",
+    "type": "builder_boost",
+    "odds": 3.0,
+    "boosted_odds": 3.5,
+    "stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7,
+    "stake_cap": 1.0
   }
 ]
