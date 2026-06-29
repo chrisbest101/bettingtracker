@@ -1662,5 +1662,19 @@
     "result": "lost",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "112",
+    "date": "2026-06-29",
+    "fixture": "Brazil v Japan",
+    "player": "Vinicius Junior",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 8
   }
 ]
