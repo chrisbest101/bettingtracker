@@ -1746,8 +1746,8 @@
     "odds": 3.0,
     "boosted_odds": 3.5,
     "stake": 1.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 0.75,
     "rating": 7,
     "stake_cap": 1.0
   }
