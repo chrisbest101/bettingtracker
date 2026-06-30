@@ -1778,5 +1778,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "120",
+    "date": "2026-06-30",
+    "fixture": "France v Sweden",
+    "player": "Mbappe / Dembele / Corners",
+    "market": "Treble Builder: Mbappe Anytime Scorer, Dembele 1+ SOT, Over 4.5 Corners",
+    "platform": "Sky Bet",
+    "type": "builder",
+    "odds": 2.91,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
