@@ -1761,8 +1761,8 @@
     "type": "super_boost",
     "odds": 2.0,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "win",
+    "net_pl": 5.0,
     "rating": 9
   }
 ]
