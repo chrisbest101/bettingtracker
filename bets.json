@@ -1764,5 +1764,19 @@
     "result": "win",
     "net_pl": 5.0,
     "rating": 9
+  },
+  {
+    "id": "119",
+    "date": "2026-06-30",
+    "fixture": "France v Sweden",
+    "player": "Kylian Mbappe",
+    "market": "To score 2+ goals",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 3.75,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7
   }
 ]
