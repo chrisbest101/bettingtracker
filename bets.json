@@ -1792,5 +1792,19 @@
     "result": "pending",
     "net_pl": 0.0,
     "rating": 7
+  },
+  {
+    "id": "121",
+    "date": "2026-06-30",
+    "fixture": "Mexico v Ecuador",
+    "player": "Raul Jimenez & Julian Quinones",
+    "market": "Both 1+ Shots On Target (dual-player combo)",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 2.5,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 6
   }
 ]
