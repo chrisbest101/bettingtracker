@@ -1750,5 +1750,19 @@
     "net_pl": 0.75,
     "rating": 7,
     "stake_cap": 1.0
+  },
+  {
+    "id": "118",
+    "date": "2026-06-30",
+    "fixture": "Ivory Coast v Norway",
+    "player": "Erling Haaland",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 9
   }
 ]
