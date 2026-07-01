@@ -1837,9 +1837,12 @@
     "boosted_odds": 2.0,
     "rating": 7,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
-    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge."
+    "result": "won",
+    "net_pl": 5.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge.",
+    "actual_stake": 5.0,
+    "actual_returns": 10.0,
+    "bet_id_ref": "O/5860575/0000346"
   },
   {
     "id": "124",
