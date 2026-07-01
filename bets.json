@@ -1820,9 +1820,12 @@
     "boosted_odds": 2.0,
     "rating": 6,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": 0.0,
-    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block, evidenced vs Portugal. Ghana blank flagged as risk precedent."
+    "result": "won",
+    "net_pl": 3.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block, evidenced vs Portugal. Ghana blank flagged as risk precedent.",
+    "actual_stake": 3.0,
+    "actual_returns": 6.0,
+    "bet_id_ref": "O/10074925/0002038"
   },
   {
     "id": "123",
