@@ -1857,5 +1857,33 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline."
+  },
+  {
+    "id": "125",
+    "date": "2026-07-01",
+    "platform": "Paddy Power",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Arthur Masuaku",
+        "market": "Player Shown a Card"
+      },
+      {
+        "player": "Team Total",
+        "market": "Over 6.5 Corners (Home Total Corners 6.5)"
+      },
+      {
+        "player": "Yoane Wissa",
+        "market": "1+ Shots on Target (incl. woodwork)"
+      }
+    ],
+    "odds": 10.71,
+    "stake": 0.0,
+    "free_bet_stake": 5.5,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT."
   }
 ]
