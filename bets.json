@@ -1967,9 +1967,11 @@
     "boosted_odds": 2.0,
     "rating": 8,
     "stake": 7.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 7.0,
     "notes": "SOT per 90: 1.26 (FootyStats, 30/2136min) cross-checked vs RotoWire all-comps (32 SOT/34 apps) - consistent, threshold met. G/A per 90 0.67. Senegal must attack (knockout, need the win) - no defensive context modifier. True prob ~58% vs implied 50% at boosted odds - +8% edge.",
-    "actual_stake": 7.0
+    "actual_stake": 7.0,
+    "returns": 14.0,
+    "bet_ref": "O/10074925/0002040"
   }
 ]
