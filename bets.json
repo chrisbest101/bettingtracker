@@ -1922,5 +1922,36 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Free bet builder. Value leg: Wissa anytime scorer - matches Kane's 1.0 goals-per-match rate but priced 3.4x longer on implied probability. Categories: F-Corners, C-Fouls, A-Goals."
+  },
+  {
+    "id": "127",
+    "date": "2026-07-01",
+    "platform": "Bet365",
+    "fixture": "Belgium v Senegal",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Sadio Mane",
+        "market": "To Score at Any Time"
+      },
+      {
+        "player": "Team Total",
+        "market": "Over 8 Corners"
+      },
+      {
+        "player": "Match Total",
+        "market": "Over 2 Cards (Total Cards 3-Way)"
+      }
+    ],
+    "odds": 8.0,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Free bet builder. Narrative: Belgium dominate possession, Senegal press/counter - creates scoring chance for Mane, corner volume from Belgium territorial control, cards from combative midfield battle (Gueye/Diarra vs De Bruyne press). Categories: A-Goals, F-Corners, D-Cards. Referee Said Martinez - career avg 4.17-4.28 yellows/game (small 2025/26 WC sample of 2.50/game flagged, career figure used). Mane G/A per 90: 0.67, SOT per 90: 1.26 (FootyStats/FotMob two-source confirmed).",
+    "actual_stake": 0.0,
+    "to_return": 14.0,
+    "bet_ref": "FD2492962641W"
   }
 ]
