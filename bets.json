@@ -1953,5 +1953,23 @@
     "actual_stake": 0.0,
     "to_return": 14.0,
     "bet_ref": "FD2492962641W"
+  },
+  {
+    "id": "128",
+    "date": "2026-07-01",
+    "platform": "Paddy Power",
+    "fixture": "Belgium v Senegal",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Sadio Mane",
+    "market": "1+ Shots on Target (winner in last match)",
+    "pre_boost_odds": 1.8,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 1.26 (FootyStats, 30/2136min) cross-checked vs RotoWire all-comps (32 SOT/34 apps) - consistent, threshold met. G/A per 90 0.67. Senegal must attack (knockout, need the win) - no defensive context modifier. True prob ~58% vs implied 50% at boosted odds - +8% edge.",
+    "actual_stake": 7.0
   }
 ]
