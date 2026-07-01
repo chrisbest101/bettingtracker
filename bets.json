@@ -1775,8 +1775,8 @@
     "type": "boost",
     "odds": 3.75,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 13.75,
     "rating": 7
   },
   {
@@ -1789,8 +1789,8 @@
     "type": "builder",
     "odds": 2.91,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 9.57,
     "rating": 7
   },
   {
@@ -1803,8 +1803,8 @@
     "type": "boost",
     "odds": 2.5,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 4.5,
     "rating": 6
   }
 ]
