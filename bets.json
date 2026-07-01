@@ -1823,5 +1823,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block, evidenced vs Portugal. Ghana blank flagged as risk precedent."
+  },
+  {
+    "id": "123",
+    "date": "2026-07-01",
+    "platform": "Sky Bet",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Jude Bellingham",
+    "market": "1+ Shots on Target (incl. extra time)",
+    "pre_boost_odds": 1.5,
+    "boosted_odds": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge."
   }
 ]
