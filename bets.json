@@ -1890,9 +1890,10 @@
     "odds": 10.71,
     "stake": 0.0,
     "free_bet_stake": 5.5,
-    "result": "pending",
-    "net_pl": 0.0,
-    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT."
+    "result": "cashed_out",
+    "net_pl": 2.36,
+    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT. Cashed out live at 54' (0-1) for \u00a32.36 - free bet, no real stake at risk, straight profit.",
+    "actual_returns": 2.36
   },
   {
     "id": "126",
