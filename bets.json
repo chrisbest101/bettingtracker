@@ -1885,5 +1885,33 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT."
+  },
+  {
+    "id": "126",
+    "date": "2026-07-01",
+    "platform": "Sky Bet",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder (Treble)",
+    "legs": [
+      {
+        "player": "Team Total",
+        "market": "Over 7.5 Corners"
+      },
+      {
+        "player": "Samuel Moutoussamy",
+        "market": "2+ Fouls Committed incl. Extra Time"
+      },
+      {
+        "player": "Yoane Wissa",
+        "market": "Anytime Goalscorer incl. Extra Time"
+      }
+    ],
+    "odds": 8.35,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Free bet builder. Value leg: Wissa anytime scorer - matches Kane's 1.0 goals-per-match rate but priced 3.4x longer on implied probability. Categories: F-Corners, C-Fouls, A-Goals."
   }
 ]
