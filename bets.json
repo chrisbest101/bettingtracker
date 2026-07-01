@@ -1860,9 +1860,11 @@
     "boosted_odds": 2.3,
     "rating": 6,
     "stake": 3.0,
-    "result": "pending",
+    "result": "cashed_out",
     "net_pl": 0.0,
-    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline."
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline. Cashed out pre-match for full stake back (\u00a33) - Saka not starting.",
+    "actual_stake": 3.0,
+    "actual_returns": 3.0
   },
   {
     "id": "125",
