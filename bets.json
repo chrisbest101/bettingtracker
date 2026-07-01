@@ -1840,5 +1840,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge."
+  },
+  {
+    "id": "124",
+    "date": "2026-07-01",
+    "platform": "Betfair",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Bukayo Saka",
+    "market": "To Score or Assist a Goal",
+    "pre_boost_odds": 2.1,
+    "boosted_odds": 2.3,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline."
   }
 ]
