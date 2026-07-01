@@ -1919,7 +1919,7 @@
     "odds": 8.35,
     "stake": 0.0,
     "free_bet_stake": 1.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "notes": "Free bet builder. Value leg: Wissa anytime scorer - matches Kane's 1.0 goals-per-match rate but priced 3.4x longer on implied probability. Categories: F-Corners, C-Fouls, A-Goals."
   },
