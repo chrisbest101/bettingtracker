@@ -1425,5 +1425,37 @@
     "notes": "GOLDEN RULE VIOLATION FLAGGED: same player (Lamine Yamal), same fixture (Spain v Austria), same market type as bet 129 (Paddy Power, score or assist, GBP5). This is a duplicate exposure across platforms placed by user outside the standard workflow - logged as placed for accurate P&L tracking, not rated or verdict-approved by GemBets analysis. Combined Yamal score-or-assist exposure this fixture: GBP10 staked (GBP5 Paddy Power + GBP5 Betfair).",
     "actual_stake": 5.0,
     "returns_if_won": 10.0
+  },
+  {
+    "id": "131",
+    "date": "2026-07-02",
+    "platform": "Bet365",
+    "fixture": "Portugal v Croatia",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Bet Builder Boost",
+    "legs": [
+      {
+        "player": "Cristiano Ronaldo",
+        "market": "2+ Shots on Target"
+      },
+      {
+        "player": "Ivan Perisic",
+        "market": "1+ Fouls Committed"
+      },
+      {
+        "player": "Nuno Mendes",
+        "market": "1+ Fouls Won (alternate player to be fouled)"
+      }
+    ],
+    "boost": "50% winnings boost",
+    "pre_boost_odds": 2.3,
+    "boosted_odds": 2.95,
+    "stake": 1.0,
+    "stake_cap_applied": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0,
+    "notes": "Ronaldo 2+ SOT and Perisic 1+ fouls committed both sourced/two-source verified (3.67 SOT/90, 1.05 fouls/90). Third leg (Nuno Mendes 1+ fouls won) swapped in from live market screen after fouls-committed alternatives (Vitinha, Modric, Stanisic, Sutalo) all failed the 1.0 fouls/90 threshold - fouls-drawn market used instead of preferred fouls-committed, no per-90 fouls-won stat sourced for Mendes. Logged rating 0 per outside-standard-workflow convention given partial R3 deviation on leg 3.",
+    "bet_ref": "QD7125223451W"
   }
 ]
