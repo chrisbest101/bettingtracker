@@ -1402,8 +1402,8 @@
     "boosted_odds": 2.0,
     "rating": 8,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -5.0,
     "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
     "actual_stake": 5.0,
     "stake_cap_applied": 5.0
@@ -1420,8 +1420,8 @@
     "boosted_odds": 2.0,
     "rating": null,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -5.0,
     "notes": "GOLDEN RULE VIOLATION FLAGGED: same player (Lamine Yamal), same fixture (Spain v Austria), same market type as bet 129 (Paddy Power, score or assist, GBP5). This is a duplicate exposure across platforms placed by user outside the standard workflow - logged as placed for accurate P&L tracking, not rated or verdict-approved by GemBets analysis. Combined Yamal score-or-assist exposure this fixture: GBP10 staked (GBP5 Paddy Power + GBP5 Betfair).",
     "actual_stake": 5.0,
     "returns_if_won": 10.0
