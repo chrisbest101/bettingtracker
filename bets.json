@@ -1973,5 +1973,24 @@
     "actual_stake": 7.0,
     "returns": 14.0,
     "bet_ref": "O/10074925/0002040"
+  },
+  {
+    "id": "129",
+    "date": "2026-07-02",
+    "platform": "Paddy Power",
+    "fixture": "Spain v Austria",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Lamine Yamal",
+    "market": "To Score or Assist (90 mins only)",
+    "pre_boost_odds": 1.53,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
+    "actual_stake": 5.0,
+    "stake_cap_applied": 5.0
   }
 ]
