@@ -1,0 +1,1429 @@
+[
+  {
+    "id": "046",
+    "date": "2026-06-09",
+    "player": "Michael Olise",
+    "market": "4+ Goals in Tournament (excl. pens) - WC 2026",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 7.5,
+    "stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 5
+  },
+  {
+    "id": "047",
+    "date": "2026-06-12",
+    "player": "Jonathan David & Edin Dzeko & Amar Dedic",
+    "market": "Bet Builder 50% Winnings Boost",
+    "platform": "Bet365",
+    "type": "builder",
+    "odds": 2.05,
+    "stake": 2.75,
+    "result": "won",
+    "net_pl": 4.32,
+    "rating": 7
+  },
+  {
+    "id": "048",
+    "date": "2026-06-12",
+    "player": "Pulisic",
+    "market": "To Score or Assist",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.75,
+    "stake": 1.0,
+    "result": "won",
+    "net_pl": 12.25,
+    "rating": 8
+  },
+  {
+    "id": "049",
+    "date": "2026-06-12",
+    "player": "Jonathan David",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 2.0,
+    "result": "lost",
+    "net_pl": -2.0,
+    "rating": 5
+  },
+  {
+    "id": "050",
+    "date": "2026-06-13",
+    "fixture": "Brazil v Morocco",
+    "type": "builder",
+    "platform": "Sky Bet",
+    "legs": [
+      "Marquinhos 1+ Fouls Committed",
+      "Vinicius Junior To Score or Assist",
+      "Raphinha 1+ Shot on Target"
+    ],
+    "odds": 6.85,
+    "stake": 5.0,
+    "result": "loss",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "051",
+    "date": "2026-06-13",
+    "fixture": "Haiti v Scotland",
+    "player": "Scott McTominay",
+    "market": "1+ Shot on Target (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "win",
+    "net_pl": 5.0,
+    "rating": 8
+  },
+  {
+    "id": "052",
+    "date": "2026-06-13",
+    "fixture": "Haiti v Scotland",
+    "market": "Scott McTominay & Wilson Isidor 1+ Shot on Target each",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 7.0,
+    "result": "loss",
+    "net_pl": -7.0,
+    "rating": 8
+  },
+  {
+    "id": "053",
+    "date": "2026-06-13",
+    "fixture": "Qatar v Switzerland",
+    "player": "Granit Xhaka",
+    "market": "1+ Fouls Committed",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "loss",
+    "net_pl": -3.0,
+    "rating": 6
+  },
+  {
+    "id": "047",
+    "date": "2026-06-14",
+    "player": "Jamal Musiala",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "lost",
+    "net_pl": -3.0,
+    "rating": 6
+  },
+  {
+    "id": "048",
+    "date": "2026-06-14",
+    "player": "Kai Havertz",
+    "market": "To Score at Any Time",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 1.0,
+    "result": "won",
+    "net_pl": 1.0,
+    "rating": 8
+  },
+  {
+    "id": "049",
+    "date": "2026-06-14",
+    "player": "Daichi Kamada",
+    "market": "3+ Fouls Committed",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 4.33,
+    "stake": 2.0,
+    "result": "lost",
+    "net_pl": -2.0,
+    "rating": 5
+  },
+  {
+    "id": "057",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "player": "Ousmane Dembele",
+    "market": "3+ Shots Created",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.1,
+    "stake": 5.0,
+    "result": "loss",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "058",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "market": "Bet Builder: Mbappe 2+ SOT / Tchouameni 1+ Foul / Pape Sarr Booked",
+    "platform": "Bet365",
+    "type": "free_bet",
+    "odds": 8.0,
+    "stake": 0.0,
+    "result": "loss",
+    "net_pl": 0.0,
+    "rating": 7
+  },
+  {
+    "id": "059",
+    "date": "2026-06-16",
+    "fixture": "France v Senegal",
+    "player": "Michael Olise",
+    "market": "1+ Shot on Target",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 1.0,
+    "result": "win",
+    "net_pl": 1.0,
+    "rating": 9
+  },
+  {
+    "id": "060",
+    "date": "2026-06-16",
+    "fixture": "Iraq v Norway",
+    "player": "Erling Haaland",
+    "market": "Anytime Goalscorer",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "win",
+    "net_pl": 7.0,
+    "rating": 8
+  },
+  {
+    "id": "061",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "market": "Bet Builder: Kane 2+ Fouls Won / Bellingham 1+ SOT / Kovacic to be Carded",
+    "legs": [
+      "Kane 2+ Fouls Won",
+      "Bellingham 1+ Shot on Target",
+      "Kovacic to be Carded"
+    ],
+    "platform": "Paddy Power",
+    "type": "free_bet",
+    "odds": 12.79,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8
+  },
+  {
+    "id": "062",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "market": "Bet Builder: Kane Anytime Scorer / Baturina 1+ SOT / Modric to be Carded",
+    "legs": [
+      "Kane Anytime Scorer",
+      "Baturina 1+ Shot on Target",
+      "Modric to be Carded"
+    ],
+    "platform": "Sky Bet",
+    "type": "free_bet",
+    "odds": 32.9,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8
+  },
+  {
+    "id": "063",
+    "date": "2026-06-17",
+    "fixture": "England v Croatia",
+    "player": "Harry Kane",
+    "market": "1+ Shot on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "won",
+    "net_pl": 10.0,
+    "rating": 9
+  },
+  {
+    "id": "064",
+    "date": "2026-06-17",
+    "fixture": "Uzbekistan v Colombia",
+    "market": "Bet Builder: Diaz 2+ SOT / Lerma 1+ Foul / Colombia Over 2 Goals",
+    "legs": [
+      "Luis Diaz 2+ Shots on Target",
+      "Jefferson Lerma 1+ Foul Committed",
+      "Colombia Over 2 Goals"
+    ],
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 7.0,
+    "stake": 1.0,
+    "result": "lost",
+    "net_pl": -1.0,
+    "rating": 7
+  },
+  {
+    "id": "065",
+    "date": "2026-06-17",
+    "fixture": "Portugal v DR Congo",
+    "market": "Bet Builder: Fernandes 2+ SOT / Ronaldo 1+ SOT / Mbemba to be Booked",
+    "legs": [
+      "Bruno Fernandes 2+ Shots on Target",
+      "Cristiano Ronaldo 1+ Shot on Target",
+      "Chancel Mbemba to be Booked"
+    ],
+    "platform": "Bet365",
+    "type": "free_bet",
+    "odds": 23.0,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8
+  },
+  {
+    "id": "066",
+    "date": "2026-06-18",
+    "player": "Demirovic / Xhaka / BTTS",
+    "market": "Bet Builder - Switzerland v Bosnia",
+    "platform": "Betfair",
+    "type": "free_bet",
+    "legs": [
+      {
+        "player": "Demirovic",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Xhaka",
+        "market": "1+ Booking"
+      },
+      {
+        "player": "Match",
+        "market": "BTTS"
+      }
+    ],
+    "odds": 14.6,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7
+  },
+  {
+    "id": "067",
+    "date": "2026-06-19",
+    "player": "Scott McTominay",
+    "market": "1+ Shot on Target (incl. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.5,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 8
+  },
+  {
+    "id": "068",
+    "date": "2026-06-19",
+    "fixture": "Scotland v Morocco",
+    "type": "builder",
+    "platform": "Sky Bet",
+    "legs": [
+      {
+        "player": "John McGinn",
+        "market": "1+ Fouls Committed - Super Sub"
+      },
+      {
+        "player": "Che Adams",
+        "market": "1+ Shots on Target - Super Sub"
+      },
+      {
+        "player": "Brahim Diaz",
+        "market": "To Score or Assist - Super Sub"
+      }
+    ],
+    "boost": "100%",
+    "pre_boost_odds": 4.25,
+    "boosted_odds": 7.5,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 32.5,
+    "rating": 7
+  },
+  {
+    "id": "069",
+    "date": "2026-06-20",
+    "fixture": "Brazil v Haiti",
+    "player": "Casemiro",
+    "market": "1+ Headed Shot on Target",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "070",
+    "date": "2026-06-20",
+    "platform": "Bet365",
+    "fixture": "Germany v Ivory Coast",
+    "type": "builder",
+    "legs": [
+      "Jamal Musiala 2+ Fouls Won",
+      "Result: Germany",
+      "Germany Over 1.5 Team Goals"
+    ],
+    "boost": "50%",
+    "pre_boost_odds": 2.7,
+    "boosted_odds": 2.7,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 12.75,
+    "rating": 7
+  },
+  {
+    "id": "071",
+    "date": "2026-06-20",
+    "platform": "Sky Bet",
+    "fixture": "Netherlands v Sweden",
+    "player": "Alexander Isak & Viktor Gyokeres",
+    "market": "Both 1+ Shot on Target",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 2.0,
+    "result": "won",
+    "net_pl": 4.0,
+    "rating": 5
+  },
+  {
+    "id": "072",
+    "date": "2026-06-21",
+    "fixture": "Spain v Saudi Arabia",
+    "player": "Lamine Yamal",
+    "market": "5+ Shots Created",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 3.5,
+    "stake": 5.0,
+    "result": "loss",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "073",
+    "date": "2026-06-21",
+    "fixture": "Spain v Saudi Arabia",
+    "player": "Lamine Yamal",
+    "market": "To Score Anytime",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "win",
+    "net_pl": 3.0,
+    "rating": 6
+  },
+  {
+    "id": "074",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "1+ SOT from Outside the Box",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8.5
+  },
+  {
+    "id": "075",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "To Score",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.5,
+    "stake": 7.0,
+    "result": "won",
+    "net_pl": 10.5,
+    "rating": 8.0
+  },
+  {
+    "id": "076",
+    "date": "2026-06-22",
+    "fixture": "Argentina v Austria",
+    "player": "Lionel Messi",
+    "market": "To Score or Assist",
+    "platform": "Bet365",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 1.0,
+    "result": "won",
+    "net_pl": 1.0,
+    "rating": 9.0
+  },
+  {
+    "id": "077",
+    "date": "2026-06-22",
+    "fixture": "Norway v Senegal",
+    "type": "builder",
+    "platform": "Bet365",
+    "legs": [
+      "Idrissa Gana Gueye 1+ Fouls Committed",
+      "Erling Haaland Anytime Scorer",
+      "Ismaila Sarr 1+ Shot on Target"
+    ],
+    "boost": "50%",
+    "pre_boost_odds": 3.5,
+    "boosted_odds": 5.25,
+    "stake": 1.0,
+    "result": "lost",
+    "net_pl": -1.0,
+    "rating": 7
+  },
+  {
+    "id": "078",
+    "date": "2026-06-22",
+    "fixture": "France v Iraq",
+    "player": "Michael Olise",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8.0
+  },
+  {
+    "id": "079",
+    "date": "2026-06-22",
+    "fixture": "Norway v Senegal",
+    "player": "Ismaila Sarr",
+    "market": "1+ Shot on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "won",
+    "net_pl": 7.0,
+    "rating": 8.0
+  },
+  {
+    "id": "080",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "player": "Jude Bellingham",
+    "market": "1+ Shots on Target (inc. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 9.0
+  },
+  {
+    "id": "081",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "platform": "Paddy Power",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Antoine Semenyo",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Harry Kane",
+        "market": "Player to Score"
+      },
+      {
+        "player": "Thomas Partey",
+        "market": "Player Shown a Card"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 9.64,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7.0
+  },
+  {
+    "id": "082",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Anthony Gordon",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Kamaldeen Sulemana",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "market": "Player to be Carded"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 12.79,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7.0
+  },
+  {
+    "id": "083",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "player": "Harry Kane",
+    "market": "1+ Shot on Target in 1st Half",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "lost",
+    "net_pl": -10.0,
+    "rating": 9.0
+  },
+  {
+    "id": "084",
+    "date": "2026-06-23",
+    "fixture": "Portugal v Uzbekistan",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Abdukodir Khusanov",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Abbosbek Fayzullaev",
+        "market": "Player to be Carded"
+      },
+      {
+        "player": "Bruno Fernandes",
+        "market": "To Score or Assist"
+      }
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 10.58,
+    "stake": 0.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7.0
+  },
+  {
+    "id": "085",
+    "date": "2026-06-23",
+    "fixture": "England v Ghana",
+    "player": "Harry Kane",
+    "market": "2+ Goals",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 4.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7.0
+  },
+  {
+    "id": "086",
+    "date": "2026-06-24",
+    "fixture": "Panama v Croatia",
+    "player": "Ivan Perisic",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.3,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7.0
+  },
+  {
+    "id": "087",
+    "date": "2026-06-24",
+    "fixture": "Colombia v DR Congo",
+    "player": "Luis Diaz",
+    "market": "Anytime Goalscorer",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 3.0,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8.0
+  },
+  {
+    "id": "088",
+    "date": "2026-06-24",
+    "fixture": "Scotland v Brazil",
+    "players": [
+      "Vinicius Junior",
+      "Matheus Cunha"
+    ],
+    "market": "Both 1+ Shot on Target (inc. Woodwork)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "won",
+    "net_pl": 3.0,
+    "rating": 6.0
+  },
+  {
+    "id": "089",
+    "date": "2026-06-24",
+    "fixture": "Scotland v Brazil",
+    "platform": "Sky Bet",
+    "type": "bet_builder_boost",
+    "boost": "100%",
+    "legs": [
+      {
+        "player": "Casemiro",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Matheus Cunha",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Vinicius Junior",
+        "market": "To Score or Assist"
+      }
+    ],
+    "pre_boost_odds": 3.08,
+    "boosted_odds": 6.16,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 25.8,
+    "rating": 7.0
+  },
+  {
+    "id": "090",
+    "date": "2026-06-24",
+    "fixture": "Switzerland v Canada",
+    "platform": "Sky Bet",
+    "type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Jonathan David",
+        "market": "To Score in 90mins"
+      },
+      {
+        "player": "Breel Embolo",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Granit Xhaka",
+        "market": "2+ Fouls Committed"
+      }
+    ],
+    "odds": 8.74,
+    "stake": 0.0,
+    "free_bet_stake": 2.5,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8.0
+  },
+  {
+    "id": "091",
+    "date": "2026-06-25",
+    "fixture": "Ecuador v Germany",
+    "player": "Gonzalo Plata",
+    "market": "1+ Shot on Target",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "won",
+    "net_pl": 10.0,
+    "rating": 9
+  },
+  {
+    "id": "092",
+    "date": "2026-06-25",
+    "fixture": "Ecuador v Germany",
+    "legs": [
+      {
+        "player": "Moises Caicedo",
+        "market": "2+ Fouls Committed"
+      },
+      {
+        "player": "Deniz Undav",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Enner Valencia",
+        "market": "1+ Fouls Won"
+      }
+    ],
+    "platform": "Bet365",
+    "type": "builder",
+    "odds": 2.37,
+    "stake": 1.0,
+    "result": "lost",
+    "net_pl": -1.0,
+    "rating": 7
+  },
+  {
+    "id": "093",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Kylian Mbappe",
+    "market": "FIFA Golden Boot Winner",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 6.5,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
+  },
+  {
+    "id": "094",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Scott McTominay",
+    "market": "2+ Tournament Goals (excl. pens)",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 4.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 0
+  },
+  {
+    "id": "095",
+    "date": "2026-06-08",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Harry Kane",
+    "market": "FIFA Golden Boot Winner",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 7.5,
+    "stake": 10.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
+  },
+  {
+    "id": "096",
+    "date": "2026-05-30",
+    "fixture": "FIFA World Cup 2026",
+    "player": "Spain",
+    "market": "Tournament Winner",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 5.5,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 0
+  },
+  {
+    "id": "097",
+    "date": "2026-06-25",
+    "fixture": "Japan v Sweden",
+    "player": "Viktor Gyokeres & Ayase Ueda",
+    "market": "1+ Shot on Target Each",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 2.25,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8
+  },
+  {
+    "id": "098",
+    "date": "2026-06-25",
+    "fixture": "Japan v Sweden",
+    "player": "Alexander Isak",
+    "market": "To Score or Assist",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 2.3,
+    "stake": 10.0,
+    "result": "lost",
+    "net_pl": -10.0,
+    "rating": 9
+  },
+  {
+    "id": "099",
+    "date": "2026-06-25",
+    "fixture": "Tunisia v Netherlands",
+    "player": "Cody Gakpo",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "boost",
+    "odds": 1.85,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8
+  },
+  {
+    "id": "100",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "players": [
+      "Kylian Mbappe",
+      "Erling Haaland"
+    ],
+    "market": "Mbappe 2+ SOT & Haaland 1+ SOT (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 3.0,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 5.05,
+    "rating": 8
+  },
+  {
+    "id": "101",
+    "date": "2026-06-26",
+    "fixture": "Uruguay v Spain",
+    "player": "Lamine Yamal",
+    "market": "2+ Shots on Target",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.5,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "102",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "player": "Kylian Mbappe",
+    "market": "2+ Shots on Target (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 5.0,
+    "rating": 8
+  },
+  {
+    "id": "103",
+    "date": "2026-06-26",
+    "fixture": "Norway v France",
+    "player": "Michael Olise",
+    "market": "1+ Assists",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.88,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "104",
+    "date": "2026-06-26",
+    "fixture": "New Zealand v Belgium",
+    "player": "Leandro Trossard",
+    "market": "3+ Shots Created",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 10.0,
+    "result": "won",
+    "net_pl": 10.0,
+    "rating": 9
+  },
+  {
+    "id": "105",
+    "date": "2026-06-27",
+    "fixture": "Panama v England",
+    "player": "Harry Kane",
+    "market": "2+ Shots on Target (incl. woodwork)",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "free_bet_stake": 0,
+    "result": "won",
+    "net_pl": 5.0,
+    "rating": 8
+  },
+  {
+    "id": "106",
+    "date": "2026-06-27",
+    "fixture": "Panama v England",
+    "type": "free_bet_builder",
+    "platform": "Paddy Power",
+    "stake": 0.0,
+    "free_bet_stake": 0.5,
+    "odds": 7.8,
+    "legs": [
+      "Harry Kane - Player To Score",
+      "Jude Bellingham - 1+ SOT incl. woodwork",
+      "Amir Murillo - Player Shown a Card"
+    ],
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8
+  },
+  {
+    "id": "107",
+    "date": "2026-06-27",
+    "fixture": "Panama v England",
+    "type": "free_bet_builder",
+    "platform": "Sky Bet",
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "odds": 8.51,
+    "legs": [
+      "Carlos Harvey - 3+ Fouls Committed",
+      "Anthony Gordon - 2+ Shots on Target",
+      "England Away Over 2.5 Goals"
+    ],
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 8,
+    "notes": "Free bet loss. Gordon leg voided (Super Sub). Over 2.5 away goals lost (England 2-0). No P&L impact."
+  },
+  {
+    "id": "108",
+    "date": "2026-06-27",
+    "fixture": "Croatia v Ghana",
+    "player": "Antoine Semenyo",
+    "market": "1+ SOT and 1+ Fouls Won",
+    "platform": "Bet365",
+    "type": "super_boost",
+    "odds": 4.0,
+    "stake": 1.0,
+    "free_bet_stake": 0,
+    "result": "lost",
+    "net_pl": -1.0,
+    "rating": 7
+  },
+  {
+    "id": "109",
+    "date": "2026-06-27",
+    "fixture": "Colombia v Portugal",
+    "type": "builder_boost",
+    "platform": "Bet365",
+    "boost": "50% winnings boost",
+    "odds": 3.4,
+    "boosted_odds": 4.6,
+    "stake": 1.0,
+    "free_bet_stake": 0,
+    "legs": [
+      "Jefferson Lerma - 2+ Fouls Committed",
+      "Cristiano Ronaldo - 1+ Shots on Target",
+      "Bruno Fernandes - 1+ Fouls Committed"
+    ],
+    "result": "lost",
+    "net_pl": -1.0,
+    "rating": 7
+  },
+  {
+    "id": "110",
+    "date": "2026-06-28",
+    "fixture": "South Africa v Canada",
+    "platform": "Paddy Power",
+    "type": "free_bet_builder",
+    "legs": [
+      "Canada 4.5+ corners (away)",
+      "Jonathan David to score",
+      "Khuliso Mudau to be carded"
+    ],
+    "odds": 10.93,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7
+  },
+  {
+    "id": "111",
+    "date": "2026-06-28",
+    "fixture": "South Africa v Canada",
+    "platform": "Betfair",
+    "type": "free_bet_builder",
+    "legs": [
+      "Cyle Larin anytime scorer",
+      "Thalente Mbatha to be carded",
+      "Canada away 5.5+ corners"
+    ],
+    "odds": 19.32,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "rating": 7
+  },
+  {
+    "id": "112",
+    "date": "2026-06-29",
+    "fixture": "Brazil v Japan",
+    "player": "Vinicius Junior",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 7.0,
+    "result": "lost",
+    "net_pl": -7.0,
+    "rating": 8
+  },
+  {
+    "id": "113",
+    "date": "2026-06-29",
+    "fixture": "Germany v Paraguay",
+    "player": "Florian Wirtz",
+    "market": "To Score or Assist (incl. ET)",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 3.0,
+    "result": "won",
+    "net_pl": 3.0,
+    "rating": 6
+  },
+  {
+    "id": "114",
+    "date": "2026-06-29",
+    "fixture": "Netherlands v Morocco",
+    "player": "Brian Brobbey",
+    "market": "1+ Shot on Target (incl. ET)",
+    "platform": "Sky Bet",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "lost",
+    "net_pl": -5.0,
+    "rating": 7
+  },
+  {
+    "id": "115",
+    "date": "2026-06-29",
+    "fixture": "Brazil v Japan",
+    "player": "Ko Itakura / Matheus Cunha / Ao Tanaka",
+    "market": "Itakura to be Carded / Cunha Anytime Scorer / Tanaka 1+ Fouls Committed (incl. ET)",
+    "platform": "Sky Bet",
+    "type": "free_bet",
+    "odds": 10.58,
+    "stake": 0.0,
+    "free_bet_stake": 2.5,
+    "result": "won",
+    "net_pl": 4.79,
+    "rating": 0
+  },
+  {
+    "id": "116",
+    "date": "2026-06-29",
+    "fixture": "Germany v Paraguay",
+    "player": "Leroy Sane / Andres Cubas / Kai Havertz",
+    "market": "Sane 2+ Fouls Won / Cubas to be Carded / Havertz Anytime Scorer (incl. ET)",
+    "platform": "Sky Bet",
+    "type": "free_bet",
+    "odds": 8.97,
+    "stake": 0.0,
+    "free_bet_stake": 2.5,
+    "result": "cashed_out",
+    "net_pl": 1.1,
+    "rating": 0
+  },
+  {
+    "id": "117",
+    "date": "2026-06-29",
+    "fixture": "Germany v Paraguay",
+    "player": "Jamal Musiala / Aleksandar Pavlovic / Germany",
+    "market": "Musiala Score or Assist / Pavlovic 1+ Fouls Committed / Germany Over 3 Corners (incl. ET) \u2014 50% Winnings Boost",
+    "platform": "Bet365",
+    "type": "builder_boost",
+    "odds": 3.0,
+    "boosted_odds": 3.5,
+    "stake": 1.0,
+    "result": "won",
+    "net_pl": 0.75,
+    "rating": 7,
+    "stake_cap": 1.0
+  },
+  {
+    "id": "118",
+    "date": "2026-06-30",
+    "fixture": "Ivory Coast v Norway",
+    "player": "Erling Haaland",
+    "market": "To Score or Assist",
+    "platform": "Paddy Power",
+    "type": "super_boost",
+    "odds": 2.0,
+    "stake": 5.0,
+    "result": "win",
+    "net_pl": 5.0,
+    "rating": 9
+  },
+  {
+    "id": "119",
+    "date": "2026-06-30",
+    "fixture": "France v Sweden",
+    "player": "Kylian Mbappe",
+    "market": "To score 2+ goals",
+    "platform": "Paddy Power",
+    "type": "boost",
+    "odds": 3.75,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 13.75,
+    "rating": 7
+  },
+  {
+    "id": "120",
+    "date": "2026-06-30",
+    "fixture": "France v Sweden",
+    "player": "Mbappe / Dembele / Corners",
+    "market": "Treble Builder: Mbappe Anytime Scorer, Dembele 1+ SOT, Over 4.5 Corners",
+    "platform": "Sky Bet",
+    "type": "builder",
+    "odds": 2.91,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 9.57,
+    "rating": 7
+  },
+  {
+    "id": "121",
+    "date": "2026-06-30",
+    "fixture": "Mexico v Ecuador",
+    "player": "Raul Jimenez & Julian Quinones",
+    "market": "Both 1+ Shots On Target (dual-player combo)",
+    "platform": "Betfair",
+    "type": "boost",
+    "odds": 2.5,
+    "stake": 3.0,
+    "result": "won",
+    "net_pl": 4.5,
+    "rating": 6
+  },
+  {
+    "id": "122",
+    "date": "2026-07-01",
+    "platform": "Paddy Power",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Harry Kane",
+    "market": "1+ Shots on Target (incl. woodwork) - 1st Half",
+    "pre_boost_odds": 1.5,
+    "boosted_odds": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "won",
+    "net_pl": 3.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block, evidenced vs Portugal. Ghana blank flagged as risk precedent.",
+    "actual_stake": 3.0,
+    "actual_returns": 6.0,
+    "bet_id_ref": "O/10074925/0002038"
+  },
+  {
+    "id": "123",
+    "date": "2026-07-01",
+    "platform": "Sky Bet",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Jude Bellingham",
+    "market": "1+ Shots on Target (incl. extra time)",
+    "pre_boost_odds": 1.5,
+    "boosted_odds": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 5.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge.",
+    "actual_stake": 5.0,
+    "actual_returns": 10.0,
+    "bet_id_ref": "O/5860575/0000346"
+  },
+  {
+    "id": "124",
+    "date": "2026-07-01",
+    "platform": "Betfair",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Bukayo Saka",
+    "market": "To Score or Assist a Goal",
+    "pre_boost_odds": 2.1,
+    "boosted_odds": 2.3,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "cashed_out",
+    "net_pl": 0.0,
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline. Cashed out pre-match for full stake back (\u00a33) - Saka not starting.",
+    "actual_stake": 3.0,
+    "actual_returns": 3.0
+  },
+  {
+    "id": "125",
+    "date": "2026-07-01",
+    "platform": "Paddy Power",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Arthur Masuaku",
+        "market": "Player Shown a Card"
+      },
+      {
+        "player": "Team Total",
+        "market": "Over 6.5 Corners (Home Total Corners 6.5)"
+      },
+      {
+        "player": "Yoane Wissa",
+        "market": "1+ Shots on Target (incl. woodwork)"
+      }
+    ],
+    "odds": 10.71,
+    "stake": 0.0,
+    "free_bet_stake": 5.5,
+    "result": "cashed_out",
+    "net_pl": 2.36,
+    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT. Cashed out live at 54' (0-1) for \u00a32.36 - free bet, no real stake at risk, straight profit.",
+    "actual_returns": 2.36
+  },
+  {
+    "id": "126",
+    "date": "2026-07-01",
+    "platform": "Sky Bet",
+    "fixture": "England v DR Congo",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder (Treble)",
+    "legs": [
+      {
+        "player": "Team Total",
+        "market": "Over 7.5 Corners"
+      },
+      {
+        "player": "Samuel Moutoussamy",
+        "market": "2+ Fouls Committed incl. Extra Time"
+      },
+      {
+        "player": "Yoane Wissa",
+        "market": "Anytime Goalscorer incl. Extra Time"
+      }
+    ],
+    "odds": 8.35,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "lost",
+    "net_pl": 0.0,
+    "notes": "Free bet builder. Value leg: Wissa anytime scorer - matches Kane's 1.0 goals-per-match rate but priced 3.4x longer on implied probability. Categories: F-Corners, C-Fouls, A-Goals."
+  },
+  {
+    "id": "127",
+    "date": "2026-07-01",
+    "platform": "Bet365",
+    "fixture": "Belgium v Senegal",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Sadio Mane",
+        "market": "To Score at Any Time"
+      },
+      {
+        "player": "Team Total",
+        "market": "Over 8 Corners"
+      },
+      {
+        "player": "Match Total",
+        "market": "Over 2 Cards (Total Cards 3-Way)"
+      }
+    ],
+    "odds": 8.0,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Free bet builder. Narrative: Belgium dominate possession, Senegal press/counter - creates scoring chance for Mane, corner volume from Belgium territorial control, cards from combative midfield battle (Gueye/Diarra vs De Bruyne press). Categories: A-Goals, F-Corners, D-Cards. Referee Said Martinez - career avg 4.17-4.28 yellows/game (small 2025/26 WC sample of 2.50/game flagged, career figure used). Mane G/A per 90: 0.67, SOT per 90: 1.26 (FootyStats/FotMob two-source confirmed).",
+    "actual_stake": 0.0,
+    "to_return": 14.0,
+    "bet_ref": "FD2492962641W"
+  },
+  {
+    "id": "128",
+    "date": "2026-07-01",
+    "platform": "Paddy Power",
+    "fixture": "Belgium v Senegal",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Sadio Mane",
+    "market": "1+ Shots on Target (winner in last match)",
+    "pre_boost_odds": 1.8,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "won",
+    "net_pl": 7.0,
+    "notes": "SOT per 90: 1.26 (FootyStats, 30/2136min) cross-checked vs RotoWire all-comps (32 SOT/34 apps) - consistent, threshold met. G/A per 90 0.67. Senegal must attack (knockout, need the win) - no defensive context modifier. True prob ~58% vs implied 50% at boosted odds - +8% edge.",
+    "actual_stake": 7.0,
+    "returns": 14.0,
+    "bet_ref": "O/10074925/0002040"
+  },
+  {
+    "id": "129",
+    "date": "2026-07-02",
+    "platform": "Paddy Power",
+    "fixture": "Spain v Austria",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Lamine Yamal",
+    "market": "To Score or Assist (90 mins only)",
+    "pre_boost_odds": 1.53,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
+    "actual_stake": 5.0,
+    "stake_cap_applied": 5.0
+  },
+  {
+    "id": "130",
+    "date": "2026-07-02",
+    "platform": "Betfair",
+    "fixture": "Spain v Austria",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost / Enhanced Price",
+    "player": "Lamine Yamal",
+    "market": "To Score or Assist",
+    "boosted_odds": 2.0,
+    "rating": null,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "GOLDEN RULE VIOLATION FLAGGED: same player (Lamine Yamal), same fixture (Spain v Austria), same market type as bet 129 (Paddy Power, score or assist, GBP5). This is a duplicate exposure across platforms placed by user outside the standard workflow - logged as placed for accurate P&L tracking, not rated or verdict-approved by GemBets analysis. Combined Yamal score-or-assist exposure this fixture: GBP10 staked (GBP5 Paddy Power + GBP5 Betfair).",
+    "actual_stake": 5.0,
+    "returns_if_won": 10.0
+  }
+]
