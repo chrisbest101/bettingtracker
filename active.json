@@ -1492,5 +1492,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap \u00a31 applied by platform, overriding \u00a33 rated stake."
+  },
+  {
+    "id": "134",
+    "date": "2026-07-03",
+    "platform": "Paddy Power",
+    "fixture": "Argentina v Cape Verde",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Lionel Messi",
+    "market": "To Score (90 mins only)",
+    "pre_boost_odds": 1.44,
+    "boosted_odds": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "won",
+    "net_pl": 5.0,
+    "notes": "G/A per 90 ~2.57 across 3 group games (6 goals, small sample flagged), confirmed starter, penalty/FK taker. Defensive context modifier applied (-1): Cape Verde confirmed compact mid-block low block. True prob ~55-60% vs implied 50% at boosted odds - +5-10% edge. No max stake cap applied. Placement/platform confirmation was delayed several messages after verdict - logged retroactively as a completed win."
   }
 ]
