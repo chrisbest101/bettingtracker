@@ -1474,5 +1474,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "Initially skipped (rating 4/10) due to unconfirmed hamstring fitness doubt - coach non-committal pre-lineup. Re-rated after user confirmed official starting lineup (Salah in). G/A per 90: 1.24 (1G/2A, 218 mins, Yahoo Sports - single-sourced, flagged). Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. True prob ~50-55% vs implied 47.6% at boosted odds - +2-7% edge. No max stake cap applied."
+  },
+  {
+    "id": "133",
+    "date": "2026-07-03",
+    "platform": "Bet365",
+    "fixture": "Australia v Egypt",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Bet Builder",
+    "player": "Omar Marmoush",
+    "market": "1+ Shots on Target & 1+ Fouls Won",
+    "pre_boost_odds": 1.66,
+    "boosted_odds": 2.2,
+    "rating": 6,
+    "stake": 1.0,
+    "stake_cap_applied": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap \u00a31 applied by platform, overriding \u00a33 rated stake."
   }
 ]
