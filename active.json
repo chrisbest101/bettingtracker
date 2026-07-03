@@ -1457,5 +1457,22 @@
     "rating": 0,
     "notes": "Ronaldo 2+ SOT and Perisic 1+ fouls committed both sourced/two-source verified (3.67 SOT/90, 1.05 fouls/90). Third leg (Nuno Mendes 1+ fouls won) swapped in from live market screen after fouls-committed alternatives (Vitinha, Modric, Stanisic, Sutalo) all failed the 1.0 fouls/90 threshold - fouls-drawn market used instead of preferred fouls-committed, no per-90 fouls-won stat sourced for Mendes. Logged rating 0 per outside-standard-workflow convention given partial R3 deviation on leg 3.",
     "bet_ref": "QD7125223451W"
+  },
+  {
+    "id": "132",
+    "date": "2026-07-03",
+    "platform": "Sky Bet",
+    "fixture": "Australia v Egypt",
+    "competition": "FIFA World Cup 2026 - Round of 32",
+    "bet_type": "Super Boost",
+    "player": "Mohamed Salah",
+    "market": "To Score or Assist (incl. Extra Time)",
+    "pre_boost_odds": 1.91,
+    "boosted_odds": 2.1,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "Initially skipped (rating 4/10) due to unconfirmed hamstring fitness doubt - coach non-committal pre-lineup. Re-rated after user confirmed official starting lineup (Salah in). G/A per 90: 1.24 (1G/2A, 218 mins, Yahoo Sports - single-sourced, flagged). Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. True prob ~50-55% vs implied 47.6% at boosted odds - +2-7% edge. No max stake cap applied."
   }
 ]
