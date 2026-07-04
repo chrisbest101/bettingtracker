@@ -1509,5 +1509,23 @@
     "result": "won",
     "net_pl": 5.0,
     "notes": "G/A per 90 ~2.57 across 3 group games (6 goals, small sample flagged), confirmed starter, penalty/FK taker. Defensive context modifier applied (-1): Cape Verde confirmed compact mid-block low block. True prob ~55-60% vs implied 50% at boosted odds - +5-10% edge. No max stake cap applied. Placement/platform confirmation was delayed several messages after verdict - logged retroactively as a completed win."
+  },
+  {
+    "id": "135",
+    "date": "2026-07-04",
+    "platform": "Paddy Power",
+    "fixture": "France v Paraguay",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Kylian Mbappe",
+    "market": "To Score (90 mins only)",
+    "pre_boost_odds": 1.5,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 5.0,
+    "stake_cap_applied": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake."
   }
 ]
