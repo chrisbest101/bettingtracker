@@ -1596,5 +1596,34 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 1.22-1.27 (FootyStats shot accuracy calc, cross-checked vs StatMuse SOT/minutes) - threshold met, narrower margin than a striker profile. G/A per 90 0.47, stable form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Extra-time window adds cushion vs 90-min-only markets. True prob ~53% vs implied 50% at boosted odds - +3% edge. No max stake cap applied. Logged retroactively after being confirmed placed later in session."
+  },
+  {
+    "id": "140",
+    "date": "2026-07-05",
+    "platform": "Paddy Power",
+    "fixture": "Brazil v Norway",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Erling Haaland",
+        "market": "Player To Score"
+      },
+      {
+        "player": "Vinicius Junior",
+        "market": "Player To Have 2+ Shots on Target Including Woodwork"
+      },
+      {
+        "player": "Casemiro",
+        "market": "Player Shown a Card"
+      }
+    ],
+    "odds": 13.92,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7,
+    "notes": "Free bet builder. Haaland scorer: 5 goals this WC, 13-match scoring streak (Squawka). Vinicius 2+ SOT: 2.5 SOT/game two-source confirmed (Squawka + Sofascore), well above 1.0/90 threshold. Casemiro to be carded: booked 2 of last 3 internationals, ref Ismail Elfath averaging 3.5 yellows/game this WC. Categories: A-Goals, B-SOT, D-Cards. Combined 13.92, target range hit."
   }
 ]
