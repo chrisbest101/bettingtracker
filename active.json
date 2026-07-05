@@ -1579,5 +1579,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied."
+  },
+  {
+    "id": "139",
+    "date": "2026-07-05",
+    "platform": "Sky Bet",
+    "fixture": "Mexico v England",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Jude Bellingham",
+    "market": "1+ Shot on Target (incl. extra time)",
+    "pre_boost_odds": 1.67,
+    "boosted_odds": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 1.22-1.27 (FootyStats shot accuracy calc, cross-checked vs StatMuse SOT/minutes) - threshold met, narrower margin than a striker profile. G/A per 90 0.47, stable form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Extra-time window adds cushion vs 90-min-only markets. True prob ~53% vs implied 50% at boosted odds - +3% edge. No max stake cap applied. Logged retroactively after being confirmed placed later in session."
   }
 ]
