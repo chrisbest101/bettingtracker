@@ -1625,5 +1625,34 @@
     "net_pl": 0.0,
     "rating": 7,
     "notes": "Free bet builder. Haaland scorer: 5 goals this WC, 13-match scoring streak (Squawka). Vinicius 2+ SOT: 2.5 SOT/game two-source confirmed (Squawka + Sofascore), well above 1.0/90 threshold. Casemiro to be carded: booked 2 of last 3 internationals, ref Ismail Elfath averaging 3.5 yellows/game this WC. Categories: A-Goals, B-SOT, D-Cards. Combined 13.92, target range hit."
+  },
+  {
+    "id": "141",
+    "date": "2026-07-05",
+    "platform": "Paddy Power",
+    "fixture": "Brazil v Norway",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "David Moller Wolfe",
+        "market": "Player To Commit 2 Or More Fouls"
+      },
+      {
+        "player": "Matheus Cunha",
+        "market": "Player To Score"
+      },
+      {
+        "player": "Bruno Guimaraes",
+        "market": "Player Assists"
+      }
+    ],
+    "odds": 12.8,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7,
+    "notes": "Free bet builder. Moller Wolfe 2+ fouls: 9 fouls in 5 WC games (~1.8/90, Tips.GG). Cunha to score: 3 goals in group stage, full 90 in R32 win (Squawka). Guimaraes assist: 4 assists already this tournament (Squawka), Brazil's deep-lying creator. Categories: C-Fouls, A-Goals, E-Assists. No player overlap with bet 140 (Haaland/Vinicius/Casemiro). Combined 12.8, target range hit."
   }
 ]
