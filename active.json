@@ -1524,8 +1524,9 @@
     "rating": 8,
     "stake": 5.0,
     "stake_cap_applied": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
-    "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake."
+    "result": "won",
+    "net_pl": 5.0,
+    "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
+    "actual_returns": 10.0
   }
 ]
