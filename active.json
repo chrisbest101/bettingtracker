@@ -1528,5 +1528,22 @@
     "net_pl": 5.0,
     "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
     "actual_returns": 10.0
+  },
+  {
+    "id": "136",
+    "date": "2026-07-02",
+    "platform": "Paddy Power",
+    "fixture": "Mexico v England",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Harry Kane",
+    "market": "1+ Shots on Target (incl. woodwork)",
+    "pre_boost_odds": 1.33,
+    "boosted_odds": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 2.5 (Bundesliga, Fotmob), cross-checked vs ~1.9 SOT/game international last 10 (Covers/Yahoo) - threshold met, in career-best form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani, 3.7-3.8 yellows/game career (not decisive factor for SOT market). England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). True prob ~55% vs implied 50% at boosted odds - +5% edge. No max stake cap applied."
   }
 ]
