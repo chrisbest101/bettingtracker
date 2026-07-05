@@ -1562,5 +1562,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 1.47 (FootyStats, La Liga 2025/26) - threshold comfortably met. Recent tournament form: 5 SOT on 8 shots vs Scotland, 4 goals across group stage, in career-best tournament form. No defensive context modifier: Norway run a mid-block designed to funnel play centrally and counter through Haaland's pace, not a passive low block, insufficient evidence to apply Rule 26. Referee Ismail Elfath. True prob ~68% vs implied 50% at boosted odds - +18% edge. No max stake cap applied."
+  },
+  {
+    "id": "138",
+    "date": "2026-07-05",
+    "platform": "Betfair",
+    "fixture": "Mexico v England",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Marcus Rashford",
+    "market": "1+ Shots on Target",
+    "pre_boost_odds": 1.83,
+    "boosted_odds": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied."
   }
 ]
