@@ -1545,5 +1545,22 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 2.5 (Bundesliga, Fotmob), cross-checked vs ~1.9 SOT/game international last 10 (Covers/Yahoo) - threshold met, in career-best form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani, 3.7-3.8 yellows/game career (not decisive factor for SOT market). England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). True prob ~55% vs implied 50% at boosted odds - +5% edge. No max stake cap applied."
+  },
+  {
+    "id": "137",
+    "date": "2026-07-05",
+    "platform": "Betfair",
+    "fixture": "Brazil v Norway",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Vinicius Junior",
+    "market": "1+ Shots on Target (90 mins only)",
+    "pre_boost_odds": 1.25,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 1.47 (FootyStats, La Liga 2025/26) - threshold comfortably met. Recent tournament form: 5 SOT on 8 shots vs Scotland, 4 goals across group stage, in career-best tournament form. No defensive context modifier: Norway run a mid-block designed to funnel play centrally and counter through Haaland's pace, not a passive low block, insufficient evidence to apply Rule 26. Referee Ismail Elfath. True prob ~68% vs implied 50% at boosted odds - +18% edge. No max stake cap applied."
   }
 ]
