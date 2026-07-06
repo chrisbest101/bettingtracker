@@ -1717,5 +1717,23 @@
     "rating": 0,
     "notes": "Free bet 4-leg BuildABet placed outside standard workflow - rating 0. Mexico 2-3 England FT. All four legs won (multiple super subs: Stones replaced Saka, Rogers replaced Kane). Bet ID O/10074925/0002049. Free bet win: 26.25 return - 2.00 free bet stake = 24.25 net.",
     "bet_ref": "O/10074925/0002049"
+  },
+  {
+    "id": "144",
+    "date": "2026-07-06",
+    "platform": "Paddy Power",
+    "fixture": "Portugal v Spain",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Lamine Yamal",
+    "market": "3+ Shots on Target (incl. woodwork)",
+    "pre_boost_odds": 5.5,
+    "boosted_odds": 6.5,
+    "rating": 8,
+    "stake": 5.0,
+    "stake_cap_applied": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 2.81 (FotMob, WC26) - threshold comfortably met but figure inflated by cameo group-stage minutes (19/45/76/85), central estimate regressed. Bookie 'last 3 = 6 SOT' heavily weighted by Austria game; live commentary shows several of those were blocked/off-target/cleared off line, count varies by source - flagged. No defensive context modifier: Portugal are open, conceded more shots on goal than they took vs Croatia (6 v 3). Nico Williams still injured - Yamal is Spain's sole wide outlet and primary shooter on a 69%-possession side. Referee Anthony Taylor (neutral for SOT). Fully fit, said he can play 90; knockout likely tight = close to full minutes. True prob ~29% (conservative Poisson) vs implied 15.4% at boosted 6.5 - +14% edge. Max stake cap of GBP5 applied by platform, overriding GBP7 rated stake."
   }
 ]
