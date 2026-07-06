@@ -1735,5 +1735,23 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 2.81 (FotMob, WC26) - threshold comfortably met but figure inflated by cameo group-stage minutes (19/45/76/85), central estimate regressed. Bookie 'last 3 = 6 SOT' heavily weighted by Austria game; live commentary shows several of those were blocked/off-target/cleared off line, count varies by source - flagged. No defensive context modifier: Portugal are open, conceded more shots on goal than they took vs Croatia (6 v 3). Nico Williams still injured - Yamal is Spain's sole wide outlet and primary shooter on a 69%-possession side. Referee Anthony Taylor (neutral for SOT). Fully fit, said he can play 90; knockout likely tight = close to full minutes. True prob ~29% (conservative Poisson) vs implied 15.4% at boosted 6.5 - +14% edge. Max stake cap of GBP5 applied by platform, overriding GBP7 rated stake."
+  },
+  {
+    "id": "145",
+    "date": "2026-07-06",
+    "platform": "Bet365",
+    "fixture": "Portugal v Spain",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Cristiano Ronaldo",
+    "market": "1+ Shots on Target (Over 0.5)",
+    "pre_boost_odds": 1.3,
+    "boosted_odds": 2.0,
+    "rating": 7,
+    "stake": 1.0,
+    "stake_cap_applied": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "notes": "SOT per 90: 2.94 (WC qualification, Opta via PrizePicks) cross-checked vs season Al-Nassr high-volume baseline (2+ SOT/90, FotMob shot map) - threshold met, but WC26 rate regressed to ~1.0-1.5/90 (0 SOT v DR Congo on 3 shots, 2+ v Uzbekistan brace, pen SOT v Croatia). Penalty and free-kick taker, Portugal's central focal point. No defensive context modifier: Spain don't sit deep, they suppress via 65-69% possession not a low block - Rule 26 not applicable. Referee Anthony Taylor (neutral for SOT). Both 4 days rest. Risk: Spain's ball dominance starves Ronaldo's service, and he's already blanked a full 90 this tournament. Second bet on this fixture (bet 144 = Yamal 3+ SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65% vs implied 50% at boosted 2.00 - +15% edge. Bet365 case-by-case max stake of GBP1 applied for this market (not a blanket cap), overriding GBP5 rated stake."
   }
 ]
