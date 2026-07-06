@@ -1559,8 +1559,8 @@
     "boosted_odds": 2.0,
     "rating": 8,
     "stake": 7.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 7.0,
     "notes": "SOT per 90: 1.47 (FootyStats, La Liga 2025/26) - threshold comfortably met. Recent tournament form: 5 SOT on 8 shots vs Scotland, 4 goals across group stage, in career-best tournament form. No defensive context modifier: Norway run a mid-block designed to funnel play centrally and counter through Haaland's pace, not a passive low block, insufficient evidence to apply Rule 26. Referee Ismail Elfath. True prob ~68% vs implied 50% at boosted odds - +18% edge. No max stake cap applied."
   },
   {
@@ -1621,7 +1621,7 @@
     "odds": 13.92,
     "stake": 0.0,
     "free_bet_stake": 2.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 7,
     "notes": "Free bet builder. Haaland scorer: 5 goals this WC, 13-match scoring streak (Squawka). Vinicius 2+ SOT: 2.5 SOT/game two-source confirmed (Squawka + Sofascore), well above 1.0/90 threshold. Casemiro to be carded: booked 2 of last 3 internationals, ref Ismail Elfath averaging 3.5 yellows/game this WC. Categories: A-Goals, B-SOT, D-Cards. Combined 13.92, target range hit."
@@ -1650,7 +1650,7 @@
     "odds": 12.8,
     "stake": 0.0,
     "free_bet_stake": 2.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 7,
     "notes": "Free bet builder. Moller Wolfe 2+ fouls: 9 fouls in 5 WC games (~1.8/90, Tips.GG). Cunha to score: 3 goals in group stage, full 90 in R32 win (Squawka). Guimaraes assist: 4 assists already this tournament (Squawka), Brazil's deep-lying creator. Categories: C-Fouls, A-Goals, E-Assists. No player overlap with bet 140 (Haaland/Vinicius/Casemiro). Combined 12.8, target range hit."
