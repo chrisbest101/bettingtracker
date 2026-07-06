@@ -1593,8 +1593,8 @@
     "boosted_odds": 2.0,
     "rating": 6,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 3.0,
     "notes": "SOT per 90: 1.22-1.27 (FootyStats shot accuracy calc, cross-checked vs StatMuse SOT/minutes) - threshold met, narrower margin than a striker profile. G/A per 90 0.47, stable form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Extra-time window adds cushion vs 90-min-only markets. True prob ~53% vs implied 50% at boosted odds - +3% edge. No max stake cap applied. Logged retroactively after being confirmed placed later in session."
   },
   {
@@ -1654,5 +1654,34 @@
     "net_pl": 0.0,
     "rating": 7,
     "notes": "Free bet builder. Moller Wolfe 2+ fouls: 9 fouls in 5 WC games (~1.8/90, Tips.GG). Cunha to score: 3 goals in group stage, full 90 in R32 win (Squawka). Guimaraes assist: 4 assists already this tournament (Squawka), Brazil's deep-lying creator. Categories: C-Fouls, A-Goals, E-Assists. No player overlap with bet 140 (Haaland/Vinicius/Casemiro). Combined 12.8, target range hit."
+  },
+  {
+    "id": "142",
+    "date": "2026-07-05",
+    "platform": "Sky Bet",
+    "fixture": "Mexico v England",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "England",
+        "market": "Full Time Result"
+      },
+      {
+        "player": "Jarell Quansah",
+        "market": "Player to be Carded incl. Extra Time - Super Sub"
+      },
+      {
+        "player": "Guillermo Martinez",
+        "market": "1+ Shots on Target incl. Extra Time - Super Sub (subbed for Julian Quinones)"
+      }
+    ],
+    "odds": 12.32,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "won",
+    "net_pl": 10.32,
+    "rating": 0,
+    "notes": "Free bet BuildABet treble placed outside standard workflow - rating 0. Mexico 2-3 England FT. All three legs won: England FTR, Quansah carded (super sub), Martinez 1+ SOT (super sub, replaced Quinones). Free bet win: 11.32 return - 1.00 free bet stake = 10.32 net."
   }
 ]
