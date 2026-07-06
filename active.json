@@ -1753,5 +1753,26 @@
     "result": "pending",
     "net_pl": 0.0,
     "notes": "SOT per 90: 2.94 (WC qualification, Opta via PrizePicks) cross-checked vs season Al-Nassr high-volume baseline (2+ SOT/90, FotMob shot map) - threshold met, but WC26 rate regressed to ~1.0-1.5/90 (0 SOT v DR Congo on 3 shots, 2+ v Uzbekistan brace, pen SOT v Croatia). Penalty and free-kick taker, Portugal's central focal point. No defensive context modifier: Spain don't sit deep, they suppress via 65-69% possession not a low block - Rule 26 not applicable. Referee Anthony Taylor (neutral for SOT). Both 4 days rest. Risk: Spain's ball dominance starves Ronaldo's service, and he's already blanked a full 90 this tournament. Second bet on this fixture (bet 144 = Yamal 3+ SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65% vs implied 50% at boosted 2.00 - +15% edge. Bet365 case-by-case max stake of GBP1 applied for this market (not a blanket cap), overriding GBP5 rated stake."
+  },
+  {
+    "id": "146",
+    "date": "2026-07-06",
+    "platform": "Bet365",
+    "fixture": "Portugal v Spain",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Straight Bet (Player Prop)",
+    "player": "Nuno Mendes",
+    "market": "1+ Shots (Over 0.5, incl. Extra Time)",
+    "odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 20,
+    "def_modifier": false,
+    "notes": "Shots per 90: 2.16 (FootyStats, Ligue 1 2025/26, 30 shots/1252 min). WC26 form supportive not contradictory: scored vs Uzbekistan on his only shot, 2+ shots vs Croatia (1 blocked long-ranger plus the goal). No formal shots-market gate in v3.8 (SOT-specific rule doesn't bind here), shot-volume treated as comfortably clearing the 0.5 line. No defensive context modifier: Spain suppress via possession not a low block, Rule 26 not applicable. Referee Anthony Taylor, ~3 yellows/game, neutral for this market. Both sides 4 days rest, fatigue even. Third bet on this fixture (bet 144 Yamal SOT, bet 145 Ronaldo SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65-75% vs implied 50% at odds 2.00 - +15-25% edge. No max stake cap applied."
   }
 ]
