@@ -1774,5 +1774,34 @@
     "edge_pct": 20,
     "def_modifier": false,
     "notes": "Shots per 90: 2.16 (FootyStats, Ligue 1 2025/26, 30 shots/1252 min). WC26 form supportive not contradictory: scored vs Uzbekistan on his only shot, 2+ shots vs Croatia (1 blocked long-ranger plus the goal). No formal shots-market gate in v3.8 (SOT-specific rule doesn't bind here), shot-volume treated as comfortably clearing the 0.5 line. No defensive context modifier: Spain suppress via possession not a low block, Rule 26 not applicable. Referee Anthony Taylor, ~3 yellows/game, neutral for this market. Both sides 4 days rest, fatigue even. Third bet on this fixture (bet 144 Yamal SOT, bet 145 Ronaldo SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65-75% vs implied 50% at odds 2.00 - +15-25% edge. No max stake cap applied."
+  },
+  {
+    "id": "147",
+    "date": "2026-07-06",
+    "platform": "Paddy Power",
+    "fixture": "Portugal v Spain",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Free Bet Builder",
+    "legs": [
+      {
+        "player": "Mikel Oyarzabal",
+        "market": "Player To Score (Anytime)"
+      },
+      {
+        "player": "Team Total",
+        "market": "Over 3.5 Corners (Home Total Corners 3.5) - Portugal"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "market": "Player To Have 2+ Shots On Target Including Woodwork"
+      }
+    ],
+    "odds": 7.85,
+    "stake": 0.0,
+    "free_bet_stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7,
+    "notes": "Free bet builder. Oyarzabal anytime scorer: SOT/90 2.0\u2713 [OT-WhoScored+OT-FoxSports], 4 goals/4 apps, Spain's top scorer this WC. Corners: Portugal 4.75/game [SS], home total 3.5 line. Ronaldo 2+SOT: SOT/90 ~1.75 tournament avg [SS+OT-FoxSports] - cumulative avg not per-game breakdown, flagged. def-mod: N (Rule 26 not evidenced, Spain suppress via possession not a low block). ctx: referee cached(144) - Anthony Taylor. Combined landed marginal band (7.85 vs 8-15 target) after two leg swaps under time pressure pre-KO: Fernandes 2+SOT dropped (SOT/90 marginal, sub-1.0 on WC-only sample), Oyarzabal shifted first-scorer\u2192anytime to correct a 17.11 overshoot. Rule 30: Ronaldo also on bet 145 (Bet365, 1+ SOT, different market/platform) - flagged, no Golden Rule 2 breach."
   }
 ]
