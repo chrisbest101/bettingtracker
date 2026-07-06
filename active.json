@@ -1750,9 +1750,11 @@
     "rating": 7,
     "stake": 1.0,
     "stake_cap_applied": 1.0,
-    "result": "pending",
-    "net_pl": 0.0,
-    "notes": "SOT per 90: 2.94 (WC qualification, Opta via PrizePicks) cross-checked vs season Al-Nassr high-volume baseline (2+ SOT/90, FotMob shot map) - threshold met, but WC26 rate regressed to ~1.0-1.5/90 (0 SOT v DR Congo on 3 shots, 2+ v Uzbekistan brace, pen SOT v Croatia). Penalty and free-kick taker, Portugal's central focal point. No defensive context modifier: Spain don't sit deep, they suppress via 65-69% possession not a low block - Rule 26 not applicable. Referee Anthony Taylor (neutral for SOT). Both 4 days rest. Risk: Spain's ball dominance starves Ronaldo's service, and he's already blanked a full 90 this tournament. Second bet on this fixture (bet 144 = Yamal 3+ SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65% vs implied 50% at boosted 2.00 - +15% edge. Bet365 case-by-case max stake of GBP1 applied for this market (not a blanket cap), overriding GBP5 rated stake."
+    "result": "won",
+    "net_pl": 1.0,
+    "notes": "SOT per 90: 2.94 (WC qualification, Opta via PrizePicks) cross-checked vs season Al-Nassr high-volume baseline (2+ SOT/90, FotMob shot map) - threshold met, but WC26 rate regressed to ~1.0-1.5/90 (0 SOT v DR Congo on 3 shots, 2+ v Uzbekistan brace, pen SOT v Croatia). Penalty and free-kick taker, Portugal's central focal point. No defensive context modifier: Spain don't sit deep, they suppress via 65-69% possession not a low block - Rule 26 not applicable. Referee Anthony Taylor (neutral for SOT). Both 4 days rest. Risk: Spain's ball dominance starves Ronaldo's service, and he's already blanked a full 90 this tournament. Second bet on this fixture (bet 144 = Yamal 3+ SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65% vs implied 50% at boosted 2.00 - +15% edge. Bet365 case-by-case max stake of GBP1 applied for this market (not a blanket cap), overriding GBP5 rated stake.",
+    "actual_stake": 1.0,
+    "actual_returns": 2.0
   },
   {
     "id": "146",
