@@ -1542,8 +1542,8 @@
     "boosted_odds": 2.0,
     "rating": 6,
     "stake": 3.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 3.0,
     "notes": "SOT per 90: 2.5 (Bundesliga, Fotmob), cross-checked vs ~1.9 SOT/game international last 10 (Covers/Yahoo) - threshold met, in career-best form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani, 3.7-3.8 yellows/game career (not decisive factor for SOT market). England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). True prob ~55% vs implied 50% at boosted odds - +5% edge. No max stake cap applied."
   },
   {
@@ -1683,5 +1683,39 @@
     "net_pl": 10.32,
     "rating": 0,
     "notes": "Free bet BuildABet treble placed outside standard workflow - rating 0. Mexico 2-3 England FT. All three legs won: England FTR, Quansah carded (super sub), Martinez 1+ SOT (super sub, replaced Quinones). Free bet win: 11.32 return - 1.00 free bet stake = 10.32 net."
+  },
+  {
+    "id": "143",
+    "date": "2026-07-05",
+    "platform": "Paddy Power",
+    "fixture": "Mexico v England",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "free_bet_builder",
+    "legs": [
+      {
+        "player": "Jude Bellingham",
+        "market": "1+ Fouls Committed - Super Sub"
+      },
+      {
+        "player": "Jarell Quansah",
+        "market": "Player Shown a Card - Super Sub"
+      },
+      {
+        "player": "John Stones",
+        "market": "To Score or Assist - Super Sub (subbed for Bukayo Saka)"
+      },
+      {
+        "player": "Morgan Rogers",
+        "market": "1+ Shots on Target incl. Woodwork - Super Sub (subbed for Harry Kane)"
+      }
+    ],
+    "odds": 14.12,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "won",
+    "net_pl": 24.25,
+    "rating": 0,
+    "notes": "Free bet 4-leg BuildABet placed outside standard workflow - rating 0. Mexico 2-3 England FT. All four legs won (multiple super subs: Stones replaced Saka, Rogers replaced Kane). Bet ID O/10074925/0002049. Free bet win: 26.25 return - 2.00 free bet stake = 24.25 net.",
+    "bet_ref": "O/10074925/0002049"
   }
 ]
