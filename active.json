@@ -1852,5 +1852,41 @@
     "edge_pct": 15,
     "def_modifier": false,
     "notes": "SOT/90: 1.14 [OT-playerstats.football+OT-OddsCalendar] | def-mod: N | ctx: new | edge: +15% | Referee Ivan Barton, sources conflict on career yellows/game (3.85 FootyMetrics vs 4.72 StatsHub) - conservative figure used, not decisive for SOT market. H2H thin (2 meetings all-time, 1994 WC + 2007 friendly, both Colombia wins). Fatigue: Switzerland 4 days rest vs Colombia 3 days rest. Arias plays central/right of Colombia's midfield three, not a pure winger."
+  },
+  {
+    "id": "150",
+    "date": "2026-07-07",
+    "platform": "Bet365",
+    "fixture": "Switzerland v Colombia",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Bet Builder Boost",
+    "legs": [
+      {
+        "player": "Dan Ndoye",
+        "market": "1+ Shots on Target"
+      },
+      {
+        "player": "Ricardo Rodriguez",
+        "market": "1+ Fouls Committed (Alternative Player Fouls Committed)"
+      },
+      {
+        "player": "Gustavo Puerta",
+        "market": "1+ Fouls Committed (Alternative Player Fouls Committed)"
+      }
+    ],
+    "boost": "50% winnings boost",
+    "pre_boost_odds": 2.62,
+    "boosted_odds": 3.43,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": null,
+    "def_modifier": false,
+    "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach.",
+    "bet_ref": null
   }
 ]
