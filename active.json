@@ -1830,5 +1830,27 @@
     "edge_pct": 8,
     "def_modifier": false,
     "notes": "SOT/90: 1.09\u2713 [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA."
+  },
+  {
+    "id": "149",
+    "date": "2026-07-07",
+    "platform": "Sky Bet",
+    "fixture": "Switzerland v Colombia",
+    "competition": "FIFA World Cup 2026 - Round of 16",
+    "bet_type": "Super Boost",
+    "player": "Jhon Arias",
+    "market": "1+ Shot on Target (incl. extra time)",
+    "pre_boost_odds": 1.83,
+    "boosted_odds": 2.0,
+    "rating": 7,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": 1.14,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 15,
+    "def_modifier": false,
+    "notes": "SOT/90: 1.14 [OT-playerstats.football+OT-OddsCalendar] | def-mod: N | ctx: new | edge: +15% | Referee Ivan Barton, sources conflict on career yellows/game (3.85 FootyMetrics vs 4.72 StatsHub) - conservative figure used, not decisive for SOT market. H2H thin (2 meetings all-time, 1994 WC + 2007 friendly, both Colombia wins). Fatigue: Switzerland 4 days rest vs Colombia 3 days rest. Arias plays central/right of Colombia's midfield three, not a pure winger."
   }
 ]
