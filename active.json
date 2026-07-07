@@ -1830,9 +1830,5 @@
     "edge_pct": 8,
     "def_modifier": false,
     "notes": "SOT/90: 1.09\u2713 [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA."
-  },
-  {
-    "id": "TESTZZZ",
-    "note": "diagnostic test entry"
   }
 ]
