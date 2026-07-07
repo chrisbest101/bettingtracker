@@ -1879,14 +1879,16 @@
     "boosted_odds": 3.43,
     "rating": 7,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "cashed_out",
+    "net_pl": 2.88,
     "sot_per_90": null,
     "ga_per_90": null,
     "threshold_met": true,
     "edge_pct": null,
     "def_modifier": false,
-    "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach.",
-    "bet_ref": null
+    "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach. | SETTLEMENT: Cashed out live at 71:14, 0-0 (Ndoye 1+ SOT won, Puerta 1+ foul won, Rodriguez 1+ foul leg still live/undetermined at cash-out point). Stake \u00a35 confirmed matches logged assumption. Cash out \u00a37.88, net +\u00a32.88.",
+    "bet_ref": null,
+    "actual_stake": 5.0,
+    "actual_returns": 7.88
   }
 ]
