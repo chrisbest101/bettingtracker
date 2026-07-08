@@ -39,6 +39,18 @@
       },
       "action_threshold": "monitor only - review share of total pnl monthly",
       "resolution": null
+    },
+    {
+      "id": "W4",
+      "opened": "2026-07-08",
+      "status": "open",
+      "category": "stat_gate",
+      "candidate": "1.0 SOT/90 gate too loose for 2+ SOT legs - implied hit rate ~26% at gate needs ~3.8 odds to break even; candidate gate ~1.5 SOT/90 for 2+ SOT markets",
+      "snapshot": {
+        "note": "logic-derived candidate 8 Jul 26, not data-derived. Rule 27 stake reduction manages exposure meanwhile. Test via sot_per_90 field on settled 2+ SOT legs."
+      },
+      "action_threshold": "n>=30 settled 2+ SOT bets/legs with sot_per_90 populated",
+      "resolution": null
     }
   ]
 }
