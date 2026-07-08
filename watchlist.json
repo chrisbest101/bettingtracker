@@ -1,0 +1,44 @@
+{
+  "updated": "2026-07-08",
+  "items": [
+    {
+      "id": "W1",
+      "opened": "2026-07-08",
+      "status": "open",
+      "category": "rating_band",
+      "candidate": "8-8.9 band underperforming 7-7.9 band per pound staked",
+      "snapshot": {
+        "band_8": "13W-16L, +19.80",
+        "band_7": "10W-25L... see note",
+        "note": "active.json window only, 8 Jul 26: 8-8.9 = 13W-16L +GBP19.80 at GBP7 stakes; 7-7.9 = +GBP63.32 at GBP5 stakes"
+      },
+      "action_threshold": "n>=30 settled in 8-8.9 band under v3.8+ fields",
+      "resolution": null
+    },
+    {
+      "id": "W2",
+      "opened": "2026-07-08",
+      "status": "open",
+      "category": "platform",
+      "candidate": "Betfair only negative platform",
+      "snapshot": {
+        "betfair": "2W-6L, -1.50 (active window, 8 Jul 26)"
+      },
+      "action_threshold": "n>=30 settled Betfair bets",
+      "resolution": null
+    },
+    {
+      "id": "W3",
+      "opened": "2026-07-08",
+      "status": "open",
+      "category": "concentration",
+      "candidate": "Profit concentration on Sky Bet",
+      "snapshot": {
+        "sky_bet": "16W-22L, +79.83 (active window, 8 Jul 26)",
+        "note": "not a fault - monitor dependence of total pnl on one account"
+      },
+      "action_threshold": "monitor only - review share of total pnl monthly",
+      "resolution": null
+    }
+  ]
+}
