@@ -1915,5 +1915,30 @@
     "edge_pct": 15,
     "def_modifier": true,
     "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest."
+  },
+  {
+    "id": "152",
+    "date": "2026-07-08",
+    "platform": "Betfair",
+    "fixture": "France v Morocco",
+    "competition": "FIFA World Cup 2026 - Quarter-Final",
+    "type": "free_bet",
+    "legs": [
+      "Kylian Mbappe - Anytime Goalscorer",
+      "Neil El Aynaoui - 2+ Fouls Committed",
+      "Over 7.5 Corners (France)"
+    ],
+    "odds": 9.27,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "rating": 8,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": 24,
+    "def_modifier": false,
+    "notes": "3-leg FREE BUILD | Mbappe ATGS 1.83 edge+38 [SI+Betfair] | El Aynaoui 2+fouls 1.57 edge+2 [Betfair+RacingPost] | France o7.5 corners 3.0 edge+32 [tips.gg+sportsgambler] | def-mod: N | ctx: new"
   }
 ]
