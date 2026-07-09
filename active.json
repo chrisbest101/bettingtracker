@@ -1963,5 +1963,28 @@
     "def_modifier": false,
     "notes": "SOT/90 unavail, per-game proxy used: Mbappe ~2.2-3.4 [SS/FM+livescore, conflict-flagged, conservative used] | Dembele ~1.67 [SS] both thresh met | def-mod: N | ctx: ref Tello cached see bet 151, H2H cached see bet 151 (France won 2022 semi 2-0), fatigue cached see bet 151 (5 days rest both sides) | edge: +14% (true ~47% vs implied 33.3% at 3.0) | Rated stake GBP7, capped to GBP5 (platform max stake). Rule 30: 3rd active bet this fixture (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, this). FLAG: bet 151 (prior session) carries Rule 26 def-mod TRUE for this fixture (Morocco low-block evidence: 5 shots conceded vs Canada, pens win over Netherlands) - not incorporated into this verdict, GitHub not read pre-verdict per Rule 10 and Rule 33 cache is session-scoped not cross-session. Logged as originally verdicted (Chris's call), flagged here for calibration awareness on cross-session match-context continuity.",
     "bet_ref": null
+  },
+  {
+    "id": "154",
+    "date": "2026-07-09",
+    "platform": "Betfair",
+    "fixture": "France v Morocco",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Ousmane Dembele",
+    "market": "To Score 2 or More Goals",
+    "pre_boost_odds": 13.0,
+    "boosted_odds": 17.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": 3,
+    "def_modifier": true,
+    "notes": "Goals: 4/5 apps this WC (~0.8/game blind avg), 1 multi-goal game (hat-trick vs Norway, weak opp), 0/2 vs the tournament's more organized defenses (Sweden R32, Paraguay R16) [FM+FS, two-source] | def-mod: Y - Morocco genuine low-block identity, cached see bet 151 (5 shots conceded vs Canada, pens win over Netherlands) | ctx: ref Tello/H2H/fatigue cached see bet 151+153 | edge: blind tournament-average would suggest ~+13%, but defensive-context-adjusted (weighting the 2 tougher defensive tests over the 3 weak group games) puts true prob ~8-10% vs implied 5.9% at 17.0 -> ~+2-4% edge, thin. Rating 7 pre-modifier, -1 Rule 26 = 6. Rule 30: 4th active bet on this fixture cluster (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, 153 Mbappe+Dembele SOT combo, this) - Dembele's 2nd bet this fixture (153 SOT leg + this goals market).",
+    "bet_ref": null
   }
 ]
