@@ -1986,5 +1986,27 @@
     "def_modifier": true,
     "notes": "Goals: 4/5 apps this WC (~0.8/game blind avg), 1 multi-goal game (hat-trick vs Norway, weak opp), 0/2 vs the tournament's more organized defenses (Sweden R32, Paraguay R16) [FM+FS, two-source] | def-mod: Y - Morocco genuine low-block identity, cached see bet 151 (5 shots conceded vs Canada, pens win over Netherlands) | ctx: ref Tello/H2H/fatigue cached see bet 151+153 | edge: blind tournament-average would suggest ~+13%, but defensive-context-adjusted (weighting the 2 tougher defensive tests over the 3 weak group games) puts true prob ~8-10% vs implied 5.9% at 17.0 -> ~+2-4% edge, thin. Rating 7 pre-modifier, -1 Rule 26 = 6. Rule 30: 4th active bet on this fixture cluster (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, 153 Mbappe+Dembele SOT combo, this) - Dembele's 2nd bet this fixture (153 SOT leg + this goals market).",
     "bet_ref": null
+  },
+  {
+    "id": "155",
+    "date": "2026-07-09",
+    "platform": "Betfair",
+    "fixture": "France v Morocco",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Ousmane Dembele",
+    "market": "1+ Shot on Target",
+    "pre_boost_odds": 1.5,
+    "boosted_odds": 2.0,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": 1.21,
+    "ga_per_90": 1.45,
+    "threshold_met": true,
+    "edge_pct": 10,
+    "def_modifier": true,
+    "notes": "SOT/90: 1.21\u2713 [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness."
   }
 ]
