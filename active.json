@@ -1904,17 +1904,17 @@
     "player": "Kylian Mbappe",
     "market": "To Score Anytime",
     "pre_boost_odds": 1.8,
-    "boosted_odds": 2.0,
+    "boosted_odds": 1.85,
     "rating": 7,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "won",
+    "net_pl": 4.25,
     "sot_per_90": null,
     "ga_per_90": 1.84,
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": true,
-    "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest."
+    "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest. | PRICE CORRECTION at settlement: boosted price moved from 2.0 to 1.85 before placement was secured, actual bet placed and settled at 1.85. Same underlying bet, odds field corrected retroactively per Chris confirmation."
   },
   {
     "id": "152",
