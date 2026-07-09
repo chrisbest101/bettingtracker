@@ -2008,5 +2008,33 @@
     "edge_pct": 10,
     "def_modifier": true,
     "notes": "SOT/90: 1.21\u2713 [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness."
+  },
+  {
+    "id": "156",
+    "date": "2026-07-09",
+    "platform": "Bet365",
+    "fixture": "France v Morocco",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "builder_boost",
+    "player": null,
+    "market": null,
+    "legs": [
+      "Desire Doue - 1+ Shots on Target",
+      "Over 1 Cards (2+ cards, Total Cards 3-Way)",
+      "France - Over 4 Corners (5+, Home Team Total Corners 3-Way)"
+    ],
+    "pre_boost_odds": null,
+    "boosted_odds": 2.7,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 4,
+    "def_modifier": false,
+    "notes": "Leg1 Doue 1+SOT 1.72 [FM/Sofascore proxy ~1.0/game last-5] prob 63% edge +5% | Leg2 BTC 1+ cards 1.20 [FootyMetrics Tello WC26 avg 3.5 cards/2 matches, conservative vs 4.69 career, two-source flagged] prob 86% edge +3% | Leg3 France o4 corners 1.33 directional only, no independently re-derived corners baseline this session (Rule 33 session-scoped, bet 152's o7.5 corners line from prior session not reused) | Rule 26 NOT applied - volume markets (SOT/cards/corners) run opposite direction to conversion markets under a low block, mechanical -1 would misprice | Team news confirmed both XIs pre-placement, no surprises vs priced. Phase 2 est 2.75 vs actual slip 2.70, within tolerance, no backup swap needed. Combined edge avg ~4%, leg 3 uncertainty flagged as thinnest link. Rule 30: fixture cluster now 151/152/153/154/155, no player overlap with legs here beyond fixture-level Doue exposure (new, first Doue bet this fixture).",
+    "bet_ref": null
   }
 ]
