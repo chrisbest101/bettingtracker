@@ -1940,5 +1940,28 @@
     "edge_pct": 24,
     "def_modifier": false,
     "notes": "3-leg FREE BUILD | Mbappe ATGS 1.83 edge+38 [SI+Betfair] | El Aynaoui 2+fouls 1.57 edge+2 [Betfair+RacingPost] | France o7.5 corners 3.0 edge+32 [tips.gg+sportsgambler] | def-mod: N | ctx: new"
+  },
+  {
+    "id": "153",
+    "date": "2026-07-09",
+    "platform": "Paddy Power",
+    "fixture": "France v Morocco",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Kylian Mbappe & Ousmane Dembele",
+    "market": "Mbappe 2+ Shots on Target & Dembele 1+ Shot on Target (incl. woodwork)",
+    "pre_boost_odds": 2.0,
+    "boosted_odds": 3.0,
+    "rating": 8,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 14,
+    "def_modifier": false,
+    "notes": "SOT/90 unavail, per-game proxy used: Mbappe ~2.2-3.4 [SS/FM+livescore, conflict-flagged, conservative used] | Dembele ~1.67 [SS] both thresh met | def-mod: N | ctx: ref Tello cached see bet 151, H2H cached see bet 151 (France won 2022 semi 2-0), fatigue cached see bet 151 (5 days rest both sides) | edge: +14% (true ~47% vs implied 33.3% at 3.0) | Rated stake GBP7, capped to GBP5 (platform max stake). Rule 30: 3rd active bet this fixture (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, this). FLAG: bet 151 (prior session) carries Rule 26 def-mod TRUE for this fixture (Morocco low-block evidence: 5 shots conceded vs Canada, pens win over Netherlands) - not incorporated into this verdict, GitHub not read pre-verdict per Rule 10 and Rule 33 cache is session-scoped not cross-session. Logged as originally verdicted (Chris's call), flagged here for calibration awareness on cross-session match-context continuity.",
+    "bet_ref": null
   }
 ]
