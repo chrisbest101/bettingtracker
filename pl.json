@@ -4,10 +4,10 @@
   "won": 72,
   "lost": 73,
   "void": 3,
-  "cashed_out": 5,
+  "cashed_out": 6,
   "staked": 659.75,
-  "pnl": 296.39,
+  "pnl": 294.74,
   "win_rate": 46.8,
   "best_return": 26.25,
-  "roi": 44.9
+  "roi": 44.7
 }
