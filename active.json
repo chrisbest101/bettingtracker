@@ -2059,5 +2059,28 @@
     "def_modifier": true,
     "notes": "G/A: 0.29/90 WC26 (1G/0A in 315min) [FM+FS] | def-mod: Y - Belgium set up to sit deeper vs Yamal specifically, cached this session (no bet ID, prior SOT skip not logged) | ctx: ref Oliver/H2H/fatigue cached this session | edge: FanDuel score-or-assist incl.ET -160 (61.5% implied) devigged ~56% vs boosted 50% = +6-7% | Rule 30: checked, no other bet logged this fixture (prior Yamal 2+SOT skipped, not placed)",
     "bet_ref": null
+  },
+  {
+    "id": "158",
+    "date": "2026-07-10",
+    "platform": "Bet365",
+    "fixture": "Spain v Belgium",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Aymeric Laporte",
+    "market": "1+ Shots",
+    "pre_boost_odds": 1.4,
+    "boosted_odds": 2.25,
+    "rating": 6,
+    "stake": 3.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": 7,
+    "def_modifier": false,
+    "notes": "Shots/90: 0.8 (4 in 5 WC games, all starts) [RotoWire + FOX box score] | all shots came vs expansive sides (Cape Verde, Austria), blanked vs tighter tests (Saudi Arabia, Uruguay, Portugal) | def-mod: N - Belgium sit-deeper context cached this session, but for a set-piece CB this is directionally mixed (more corners conceded vs tighter box marking), not mechanically -1, same precedent as bet 156 | ctx: ref/fatigue/H2H cached this session | edge: promo's '1.40 elsewhere' comparator unverified independently, used own model instead - true prob ~50-52% vs implied 44.4% at 2.25 = +6-8% | Rule 30: checked, no other bet logged this fixture on this player",
+    "bet_ref": null
   }
 ]
