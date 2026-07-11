@@ -2104,5 +2104,27 @@
     "edge_pct": 15,
     "def_modifier": false,
     "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games."
+  },
+  {
+    "id": "160",
+    "date": "2026-07-11",
+    "platform": "Sky Bet",
+    "fixture": "Argentina v Switzerland",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Lionel Messi",
+    "market": "To Score (incl. Extra Time)",
+    "pre_boost_odds": 1.83,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": 3.73,
+    "ga_per_90": 1.98,
+    "threshold_met": true,
+    "edge_pct": 7,
+    "def_modifier": true,
+    "notes": "SOT/90: 3.73\u2713 [SS+OT] | G/A/90: 1.98\u2713 [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games."
   }
 ]
