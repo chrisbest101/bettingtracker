@@ -2173,5 +2173,30 @@
     "edge_pct": 3,
     "def_modifier": true,
     "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)"
+  },
+  {
+    "id": "163",
+    "date": "2026-07-11",
+    "platform": "Betfair",
+    "fixture": "Norway v England",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "free_bet",
+    "legs": [
+      "Harry Kane - Anytime Goalscorer (Safe Sub)",
+      "Jude Bellingham - Player To Have 2 Or More Shots On Target (Safe Sub)",
+      "Over 5.5 Corners (Away Total Corners - England)"
+    ],
+    "odds": 10.47,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 5,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": null,
+    "def_modifier": false,
+    "notes": "3-leg FREE BUILD, same fixture as bet 162, different legs (Rule 30: Kane/Bellingham/Norway-England corners now doubled up across bets 159/161/162/this - flagged, no Golden Rule breach, different markets/platforms) | Kane ATGS 1.8, G/A/90 1.42 cached see bet 159, def-mod Y applied (Norway underdog, likely deeper) | Bellingham 2+SOT 2.88, SOT/90 not independently sourced this session, flagged | England o5.5 corners 2.0, no reliable corners data found this session either, match-context only | actual platform bet builder price 10.47 (vs naive multiplication ~10.37, close)"
   }
 ]
