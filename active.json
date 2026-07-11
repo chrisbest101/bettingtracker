@@ -2082,5 +2082,27 @@
     "def_modifier": false,
     "notes": "Shots/90: 0.8 (4 in 5 WC games, all starts) [RotoWire + FOX box score] | all shots came vs expansive sides (Cape Verde, Austria), blanked vs tighter tests (Saudi Arabia, Uruguay, Portugal) | def-mod: N - Belgium sit-deeper context cached this session, but for a set-piece CB this is directionally mixed (more corners conceded vs tighter box marking), not mechanically -1, same precedent as bet 156 | ctx: ref/fatigue/H2H cached this session | edge: promo's '1.40 elsewhere' comparator unverified independently, used own model instead - true prob ~50-52% vs implied 44.4% at 2.25 = +6-8% | Rule 30: checked, no other bet logged this fixture on this player",
     "bet_ref": null
+  },
+  {
+    "id": "159",
+    "date": "2026-07-11",
+    "platform": "Sky Bet",
+    "fixture": "Norway v England",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Harry Kane",
+    "market": "To Score or Assist (incl. Extra Time)",
+    "pre_boost_odds": 1.67,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": 2.0,
+    "ga_per_90": 1.42,
+    "threshold_met": true,
+    "edge_pct": 15,
+    "def_modifier": false,
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games."
   }
 ]
