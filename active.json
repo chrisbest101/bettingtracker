@@ -2126,5 +2126,27 @@
     "edge_pct": 7,
     "def_modifier": true,
     "notes": "SOT/90: 3.73\u2713 [SS+OT] | G/A/90: 1.98\u2713 [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games."
+  },
+  {
+    "id": "161",
+    "date": "2026-07-11",
+    "platform": "Paddy Power",
+    "fixture": "Norway v England",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "super_boost",
+    "player": "Harry Kane",
+    "market": "2+ Shots on Target incl. Woodwork (90 mins only)",
+    "pre_boost_odds": 1.73,
+    "boosted_odds": 2.0,
+    "rating": 8,
+    "stake": 5.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": 2.0,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 15,
+    "def_modifier": false,
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach."
   }
 ]
