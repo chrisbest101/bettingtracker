@@ -2198,5 +2198,32 @@
     "edge_pct": null,
     "def_modifier": false,
     "notes": "3-leg FREE BUILD, same fixture as bet 162, different legs (Rule 30: Kane/Bellingham/Norway-England corners now doubled up across bets 159/161/162/this - flagged, no Golden Rule breach, different markets/platforms) | Kane ATGS 1.8, G/A/90 1.42 cached see bet 159, def-mod Y applied (Norway underdog, likely deeper) | Bellingham 2+SOT 2.88, SOT/90 not independently sourced this session, flagged | England o5.5 corners 2.0, no reliable corners data found this session either, match-context only | actual platform bet builder price 10.47 (vs naive multiplication ~10.37, close)"
+  },
+  {
+    "id": "164",
+    "date": "2026-07-11",
+    "platform": "Sky Bet",
+    "fixture": "Norway v England",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "free_bet",
+    "legs": [
+      "Harry Kane - Anytime Goalscorer Including Extra Time (Super Sub)",
+      "Erling Haaland - Player To Have 2 Or More Shots On Target Including Extra Time (Super Sub)",
+      "David Moller Wolfe - Player 2+ Fouls Committed Including Extra Time (Super Sub)",
+      "Julian Ryerson - Player To Be Carded Including Extra Time (Super Sub)",
+      "Over 4.5 Corners (England)"
+    ],
+    "odds": 23.35,
+    "stake": 0.0,
+    "free_bet_stake": 1.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 4,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": null,
+    "def_modifier": false,
+    "notes": "5-leg FREE BUILD spanning all 5 Sky Bet categories (Goals/Shots/Fouls/Cards/Corners) at Chris's request to diversify beyond scorer/SOT/corners - flagged upfront as a long-shot spread, not a value-floor build, since Cards market has no short prices (all 4.0+) forcing odds well outside normal 8-15 target (naive multiplication ~30.8, actual bookmaker builder price 23.35) | Kane ATGS 1.73 G/A/90 1.42 cached bet 159 | Haaland 2+SOT 1.67 SOT/90 2.7-3.0 cached bet 162 | Wolfe 2+fouls 1.57 1.8 fouls/match single-sourced Sky in-house, flagged thin | Ryerson carded 4.33, 0 cards in 3 matches, thin sample | England o4.5 corners 1.57, no reliable corners baseline this session, match-context only | def-mod: N (Norway open/leaky, no low-block evidence, cached bet 159) | Rule 30: Kane/Haaland/Wolfe/Ryerson/England-corners all repeat exposures across bets 159/161/162/163/this fixture cluster - flagged, no Golden Rule breach, all different markets/platforms"
   }
 ]
