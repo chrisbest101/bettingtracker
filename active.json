@@ -2148,5 +2148,30 @@
     "edge_pct": 15,
     "def_modifier": false,
     "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach."
+  },
+  {
+    "id": "162",
+    "date": "2026-07-11",
+    "platform": "Paddy Power",
+    "fixture": "Norway v England",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "free_bet",
+    "legs": [
+      "Jude Bellingham - Player To Score (Anytime)",
+      "Erling Haaland - Player To Have 2 Or More Shots On Target Including Woodwork",
+      "Over 4.5 Corners (Away Total Corners - England)"
+    ],
+    "odds": 7.79,
+    "stake": 0.0,
+    "free_bet_stake": 2.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 6,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": null,
+    "edge_pct": 3,
+    "def_modifier": true,
+    "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)"
   }
 ]
