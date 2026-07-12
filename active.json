@@ -2231,5 +2231,30 @@
     "def_modifier": false,
     "notes": "5-leg FREE BUILD spanning all 5 Sky Bet categories (Goals/Shots/Fouls/Cards/Corners) at Chris's request to diversify beyond scorer/SOT/corners - flagged upfront as a long-shot spread, not a value-floor build, since Cards market has no short prices (all 4.0+) forcing odds well outside normal 8-15 target (naive multiplication ~30.8, actual bookmaker builder price 23.35) | Kane ATGS 1.73 G/A/90 1.42 cached bet 159 | Haaland 2+SOT 1.67 SOT/90 2.7-3.0 cached bet 162 | Wolfe 2+fouls 1.57 1.8 fouls/match single-sourced Sky in-house, flagged thin | Ryerson carded 4.33, 0 cards in 3 matches, thin sample | England o4.5 corners 1.57, no reliable corners baseline this session, match-context only | def-mod: N (Norway open/leaky, no low-block evidence, cached bet 159) | Rule 30: Kane/Haaland/Wolfe/Ryerson/England-corners all repeat exposures across bets 159/161/162/163/this fixture cluster - flagged, no Golden Rule breach, all different markets/platforms",
     "final_score": "Norway 1-2 England"
+  },
+  {
+    "id": "165",
+    "date": "2026-07-12",
+    "platform": "Bet365",
+    "fixture": "Argentina v Switzerland",
+    "competition": "FIFA World Cup 2026 - Quarter-final",
+    "bet_type": "builder_boost",
+    "legs": [
+      "Argentina: Over 4 Corners (5+) - Home Team Total Corners 3-Way",
+      "Lionel Messi - 2+ Shots on Target",
+      "Over 2 Cards (3+) - Total Cards 3-Way (both teams)"
+    ],
+    "odds": 3.0,
+    "stake": 3.0,
+    "free_bet_stake": null,
+    "result": "pending",
+    "net_pl": 0.0,
+    "rating": 7,
+    "sot_per_90": 3.4,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 2.9,
+    "def_modifier": -1,
+    "notes": "SOT/90: 3.4 checkmark [OT+SS] (Messi, OddsCalendar 3.8/gm + Sofascore 17/5=3.4/90) | def-mod: Y(-1) Rule26 confirmed deep block (SUI 3 conceded all tourn, 2 regulation CS in KO, Yakin low block, Manzambi out) | ctx: new | edge: +2.9% comb at pre-boost 3.00 | builder_boost 3 legs: ARG 5+ corners (o4) 1.83 / Messi 2+ SOT 1.36 / 3+ cards combined (o2) 1.40 | 50% winnings boost applied, stake 3 pounds cash, To Return 12 incl 3 boost | Rule27: stake dropped 1 band (Messi 2+ SOT @1.36 sub-2.5) | Rule30: same-fixture cluster with pending bet 160 (Sky super_boost 7 pounds) - diff platform+structure, no GR breach"
   }
 ]
