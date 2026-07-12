@@ -2248,14 +2248,15 @@
     "odds": 3.0,
     "stake": 3.0,
     "free_bet_stake": null,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -3.0,
     "rating": 7,
     "sot_per_90": 3.4,
     "ga_per_90": null,
     "threshold_met": true,
     "edge_pct": 2.9,
     "def_modifier": -1,
-    "notes": "SOT/90: 3.4 checkmark [OT+SS] (Messi, OddsCalendar 3.8/gm + Sofascore 17/5=3.4/90) | def-mod: Y(-1) Rule26 confirmed deep block (SUI 3 conceded all tourn, 2 regulation CS in KO, Yakin low block, Manzambi out) | ctx: new | edge: +2.9% comb at pre-boost 3.00 | builder_boost 3 legs: ARG 5+ corners (o4) 1.83 / Messi 2+ SOT 1.36 / 3+ cards combined (o2) 1.40 | 50% winnings boost applied, stake 3 pounds cash, To Return 12 incl 3 boost | Rule27: stake dropped 1 band (Messi 2+ SOT @1.36 sub-2.5) | Rule30: same-fixture cluster with pending bet 160 (Sky super_boost 7 pounds) - diff platform+structure, no GR breach"
+    "notes": "SOT/90: 3.4 checkmark [OT+SS] (Messi, OddsCalendar 3.8/gm + Sofascore 17/5=3.4/90) | def-mod: Y(-1) Rule26 confirmed deep block (SUI 3 conceded all tourn, 2 regulation CS in KO, Yakin low block, Manzambi out) | ctx: new | edge: +2.9% comb at pre-boost 3.00 | builder_boost 3 legs: ARG 5+ corners (o4) 1.83 / Messi 2+ SOT 1.36 / 3+ cards combined (o2) 1.40 | 50% winnings boost applied, stake 3 pounds cash, To Return 12 incl 3 boost | Rule27: stake dropped 1 band (Messi 2+ SOT @1.36 sub-2.5) | Rule30: same-fixture cluster with pending bet 160 (Sky super_boost 7 pounds) - diff platform+structure, no GR breach",
+    "final_score": "Argentina 3-1 Switzerland (AET)"
   }
 ]
