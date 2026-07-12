@@ -1,13 +1,13 @@
 {
   "updated": "2026-07-12",
-  "total": 165,
+  "total": 166,
   "won": 72,
   "lost": 81,
   "void": 3,
   "cashed_out": 7,
-  "staked": 684.75,
+  "staked": 687.75,
   "pnl": 276.65,
-  "win_rate": 44.4,
+  "win_rate": 44.2,
   "best_return": 26.25,
-  "roi": 40.4
+  "roi": 40.2
 }
