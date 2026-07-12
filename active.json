@@ -2096,14 +2096,16 @@
     "boosted_odds": 2.0,
     "rating": 8,
     "stake": 7.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "cashed_out",
+    "net_pl": -4.09,
     "sot_per_90": 2.0,
     "ga_per_90": 1.42,
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": false,
-    "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games."
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games.",
+    "actual_return": 2.91,
+    "final_score": "Norway 1-2 England"
   },
   {
     "id": "160",
@@ -2140,14 +2142,15 @@
     "boosted_odds": 2.0,
     "rating": 8,
     "stake": 5.0,
-    "result": "pending",
-    "net_pl": 0.0,
+    "result": "lost",
+    "net_pl": -5.0,
     "sot_per_90": 2.0,
     "ga_per_90": null,
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": false,
-    "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach."
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach.",
+    "final_score": "Norway 1-2 England"
   },
   {
     "id": "162",
@@ -2164,7 +2167,7 @@
     "odds": 7.79,
     "stake": 0.0,
     "free_bet_stake": 2.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 6,
     "sot_per_90": null,
@@ -2172,7 +2175,8 @@
     "threshold_met": null,
     "edge_pct": 3,
     "def_modifier": true,
-    "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)"
+    "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)",
+    "final_score": "Norway 1-2 England"
   },
   {
     "id": "163",
@@ -2189,7 +2193,7 @@
     "odds": 10.47,
     "stake": 0.0,
     "free_bet_stake": 1.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 5,
     "sot_per_90": null,
@@ -2197,7 +2201,8 @@
     "threshold_met": null,
     "edge_pct": null,
     "def_modifier": false,
-    "notes": "3-leg FREE BUILD, same fixture as bet 162, different legs (Rule 30: Kane/Bellingham/Norway-England corners now doubled up across bets 159/161/162/this - flagged, no Golden Rule breach, different markets/platforms) | Kane ATGS 1.8, G/A/90 1.42 cached see bet 159, def-mod Y applied (Norway underdog, likely deeper) | Bellingham 2+SOT 2.88, SOT/90 not independently sourced this session, flagged | England o5.5 corners 2.0, no reliable corners data found this session either, match-context only | actual platform bet builder price 10.47 (vs naive multiplication ~10.37, close)"
+    "notes": "3-leg FREE BUILD, same fixture as bet 162, different legs (Rule 30: Kane/Bellingham/Norway-England corners now doubled up across bets 159/161/162/this - flagged, no Golden Rule breach, different markets/platforms) | Kane ATGS 1.8, G/A/90 1.42 cached see bet 159, def-mod Y applied (Norway underdog, likely deeper) | Bellingham 2+SOT 2.88, SOT/90 not independently sourced this session, flagged | England o5.5 corners 2.0, no reliable corners data found this session either, match-context only | actual platform bet builder price 10.47 (vs naive multiplication ~10.37, close)",
+    "final_score": "Norway 1-2 England"
   },
   {
     "id": "164",
@@ -2216,7 +2221,7 @@
     "odds": 23.35,
     "stake": 0.0,
     "free_bet_stake": 1.0,
-    "result": "pending",
+    "result": "lost",
     "net_pl": 0.0,
     "rating": 4,
     "sot_per_90": null,
@@ -2224,6 +2229,7 @@
     "threshold_met": null,
     "edge_pct": null,
     "def_modifier": false,
-    "notes": "5-leg FREE BUILD spanning all 5 Sky Bet categories (Goals/Shots/Fouls/Cards/Corners) at Chris's request to diversify beyond scorer/SOT/corners - flagged upfront as a long-shot spread, not a value-floor build, since Cards market has no short prices (all 4.0+) forcing odds well outside normal 8-15 target (naive multiplication ~30.8, actual bookmaker builder price 23.35) | Kane ATGS 1.73 G/A/90 1.42 cached bet 159 | Haaland 2+SOT 1.67 SOT/90 2.7-3.0 cached bet 162 | Wolfe 2+fouls 1.57 1.8 fouls/match single-sourced Sky in-house, flagged thin | Ryerson carded 4.33, 0 cards in 3 matches, thin sample | England o4.5 corners 1.57, no reliable corners baseline this session, match-context only | def-mod: N (Norway open/leaky, no low-block evidence, cached bet 159) | Rule 30: Kane/Haaland/Wolfe/Ryerson/England-corners all repeat exposures across bets 159/161/162/163/this fixture cluster - flagged, no Golden Rule breach, all different markets/platforms"
+    "notes": "5-leg FREE BUILD spanning all 5 Sky Bet categories (Goals/Shots/Fouls/Cards/Corners) at Chris's request to diversify beyond scorer/SOT/corners - flagged upfront as a long-shot spread, not a value-floor build, since Cards market has no short prices (all 4.0+) forcing odds well outside normal 8-15 target (naive multiplication ~30.8, actual bookmaker builder price 23.35) | Kane ATGS 1.73 G/A/90 1.42 cached bet 159 | Haaland 2+SOT 1.67 SOT/90 2.7-3.0 cached bet 162 | Wolfe 2+fouls 1.57 1.8 fouls/match single-sourced Sky in-house, flagged thin | Ryerson carded 4.33, 0 cards in 3 matches, thin sample | England o4.5 corners 1.57, no reliable corners baseline this session, match-context only | def-mod: N (Norway open/leaky, no low-block evidence, cached bet 159) | Rule 30: Kane/Haaland/Wolfe/Ryerson/England-corners all repeat exposures across bets 159/161/162/163/this fixture cluster - flagged, no Golden Rule breach, all different markets/platforms",
+    "final_score": "Norway 1-2 England"
   }
 ]
