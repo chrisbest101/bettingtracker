@@ -2128,7 +2128,6 @@
     "edge_pct": 7,
     "def_modifier": true,
     "notes": "SOT/90: 3.73✓ [SS+OT] | G/A/90: 1.98✓ [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games.",
-    "linked_bet_id": "166",
     "final_score": "Argentina 3-1 Switzerland (AET)"
   },
   {
@@ -2258,29 +2257,5 @@
     "edge_pct": 2.9,
     "def_modifier": -1,
     "notes": "SOT/90: 3.4 checkmark [OT+SS] (Messi, OddsCalendar 3.8/gm + Sofascore 17/5=3.4/90) | def-mod: Y(-1) Rule26 confirmed deep block (SUI 3 conceded all tourn, 2 regulation CS in KO, Yakin low block, Manzambi out) | ctx: new | edge: +2.9% comb at pre-boost 3.00 | builder_boost 3 legs: ARG 5+ corners (o4) 1.83 / Messi 2+ SOT 1.36 / 3+ cards combined (o2) 1.40 | 50% winnings boost applied, stake 3 pounds cash, To Return 12 incl 3 boost | Rule27: stake dropped 1 band (Messi 2+ SOT @1.36 sub-2.5) | Rule30: same-fixture cluster with pending bet 160 (Sky super_boost 7 pounds) - diff platform+structure, no GR breach"
-  },
-  {
-    "id": "166",
-    "date": "2026-07-12",
-    "platform": "Paddy Power",
-    "fixture": "Argentina v Switzerland",
-    "competition": "FIFA World Cup 2026 - Quarter-final",
-    "bet_type": "super_boost",
-    "player": "Lionel Messi",
-    "market": "To Score",
-    "pre_boost_odds": 1.91,
-    "boosted_odds": 2.0,
-    "rating": 7,
-    "stake": 5.0,
-    "result": "lost",
-    "net_pl": -5.0,
-    "sot_per_90": 3.73,
-    "ga_per_90": 1.98,
-    "threshold_met": true,
-    "edge_pct": 2,
-    "def_modifier": true,
-    "linked_bet_id": "160",
-    "notes": "G/A/90: 1.98✓ [OT:WhoScored+livescore] | SOT/90: 3.73✓ | def-mod: Y (Rule26 confirmed deep block: SUI 3 conceded all tourn, back-to-back regulation KO clean sheets, Yakin low block, Manzambi out) | ctx: new (ref Pinheiro POR restrained this WC, H2H SUI never beaten ARG in 7, both 4 days rest off heavier SUI 120min+pens) | edge: +2% (true ~52% vs implied 50%) | super_boost 1.91->2.0 anytime scorer. LINKED bet 160 (Sky Bet, Messi To Score incl.ET, £7) - same player+fixture+market, diff platform, Golden Rule 2 override, Rule 30 flagged, no breach. Combined Messi-to-score exposure this fixture £12 (£7 Sky + £5 PP). PP slip didn't specify 90min vs incl.ET - logged 'To Score', flag if 90min-only for accurate settlement.",
-    "final_score": "Argentina 3-1 Switzerland (AET)"
   }
 ]
