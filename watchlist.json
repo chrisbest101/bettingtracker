@@ -75,6 +75,18 @@
         "note": "edge_pct field populated from v3.8 (6 Jul 26) forward; clean sample builds from there. CLV (C5) is the external cross-check once odds_closing accumulates."
       },
       "action_threshold": "30 settled bets per edge band (Rule 31)"
+    },
+    {
+      "id": "W7",
+      "opened": "2026-07-14",
+      "status": "open",
+      "category": "staking_method",
+      "candidate": "Replace rating-band staking with edge-proportional sizing once edge_pct is proven calibrated",
+      "snapshot": {
+        "note": "Opened at v4.3. Depends on C4 (edge bands) and C6 (stake bands) separating. If C4 shows no separation, staking method is moot until true-prob method fixed."
+      },
+      "action_threshold": "n>=30 settled bets per C4 edge band AND per C6 stake band (Rule 31)",
+      "resolution": null
     }
   ]
 }
