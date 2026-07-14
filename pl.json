@@ -9,5 +9,20 @@
   "pnl": 266.65,
   "win_rate": 43.6,
   "best_return": 26.25,
-  "roi": 38.0
+  "roi": 38.0,
+  "cash_pnl": 260.76,
+  "cash_staked": 701.75,
+  "cash_roi": 37.2,
+  "known_variance": {
+    "noted": "2026-07-14",
+    "cause": "bet records 54-56 lost in historical archive migration + one legacy count drift; aggregates (updated incrementally at settlement) are canonical per decision 14 Jul 2026",
+    "records_plus_variance_equals_aggregates": true,
+    "delta": {
+      "total": 1,
+      "won": 1,
+      "lost": 3,
+      "pnl": 9.0,
+      "staked": 35.0
+    }
+  }
 }

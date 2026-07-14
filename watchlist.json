@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08",
+  "updated": "2026-07-14",
   "items": [
     {
       "id": "W1",
@@ -51,6 +51,30 @@
       },
       "action_threshold": "n>=30 settled 2+ SOT bets/legs with sot_per_90 populated",
       "resolution": null
+    },
+    {
+      "id": "W5",
+      "opened": "2026-07-14",
+      "status": "open",
+      "category": "free_bet_ev",
+      "candidate": "Free build parameters miscalibrated: hypothesis is per-leg edge threshold should be LOWER (token stake, maximise expected return) while correlation requirement gets STRICTER. Possible band shift beyond 8.0-15.0.",
+      "snapshot": {
+        "record": "1W-14L-1CO from 16 settled free bets",
+        "pnl": 5.89,
+        "note": "0-for-7 recent run is within variance at 8-15 odds (~45% chance of 0/7 at fair value) - do not overreact"
+      },
+      "action_threshold": "30 settled free bets (Rule 31)"
+    },
+    {
+      "id": "W6",
+      "opened": "2026-07-14",
+      "status": "open",
+      "category": "edge_calibration",
+      "candidate": "Stated edge_pct may not be calibrated - do 15%+ edge bets win more than 0-5% edge bets? Reviewed via new C4 bucket.",
+      "snapshot": {
+        "note": "edge_pct field populated from v3.8 (6 Jul 26) forward; clean sample builds from there. CLV (C5) is the external cross-check once odds_closing accumulates."
+      },
+      "action_threshold": "30 settled bets per edge band (Rule 31)"
     }
   ]
 }
