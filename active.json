@@ -350,12 +350,12 @@
    }
   ],
   "boost": "100%",
-  "pre_boost_odds": 4.25,
-  "boosted_odds": 7.5,
   "stake": 5.0,
   "result": "won",
   "net_pl": 32.5,
-  "rating": 7
+  "rating": 7,
+  "odds": 7.5,
+  "odds_was": 4.25
  },
  {
   "id": "069",
@@ -383,12 +383,12 @@
    "Germany Over 1.5 Team Goals"
   ],
   "boost": "50%",
-  "pre_boost_odds": 2.7,
-  "boosted_odds": 2.7,
   "stake": 5.0,
   "result": "won",
   "net_pl": 12.75,
-  "rating": 7
+  "rating": 7,
+  "odds": 2.7,
+  "odds_was": 2.7
  },
  {
   "id": "071",
@@ -486,12 +486,12 @@
    "Ismaila Sarr 1+ Shot on Target"
   ],
   "boost": "50%",
-  "pre_boost_odds": 3.5,
-  "boosted_odds": 5.25,
   "stake": 1.0,
   "result": "lost",
   "net_pl": -1.0,
-  "rating": 7
+  "rating": 7,
+  "odds": 5.25,
+  "odds_was": 3.5
  },
  {
   "id": "078",
@@ -555,12 +555,12 @@
     "market": "Player Shown a Card"
    }
   ],
-  "pre_boost_odds": null,
-  "boosted_odds": 9.64,
   "stake": 0.0,
   "result": "lost",
   "net_pl": 0.0,
-  "rating": 7.0
+  "rating": 7.0,
+  "odds": 9.64,
+  "odds_was": null
  },
  {
   "id": "082",
@@ -582,12 +582,12 @@
     "market": "Player to be Carded"
    }
   ],
-  "pre_boost_odds": null,
-  "boosted_odds": 12.79,
   "stake": 0.0,
   "result": "lost",
   "net_pl": 0.0,
-  "rating": 7.0
+  "rating": 7.0,
+  "odds": 12.79,
+  "odds_was": null
  },
  {
   "id": "083",
@@ -623,12 +623,12 @@
     "market": "To Score or Assist"
    }
   ],
-  "pre_boost_odds": null,
-  "boosted_odds": 10.58,
   "stake": 0.0,
   "result": "lost",
   "net_pl": 0.0,
-  "rating": 7.0
+  "rating": 7.0,
+  "odds": 10.58,
+  "odds_was": null
  },
  {
   "id": "085",
@@ -710,12 +710,12 @@
     "market": "To Score or Assist"
    }
   ],
-  "pre_boost_odds": 3.08,
-  "boosted_odds": 6.16,
   "stake": 5.0,
   "result": "won",
   "net_pl": 25.8,
-  "rating": 7.0
+  "rating": 7.0,
+  "odds": 6.16,
+  "odds_was": 3.08
  },
  {
   "id": "090",
@@ -1029,8 +1029,7 @@
   "type": "builder_boost",
   "platform": "Bet365",
   "boost": "50% winnings boost",
-  "odds": 3.4,
-  "boosted_odds": 4.6,
+  "odds": 4.6,
   "stake": 1.0,
   "free_bet_stake": 0,
   "legs": [
@@ -1040,7 +1039,8 @@
   ],
   "result": "lost",
   "net_pl": -1.0,
-  "rating": 7
+  "rating": 7,
+  "odds_was": 3.4
  },
  {
   "id": "110",
@@ -1158,13 +1158,13 @@
   "market": "Musiala Score or Assist / Pavlovic 1+ Fouls Committed / Germany Over 3 Corners (incl. ET) \u2014 50% Winnings Boost",
   "platform": "Bet365",
   "type": "builder_boost",
-  "odds": 3.0,
-  "boosted_odds": 3.5,
+  "odds": 3.5,
   "stake": 1.0,
   "result": "won",
   "net_pl": 0.75,
   "rating": 7,
-  "stake_cap": 1.0
+  "stake_cap": 1.0,
+  "odds_was": 3.0
  },
  {
   "id": "118",
@@ -1228,11 +1228,8 @@
   "platform": "Paddy Power",
   "fixture": "England v DR Congo",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Harry Kane",
   "market": "1+ Shots on Target (incl. woodwork) - 1st Half",
-  "pre_boost_odds": 1.5,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "won",
@@ -1240,7 +1237,10 @@
   "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block, evidenced vs Portugal. Ghana blank flagged as risk precedent.",
   "actual_stake": 3.0,
   "actual_returns": 6.0,
-  "bet_id_ref": "O/10074925/0002038"
+  "bet_id_ref": "O/10074925/0002038",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.5
  },
  {
   "id": "123",
@@ -1248,11 +1248,8 @@
   "platform": "Sky Bet",
   "fixture": "England v DR Congo",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Jude Bellingham",
   "market": "1+ Shots on Target (incl. extra time)",
-  "pre_boost_odds": 1.5,
-  "boosted_odds": 2.0,
   "rating": 7,
   "stake": 5.0,
   "result": "won",
@@ -1260,7 +1257,10 @@
   "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. SOT per 90 (1.22-1.27) meets threshold with narrower margin than typical striker profile; extended ET window boosts edge.",
   "actual_stake": 5.0,
   "actual_returns": 10.0,
-  "bet_id_ref": "O/5860575/0000346"
+  "bet_id_ref": "O/5860575/0000346",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.5
  },
  {
   "id": "124",
@@ -1268,18 +1268,18 @@
   "platform": "Betfair",
   "fixture": "England v DR Congo",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Bukayo Saka",
   "market": "To Score or Assist a Goal",
-  "pre_boost_odds": 2.1,
-  "boosted_odds": 2.3,
   "rating": 6,
   "stake": 3.0,
   "result": "cashed_out",
   "net_pl": 0.0,
   "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline. Cashed out pre-match for full stake back (\u00a33) - Saka not starting.",
   "actual_stake": 3.0,
-  "actual_returns": 3.0
+  "actual_returns": 3.0,
+  "type": "super_boost",
+  "odds": 2.3,
+  "odds_was": 2.1
  },
  {
   "id": "125",
@@ -1287,7 +1287,6 @@
   "platform": "Paddy Power",
   "fixture": "England v DR Congo",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Arthur Masuaku",
@@ -1309,7 +1308,8 @@
   "net_pl": 2.36,
   "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT. Cashed out live at 54' (0-1) for \u00a32.36 - free bet, no real stake at risk, straight profit.",
   "actual_returns": 2.36,
-  "rating": 0
+  "rating": 0,
+  "type": "free_bet"
  },
  {
   "id": "126",
@@ -1317,7 +1317,6 @@
   "platform": "Sky Bet",
   "fixture": "England v DR Congo",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Team Total",
@@ -1338,7 +1337,8 @@
   "result": "lost",
   "net_pl": 0.0,
   "notes": "Free bet builder. Value leg: Wissa anytime scorer - matches Kane's 1.0 goals-per-match rate but priced 3.4x longer on implied probability. Categories: F-Corners, C-Fouls, A-Goals.",
-  "rating": 0
+  "rating": 0,
+  "type": "free_bet"
  },
  {
   "id": "127",
@@ -1346,7 +1346,6 @@
   "platform": "Bet365",
   "fixture": "Belgium v Senegal",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Sadio Mane",
@@ -1370,7 +1369,8 @@
   "actual_stake": 0.0,
   "to_return": 14.0,
   "bet_ref": "FD2492962641W",
-  "rating": 0
+  "rating": 0,
+  "type": "free_bet"
  },
  {
   "id": "128",
@@ -1378,11 +1378,8 @@
   "platform": "Paddy Power",
   "fixture": "Belgium v Senegal",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Sadio Mane",
   "market": "1+ Shots on Target (winner in last match)",
-  "pre_boost_odds": 1.8,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 7.0,
   "result": "won",
@@ -1390,7 +1387,10 @@
   "notes": "SOT per 90: 1.26 (FootyStats, 30/2136min) cross-checked vs RotoWire all-comps (32 SOT/34 apps) - consistent, threshold met. G/A per 90 0.67. Senegal must attack (knockout, need the win) - no defensive context modifier. True prob ~58% vs implied 50% at boosted odds - +8% edge.",
   "actual_stake": 7.0,
   "returns": 14.0,
-  "bet_ref": "O/10074925/0002040"
+  "bet_ref": "O/10074925/0002040",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.8
  },
  {
   "id": "129",
@@ -1398,18 +1398,18 @@
   "platform": "Paddy Power",
   "fixture": "Spain v Austria",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Lamine Yamal",
   "market": "To Score or Assist (90 mins only)",
-  "pre_boost_odds": 1.53,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 5.0,
   "result": "lost",
   "net_pl": -5.0,
   "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
   "actual_stake": 5.0,
-  "stake_cap_applied": 5.0
+  "stake_cap_applied": 5.0,
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.53
  },
  {
   "id": "130",
@@ -1417,17 +1417,17 @@
   "platform": "Betfair",
   "fixture": "Spain v Austria",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Lamine Yamal",
   "market": "To Score or Assist",
-  "boosted_odds": 2.0,
   "rating": 0,
   "stake": 5.0,
   "result": "lost",
   "net_pl": -5.0,
   "notes": "GOLDEN RULE VIOLATION FLAGGED: same player (Lamine Yamal), same fixture (Spain v Austria), same market type as bet 129 (Paddy Power, score or assist, GBP5). This is a duplicate exposure across platforms placed by user outside the standard workflow - logged as placed for accurate P&L tracking, not rated or verdict-approved by GemBets analysis. Combined Yamal score-or-assist exposure this fixture: GBP10 staked (GBP5 Paddy Power + GBP5 Betfair).",
   "actual_stake": 5.0,
-  "returns_if_won": 10.0
+  "returns_if_won": 10.0,
+  "type": "super_boost",
+  "odds": 2.0
  },
  {
   "id": "131",
@@ -1435,7 +1435,6 @@
   "platform": "Bet365",
   "fixture": "Portugal v Croatia",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "builder_boost",
   "legs": [
    {
     "player": "Cristiano Ronaldo",
@@ -1451,15 +1450,16 @@
    }
   ],
   "boost": "50% winnings boost",
-  "pre_boost_odds": 2.3,
-  "boosted_odds": 2.95,
   "stake": 1.0,
   "stake_cap_applied": 1.0,
   "result": "lost",
   "net_pl": -1.0,
   "rating": 0,
   "notes": "Ronaldo 2+ SOT and Perisic 1+ fouls committed both sourced/two-source verified (3.67 SOT/90, 1.05 fouls/90). Third leg (Nuno Mendes 1+ fouls won) swapped in from live market screen after fouls-committed alternatives (Vitinha, Modric, Stanisic, Sutalo) all failed the 1.0 fouls/90 threshold - fouls-drawn market used instead of preferred fouls-committed, no per-90 fouls-won stat sourced for Mendes. Logged rating 0 per outside-standard-workflow convention given partial R3 deviation on leg 3.",
-  "bet_ref": "QD7125223451W"
+  "bet_ref": "QD7125223451W",
+  "type": "builder_boost",
+  "odds": 2.95,
+  "odds_was": 2.3
  },
  {
   "id": "132",
@@ -1467,16 +1467,16 @@
   "platform": "Sky Bet",
   "fixture": "Australia v Egypt",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Mohamed Salah",
   "market": "To Score or Assist (incl. Extra Time)",
-  "pre_boost_odds": 1.91,
-  "boosted_odds": 2.1,
   "rating": 6,
   "stake": 3.0,
   "result": "lost",
   "net_pl": -3.0,
-  "notes": "Initially skipped (rating 4/10) due to unconfirmed hamstring fitness doubt - coach non-committal pre-lineup. Re-rated after user confirmed official starting lineup (Salah in). G/A per 90: 1.24 (1G/2A, 218 mins, Yahoo Sports - single-sourced, flagged). Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. True prob ~50-55% vs implied 47.6% at boosted odds - +2-7% edge. No max stake cap applied."
+  "notes": "Initially skipped (rating 4/10) due to unconfirmed hamstring fitness doubt - coach non-committal pre-lineup. Re-rated after user confirmed official starting lineup (Salah in). G/A per 90: 1.24 (1G/2A, 218 mins, Yahoo Sports - single-sourced, flagged). Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. True prob ~50-55% vs implied 47.6% at boosted odds - +2-7% edge. No max stake cap applied.",
+  "type": "super_boost",
+  "odds": 2.1,
+  "odds_was": 1.91
  },
  {
   "id": "133",
@@ -1484,17 +1484,17 @@
   "platform": "Bet365",
   "fixture": "Australia v Egypt",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "builder_boost",
   "player": "Omar Marmoush",
   "market": "1+ Shots on Target & 1+ Fouls Won",
-  "pre_boost_odds": 1.66,
-  "boosted_odds": 2.2,
   "rating": 6,
   "stake": 1.0,
   "stake_cap_applied": 1.0,
   "result": "lost",
   "net_pl": -1.0,
-  "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap \u00a31 applied by platform, overriding \u00a33 rated stake."
+  "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap \u00a31 applied by platform, overriding \u00a33 rated stake.",
+  "type": "builder_boost",
+  "odds": 2.2,
+  "odds_was": 1.66
  },
  {
   "id": "134",
@@ -1502,16 +1502,16 @@
   "platform": "Paddy Power",
   "fixture": "Argentina v Cape Verde",
   "competition": "FIFA World Cup 2026 - Round of 32",
-  "bet_type": "super_boost",
   "player": "Lionel Messi",
   "market": "To Score (90 mins only)",
-  "pre_boost_odds": 1.44,
-  "boosted_odds": 2.0,
   "rating": 7,
   "stake": 5.0,
   "result": "won",
   "net_pl": 5.0,
-  "notes": "G/A per 90 ~2.57 across 3 group games (6 goals, small sample flagged), confirmed starter, penalty/FK taker. Defensive context modifier applied (-1): Cape Verde confirmed compact mid-block low block. True prob ~55-60% vs implied 50% at boosted odds - +5-10% edge. No max stake cap applied. Placement/platform confirmation was delayed several messages after verdict - logged retroactively as a completed win."
+  "notes": "G/A per 90 ~2.57 across 3 group games (6 goals, small sample flagged), confirmed starter, penalty/FK taker. Defensive context modifier applied (-1): Cape Verde confirmed compact mid-block low block. True prob ~55-60% vs implied 50% at boosted odds - +5-10% edge. No max stake cap applied. Placement/platform confirmation was delayed several messages after verdict - logged retroactively as a completed win.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.44
  },
  {
   "id": "135",
@@ -1519,18 +1519,18 @@
   "platform": "Paddy Power",
   "fixture": "France v Paraguay",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Kylian Mbappe",
   "market": "To Score (90 mins only)",
-  "pre_boost_odds": 1.5,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 5.0,
   "stake_cap_applied": 5.0,
   "result": "won",
   "net_pl": 5.0,
   "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
-  "actual_returns": 10.0
+  "actual_returns": 10.0,
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.5
  },
  {
   "id": "136",
@@ -1538,16 +1538,16 @@
   "platform": "Paddy Power",
   "fixture": "Mexico v England",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Harry Kane",
   "market": "1+ Shots on Target (incl. woodwork)",
-  "pre_boost_odds": 1.33,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "won",
   "net_pl": 3.0,
-  "notes": "SOT per 90: 2.5 (Bundesliga, Fotmob), cross-checked vs ~1.9 SOT/game international last 10 (Covers/Yahoo) - threshold met, in career-best form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani, 3.7-3.8 yellows/game career (not decisive factor for SOT market). England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). True prob ~55% vs implied 50% at boosted odds - +5% edge. No max stake cap applied."
+  "notes": "SOT per 90: 2.5 (Bundesliga, Fotmob), cross-checked vs ~1.9 SOT/game international last 10 (Covers/Yahoo) - threshold met, in career-best form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani, 3.7-3.8 yellows/game career (not decisive factor for SOT market). England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). True prob ~55% vs implied 50% at boosted odds - +5% edge. No max stake cap applied.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.33
  },
  {
   "id": "137",
@@ -1555,16 +1555,16 @@
   "platform": "Betfair",
   "fixture": "Brazil v Norway",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Vinicius Junior",
   "market": "1+ Shots on Target (90 mins only)",
-  "pre_boost_odds": 1.25,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 7.0,
   "result": "won",
   "net_pl": 7.0,
-  "notes": "SOT per 90: 1.47 (FootyStats, La Liga 2025/26) - threshold comfortably met. Recent tournament form: 5 SOT on 8 shots vs Scotland, 4 goals across group stage, in career-best tournament form. No defensive context modifier: Norway run a mid-block designed to funnel play centrally and counter through Haaland's pace, not a passive low block, insufficient evidence to apply Rule 26. Referee Ismail Elfath. True prob ~68% vs implied 50% at boosted odds - +18% edge. No max stake cap applied."
+  "notes": "SOT per 90: 1.47 (FootyStats, La Liga 2025/26) - threshold comfortably met. Recent tournament form: 5 SOT on 8 shots vs Scotland, 4 goals across group stage, in career-best tournament form. No defensive context modifier: Norway run a mid-block designed to funnel play centrally and counter through Haaland's pace, not a passive low block, insufficient evidence to apply Rule 26. Referee Ismail Elfath. True prob ~68% vs implied 50% at boosted odds - +18% edge. No max stake cap applied.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.25
  },
  {
   "id": "138",
@@ -1572,16 +1572,16 @@
   "platform": "Betfair",
   "fixture": "Mexico v England",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Marcus Rashford",
   "market": "1+ Shots on Target",
-  "pre_boost_odds": 1.83,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "void",
   "net_pl": 0.0,
-  "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied. VOID - Rashford did not qualify (did not feature/insufficient participation), stake returned. \u00a33 back."
+  "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied. VOID - Rashford did not qualify (did not feature/insufficient participation), stake returned. \u00a33 back.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.83
  },
  {
   "id": "139",
@@ -1589,16 +1589,16 @@
   "platform": "Sky Bet",
   "fixture": "Mexico v England",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Jude Bellingham",
   "market": "1+ Shot on Target (incl. extra time)",
-  "pre_boost_odds": 1.67,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "won",
   "net_pl": 3.0,
-  "notes": "SOT per 90: 1.22-1.27 (FootyStats shot accuracy calc, cross-checked vs StatMuse SOT/minutes) - threshold met, narrower margin than a striker profile. G/A per 90 0.47, stable form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Extra-time window adds cushion vs 90-min-only markets. True prob ~53% vs implied 50% at boosted odds - +3% edge. No max stake cap applied. Logged retroactively after being confirmed placed later in session."
+  "notes": "SOT per 90: 1.22-1.27 (FootyStats shot accuracy calc, cross-checked vs StatMuse SOT/minutes) - threshold met, narrower margin than a striker profile. G/A per 90 0.47, stable form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Extra-time window adds cushion vs 90-min-only markets. True prob ~53% vs implied 50% at boosted odds - +3% edge. No max stake cap applied. Logged retroactively after being confirmed placed later in session.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.67
  },
  {
   "id": "140",
@@ -1606,7 +1606,6 @@
   "platform": "Paddy Power",
   "fixture": "Brazil v Norway",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Erling Haaland",
@@ -1627,7 +1626,8 @@
   "result": "lost",
   "net_pl": 0.0,
   "rating": 7,
-  "notes": "Free bet builder. Haaland scorer: 5 goals this WC, 13-match scoring streak (Squawka). Vinicius 2+ SOT: 2.5 SOT/game two-source confirmed (Squawka + Sofascore), well above 1.0/90 threshold. Casemiro to be carded: booked 2 of last 3 internationals, ref Ismail Elfath averaging 3.5 yellows/game this WC. Categories: A-Goals, B-SOT, D-Cards. Combined 13.92, target range hit."
+  "notes": "Free bet builder. Haaland scorer: 5 goals this WC, 13-match scoring streak (Squawka). Vinicius 2+ SOT: 2.5 SOT/game two-source confirmed (Squawka + Sofascore), well above 1.0/90 threshold. Casemiro to be carded: booked 2 of last 3 internationals, ref Ismail Elfath averaging 3.5 yellows/game this WC. Categories: A-Goals, B-SOT, D-Cards. Combined 13.92, target range hit.",
+  "type": "free_bet"
  },
  {
   "id": "141",
@@ -1635,7 +1635,6 @@
   "platform": "Paddy Power",
   "fixture": "Brazil v Norway",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "David Moller Wolfe",
@@ -1656,7 +1655,8 @@
   "result": "lost",
   "net_pl": 0.0,
   "rating": 7,
-  "notes": "Free bet builder. Moller Wolfe 2+ fouls: 9 fouls in 5 WC games (~1.8/90, Tips.GG). Cunha to score: 3 goals in group stage, full 90 in R32 win (Squawka). Guimaraes assist: 4 assists already this tournament (Squawka), Brazil's deep-lying creator. Categories: C-Fouls, A-Goals, E-Assists. No player overlap with bet 140 (Haaland/Vinicius/Casemiro). Combined 12.8, target range hit."
+  "notes": "Free bet builder. Moller Wolfe 2+ fouls: 9 fouls in 5 WC games (~1.8/90, Tips.GG). Cunha to score: 3 goals in group stage, full 90 in R32 win (Squawka). Guimaraes assist: 4 assists already this tournament (Squawka), Brazil's deep-lying creator. Categories: C-Fouls, A-Goals, E-Assists. No player overlap with bet 140 (Haaland/Vinicius/Casemiro). Combined 12.8, target range hit.",
+  "type": "free_bet"
  },
  {
   "id": "142",
@@ -1664,7 +1664,6 @@
   "platform": "Sky Bet",
   "fixture": "Mexico v England",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "England",
@@ -1685,7 +1684,8 @@
   "result": "won",
   "net_pl": 10.32,
   "rating": 0,
-  "notes": "Free bet BuildABet treble placed outside standard workflow - rating 0. Mexico 2-3 England FT. All three legs won: England FTR, Quansah carded (super sub), Martinez 1+ SOT (super sub, replaced Quinones). Free bet win: 11.32 return - 1.00 free bet stake = 10.32 net."
+  "notes": "Free bet BuildABet treble placed outside standard workflow - rating 0. Mexico 2-3 England FT. All three legs won: England FTR, Quansah carded (super sub), Martinez 1+ SOT (super sub, replaced Quinones). Free bet win: 11.32 return - 1.00 free bet stake = 10.32 net.",
+  "type": "free_bet"
  },
  {
   "id": "143",
@@ -1693,7 +1693,6 @@
   "platform": "Paddy Power",
   "fixture": "Mexico v England",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Jude Bellingham",
@@ -1719,7 +1718,8 @@
   "net_pl": 24.25,
   "rating": 0,
   "notes": "Free bet 4-leg BuildABet placed outside standard workflow - rating 0. Mexico 2-3 England FT. All four legs won (multiple super subs: Stones replaced Saka, Rogers replaced Kane). Bet ID O/10074925/0002049. Free bet win: 26.25 return - 2.00 free bet stake = 24.25 net.",
-  "bet_ref": "O/10074925/0002049"
+  "bet_ref": "O/10074925/0002049",
+  "type": "free_bet"
  },
  {
   "id": "144",
@@ -1727,18 +1727,18 @@
   "platform": "Paddy Power",
   "fixture": "Portugal v Spain",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Lamine Yamal",
   "market": "3+ Shots on Target (incl. woodwork)",
-  "pre_boost_odds": 5.5,
-  "boosted_odds": 6.5,
   "rating": 8,
   "stake": 5.0,
   "stake_cap_applied": 5.0,
   "result": "lost",
   "net_pl": -5.0,
   "notes": "SOT per 90: 2.81 (FotMob, WC26) - threshold comfortably met but figure inflated by cameo group-stage minutes (19/45/76/85), central estimate regressed. Bookie 'last 3 = 6 SOT' heavily weighted by Austria game; live commentary shows several of those were blocked/off-target/cleared off line, count varies by source - flagged. No defensive context modifier: Portugal are open, conceded more shots on goal than they took vs Croatia (6 v 3). Nico Williams still injured - Yamal is Spain's sole wide outlet and primary shooter on a 69%-possession side. Referee Anthony Taylor (neutral for SOT). Fully fit, said he can play 90; knockout likely tight = close to full minutes. True prob ~29% (conservative Poisson) vs implied 15.4% at boosted 6.5 - +14% edge. Max stake cap of GBP5 applied by platform, overriding GBP7 rated stake.",
-  "actual_stake": 5.0
+  "actual_stake": 5.0,
+  "type": "super_boost",
+  "odds": 6.5,
+  "odds_was": 5.5
  },
  {
   "id": "145",
@@ -1746,11 +1746,8 @@
   "platform": "Bet365",
   "fixture": "Portugal v Spain",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Cristiano Ronaldo",
   "market": "1+ Shots on Target (Over 0.5)",
-  "pre_boost_odds": 1.3,
-  "boosted_odds": 2.0,
   "rating": 7,
   "stake": 1.0,
   "stake_cap_applied": 1.0,
@@ -1758,7 +1755,10 @@
   "net_pl": 1.0,
   "notes": "SOT per 90: 2.94 (WC qualification, Opta via PrizePicks) cross-checked vs season Al-Nassr high-volume baseline (2+ SOT/90, FotMob shot map) - threshold met, but WC26 rate regressed to ~1.0-1.5/90 (0 SOT v DR Congo on 3 shots, 2+ v Uzbekistan brace, pen SOT v Croatia). Penalty and free-kick taker, Portugal's central focal point. No defensive context modifier: Spain don't sit deep, they suppress via 65-69% possession not a low block - Rule 26 not applicable. Referee Anthony Taylor (neutral for SOT). Both 4 days rest. Risk: Spain's ball dominance starves Ronaldo's service, and he's already blanked a full 90 this tournament. Second bet on this fixture (bet 144 = Yamal 3+ SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65% vs implied 50% at boosted 2.00 - +15% edge. Bet365 case-by-case max stake of GBP1 applied for this market (not a blanket cap), overriding GBP5 rated stake.",
   "actual_stake": 1.0,
-  "actual_returns": 2.0
+  "actual_returns": 2.0,
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.3
  },
  {
   "id": "146",
@@ -1766,7 +1766,6 @@
   "platform": "Bet365",
   "fixture": "Portugal v Spain",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "straight",
   "player": "Nuno Mendes",
   "market": "1+ Shots (Over 0.5, incl. Extra Time)",
   "odds": 2.0,
@@ -1778,10 +1777,11 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 20,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "Shots per 90: 2.16 (FootyStats, Ligue 1 2025/26, 30 shots/1252 min). WC26 form supportive not contradictory: scored vs Uzbekistan on his only shot, 2+ shots vs Croatia (1 blocked long-ranger plus the goal). No formal shots-market gate in v3.8 (SOT-specific rule doesn't bind here), shot-volume treated as comfortably clearing the 0.5 line. No defensive context modifier: Spain suppress via possession not a low block, Rule 26 not applicable. Referee Anthony Taylor, ~3 yellows/game, neutral for this market. Both sides 4 days rest, fatigue even. Third bet on this fixture (bet 144 Yamal SOT, bet 145 Ronaldo SOT) but different player - no Golden Rule 30 breach, flagged per Rule 30. True prob ~65-75% vs implied 50% at odds 2.00 - +15-25% edge. No max stake cap applied.",
   "actual_stake": 7.0,
-  "actual_returns": 14.0
+  "actual_returns": 14.0,
+  "type": "straight"
  },
  {
   "id": "147",
@@ -1789,7 +1789,6 @@
   "platform": "Paddy Power",
   "fixture": "Portugal v Spain",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "free_bet",
   "legs": [
    {
     "player": "Mikel Oyarzabal",
@@ -1810,7 +1809,8 @@
   "result": "lost",
   "net_pl": 0.0,
   "rating": 7,
-  "notes": "Free bet builder. Oyarzabal anytime scorer: SOT/90 2.0\u2713 [OT-WhoScored+OT-FoxSports], 4 goals/4 apps, Spain's top scorer this WC. Corners: Portugal 4.75/game [SS], home total 3.5 line. Ronaldo 2+SOT: SOT/90 ~1.75 tournament avg [SS+OT-FoxSports] - cumulative avg not per-game breakdown, flagged. def-mod: N (Rule 26 not evidenced, Spain suppress via possession not a low block). ctx: referee cached(144) - Anthony Taylor. Combined landed marginal band (7.85 vs 8-15 target) after two leg swaps under time pressure pre-KO: Fernandes 2+SOT dropped (SOT/90 marginal, sub-1.0 on WC-only sample), Oyarzabal shifted first-scorer\u2192anytime to correct a 17.11 overshoot. Rule 30: Ronaldo also on bet 145 (Bet365, 1+ SOT, different market/platform) - flagged, no Golden Rule 2 breach."
+  "notes": "Free bet builder. Oyarzabal anytime scorer: SOT/90 2.0\u2713 [OT-WhoScored+OT-FoxSports], 4 goals/4 apps, Spain's top scorer this WC. Corners: Portugal 4.75/game [SS], home total 3.5 line. Ronaldo 2+SOT: SOT/90 ~1.75 tournament avg [SS+OT-FoxSports] - cumulative avg not per-game breakdown, flagged. def-mod: N (Rule 26 not evidenced, Spain suppress via possession not a low block). ctx: referee cached(144) - Anthony Taylor. Combined landed marginal band (7.85 vs 8-15 target) after two leg swaps under time pressure pre-KO: Fernandes 2+SOT dropped (SOT/90 marginal, sub-1.0 on WC-only sample), Oyarzabal shifted first-scorer\u2192anytime to correct a 17.11 overshoot. Rule 30: Ronaldo also on bet 145 (Bet365, 1+ SOT, different market/platform) - flagged, no Golden Rule 2 breach.",
+  "type": "free_bet"
  },
  {
   "id": "148",
@@ -1818,11 +1818,8 @@
   "platform": "Betfair",
   "fixture": "USA v Belgium",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Christian Pulisic",
   "market": "1+ Shots on Target & To Be Fouled 1+ Times",
-  "pre_boost_odds": 1.8,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "lost",
@@ -1831,8 +1828,11 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 8,
-  "def_modifier": false,
-  "notes": "SOT/90: 1.09\u2713 [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA."
+  "def_modifier": null,
+  "notes": "SOT/90: 1.09\u2713 [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.8
  },
  {
   "id": "149",
@@ -1840,11 +1840,8 @@
   "platform": "Sky Bet",
   "fixture": "Switzerland v Colombia",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "super_boost",
   "player": "Jhon Arias",
   "market": "1+ Shot on Target (incl. extra time)",
-  "pre_boost_odds": 1.83,
-  "boosted_odds": 2.0,
   "rating": 7,
   "stake": 5.0,
   "result": "lost",
@@ -1853,8 +1850,11 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 15,
-  "def_modifier": false,
-  "notes": "SOT/90: 1.14 [OT-playerstats.football+OT-OddsCalendar] | def-mod: N | ctx: new | edge: +15% | Referee Ivan Barton, sources conflict on career yellows/game (3.85 FootyMetrics vs 4.72 StatsHub) - conservative figure used, not decisive for SOT market. H2H thin (2 meetings all-time, 1994 WC + 2007 friendly, both Colombia wins). Fatigue: Switzerland 4 days rest vs Colombia 3 days rest. Arias plays central/right of Colombia's midfield three, not a pure winger."
+  "def_modifier": null,
+  "notes": "SOT/90: 1.14 [OT-playerstats.football+OT-OddsCalendar] | def-mod: N | ctx: new | edge: +15% | Referee Ivan Barton, sources conflict on career yellows/game (3.85 FootyMetrics vs 4.72 StatsHub) - conservative figure used, not decisive for SOT market. H2H thin (2 meetings all-time, 1994 WC + 2007 friendly, both Colombia wins). Fatigue: Switzerland 4 days rest vs Colombia 3 days rest. Arias plays central/right of Colombia's midfield three, not a pure winger.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.83
  },
  {
   "id": "150",
@@ -1862,7 +1862,6 @@
   "platform": "Bet365",
   "fixture": "Switzerland v Colombia",
   "competition": "FIFA World Cup 2026 - Round of 16",
-  "bet_type": "builder_boost",
   "legs": [
    {
     "player": "Dan Ndoye",
@@ -1878,8 +1877,6 @@
    }
   ],
   "boost": "50% winnings boost",
-  "pre_boost_odds": 2.62,
-  "boosted_odds": 3.43,
   "rating": 7,
   "stake": 5.0,
   "result": "cashed_out",
@@ -1888,11 +1885,14 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": null,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach. | SETTLEMENT: Cashed out live at 71:14, 0-0 (Ndoye 1+ SOT won, Puerta 1+ foul won, Rodriguez 1+ foul leg still live/undetermined at cash-out point). Stake \u00a35 confirmed matches logged assumption. Cash out \u00a37.88, net +\u00a32.88.",
   "bet_ref": null,
   "actual_stake": 5.0,
-  "actual_returns": 7.88
+  "actual_returns": 7.88,
+  "type": "builder_boost",
+  "odds": 3.43,
+  "odds_was": 2.62
  },
  {
   "id": "151",
@@ -1900,11 +1900,8 @@
   "platform": "Paddy Power",
   "fixture": "France v Morocco",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Kylian Mbappe",
   "market": "To Score Anytime",
-  "pre_boost_odds": 1.8,
-  "boosted_odds": 1.85,
   "rating": 7,
   "stake": 5.0,
   "result": "won",
@@ -1914,7 +1911,10 @@
   "threshold_met": true,
   "edge_pct": 15,
   "def_modifier": true,
-  "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest. | PRICE CORRECTION at settlement: boosted price moved from 2.0 to 1.85 before placement was secured, actual bet placed and settled at 1.85. Same underlying bet, odds field corrected retroactively per Chris confirmation."
+  "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest. | PRICE CORRECTION at settlement: boosted price moved from 2.0 to 1.85 before placement was secured, actual bet placed and settled at 1.85. Same underlying bet, odds field corrected retroactively per Chris confirmation.",
+  "type": "super_boost",
+  "odds": 1.85,
+  "odds_was": 1.8
  },
  {
   "id": "152",
@@ -1938,7 +1938,7 @@
   "ga_per_90": null,
   "threshold_met": null,
   "edge_pct": 24,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "3-leg FREE BUILD | Mbappe ATGS 1.83 edge+38 [SI+Betfair] | El Aynaoui 2+fouls 1.57 edge+2 [Betfair+RacingPost] | France o7.5 corners 3.0 edge+32 [tips.gg+sportsgambler] | def-mod: N | ctx: new"
  },
  {
@@ -1947,11 +1947,8 @@
   "platform": "Paddy Power",
   "fixture": "France v Morocco",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Kylian Mbappe & Ousmane Dembele",
   "market": "Mbappe 2+ Shots on Target & Dembele 1+ Shot on Target (incl. woodwork)",
-  "pre_boost_odds": 2.0,
-  "boosted_odds": 3.0,
   "rating": 8,
   "stake": 5.0,
   "result": "won",
@@ -1960,9 +1957,12 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 14,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "SOT/90 unavail, per-game proxy used: Mbappe ~2.2-3.4 [SS/FM+livescore, conflict-flagged, conservative used] | Dembele ~1.67 [SS] both thresh met | def-mod: N | ctx: ref Tello cached see bet 151, H2H cached see bet 151 (France won 2022 semi 2-0), fatigue cached see bet 151 (5 days rest both sides) | edge: +14% (true ~47% vs implied 33.3% at 3.0) | Rated stake GBP7, capped to GBP5 (platform max stake). Rule 30: 3rd active bet this fixture (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, this). FLAG: bet 151 (prior session) carries Rule 26 def-mod TRUE for this fixture (Morocco low-block evidence: 5 shots conceded vs Canada, pens win over Netherlands) - not incorporated into this verdict, GitHub not read pre-verdict per Rule 10 and Rule 33 cache is session-scoped not cross-session. Logged as originally verdicted (Chris's call), flagged here for calibration awareness on cross-session match-context continuity.",
-  "bet_ref": null
+  "bet_ref": null,
+  "type": "super_boost",
+  "odds": 3.0,
+  "odds_was": 2.0
  },
  {
   "id": "154",
@@ -1970,11 +1970,8 @@
   "platform": "Betfair",
   "fixture": "France v Morocco",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Ousmane Dembele",
   "market": "To Score 2 or More Goals",
-  "pre_boost_odds": 13.0,
-  "boosted_odds": 17.0,
   "rating": 6,
   "stake": 3.0,
   "result": "lost",
@@ -1985,7 +1982,10 @@
   "edge_pct": 3,
   "def_modifier": true,
   "notes": "Goals: 4/5 apps this WC (~0.8/game blind avg), 1 multi-goal game (hat-trick vs Norway, weak opp), 0/2 vs the tournament's more organized defenses (Sweden R32, Paraguay R16) [FM+FS, two-source] | def-mod: Y - Morocco genuine low-block identity, cached see bet 151 (5 shots conceded vs Canada, pens win over Netherlands) | ctx: ref Tello/H2H/fatigue cached see bet 151+153 | edge: blind tournament-average would suggest ~+13%, but defensive-context-adjusted (weighting the 2 tougher defensive tests over the 3 weak group games) puts true prob ~8-10% vs implied 5.9% at 17.0 -> ~+2-4% edge, thin. Rating 7 pre-modifier, -1 Rule 26 = 6. Rule 30: 4th active bet on this fixture cluster (151 Mbappe ATGS, 152 Mbappe/El Aynaoui/corners free build, 153 Mbappe+Dembele SOT combo, this) - Dembele's 2nd bet this fixture (153 SOT leg + this goals market).",
-  "bet_ref": null
+  "bet_ref": null,
+  "type": "super_boost",
+  "odds": 17.0,
+  "odds_was": 13.0
  },
  {
   "id": "155",
@@ -1993,11 +1993,8 @@
   "platform": "Betfair",
   "fixture": "France v Morocco",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Ousmane Dembele",
   "market": "1+ Shot on Target",
-  "pre_boost_odds": 1.5,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "won",
@@ -2007,7 +2004,10 @@
   "threshold_met": true,
   "edge_pct": 10,
   "def_modifier": true,
-  "notes": "SOT/90: 1.21\u2713 [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness."
+  "notes": "SOT/90: 1.21\u2713 [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.5
  },
  {
   "id": "156",
@@ -2015,7 +2015,6 @@
   "platform": "Bet365",
   "fixture": "France v Morocco",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "builder_boost",
   "player": null,
   "market": null,
   "legs": [
@@ -2023,8 +2022,6 @@
    "Over 1 Cards (2+ cards, Total Cards 3-Way)",
    "France - Over 4 Corners (5+, Home Team Total Corners 3-Way)"
   ],
-  "pre_boost_odds": null,
-  "boosted_odds": 2.7,
   "rating": 6,
   "stake": 3.0,
   "result": "cashed_out",
@@ -2033,9 +2030,12 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 4,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "Leg1 Doue 1+SOT 1.72 [FM/Sofascore proxy ~1.0/game last-5] prob 63% edge +5% | Leg2 BTC 1+ cards 1.20 [FootyMetrics Tello WC26 avg 3.5 cards/2 matches, conservative vs 4.69 career, two-source flagged] prob 86% edge +3% | Leg3 France o4 corners 1.33 directional only, no independently re-derived corners baseline this session (Rule 33 session-scoped, bet 152's o7.5 corners line from prior session not reused) | Rule 26 NOT applied - volume markets (SOT/cards/corners) run opposite direction to conversion markets under a low block, mechanical -1 would misprice | Team news confirmed both XIs pre-placement, no surprises vs priced. Phase 2 est 2.75 vs actual slip 2.70, within tolerance, no backup swap needed. Combined edge avg ~4%, leg 3 uncertainty flagged as thinnest link. Rule 30: fixture cluster now 151/152/153/154/155, no player overlap with legs here beyond fixture-level Doue exposure (new, first Doue bet this fixture). | CASHED OUT at 92:31, France 2-0 up. Leg1 (Doue SOT) transferred to Barcola via Sub-On-Play-On after Doue withdrawn, that leg won. Cards/corners legs unresolved at cash-out. Actual return \u00a31.35.",
-  "bet_ref": null
+  "bet_ref": null,
+  "type": "builder_boost",
+  "odds": 2.7,
+  "odds_was": null
  },
  {
   "id": "157",
@@ -2043,11 +2043,8 @@
   "platform": "Sky Bet",
   "fixture": "Spain v Belgium",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Lamine Yamal",
   "market": "To Score or Assist (incl. Extra Time)",
-  "pre_boost_odds": 1.67,
-  "boosted_odds": 2.0,
   "rating": 6,
   "stake": 3.0,
   "result": "lost",
@@ -2058,7 +2055,10 @@
   "edge_pct": 7,
   "def_modifier": true,
   "notes": "G/A: 0.29/90 WC26 (1G/0A in 315min) [FM+FS] | def-mod: Y - Belgium set up to sit deeper vs Yamal specifically, cached this session (no bet ID, prior SOT skip not logged) | ctx: ref Oliver/H2H/fatigue cached this session | edge: FanDuel score-or-assist incl.ET -160 (61.5% implied) devigged ~56% vs boosted 50% = +6-7% | Rule 30: checked, no other bet logged this fixture (prior Yamal 2+SOT skipped, not placed)",
-  "bet_ref": null
+  "bet_ref": null,
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.67
  },
  {
   "id": "158",
@@ -2066,11 +2066,8 @@
   "platform": "Bet365",
   "fixture": "Spain v Belgium",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Aymeric Laporte",
   "market": "1+ Shots",
-  "pre_boost_odds": 1.4,
-  "boosted_odds": 2.25,
   "rating": 6,
   "stake": 3.0,
   "result": "lost",
@@ -2079,9 +2076,12 @@
   "ga_per_90": null,
   "threshold_met": null,
   "edge_pct": 7,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "Shots/90: 0.8 (4 in 5 WC games, all starts) [RotoWire + FOX box score] | all shots came vs expansive sides (Cape Verde, Austria), blanked vs tighter tests (Saudi Arabia, Uruguay, Portugal) | def-mod: N - Belgium sit-deeper context cached this session, but for a set-piece CB this is directionally mixed (more corners conceded vs tighter box marking), not mechanically -1, same precedent as bet 156 | ctx: ref/fatigue/H2H cached this session | edge: promo's '1.40 elsewhere' comparator unverified independently, used own model instead - true prob ~50-52% vs implied 44.4% at 2.25 = +6-8% | Rule 30: checked, no other bet logged this fixture on this player",
-  "bet_ref": null
+  "bet_ref": null,
+  "type": "super_boost",
+  "odds": 2.25,
+  "odds_was": 1.4
  },
  {
   "id": "159",
@@ -2089,11 +2089,8 @@
   "platform": "Sky Bet",
   "fixture": "Norway v England",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Harry Kane",
   "market": "To Score or Assist (incl. Extra Time)",
-  "pre_boost_odds": 1.67,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 7.0,
   "result": "cashed_out",
@@ -2102,10 +2099,13 @@
   "ga_per_90": 1.42,
   "threshold_met": true,
   "edge_pct": 15,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games.",
   "actual_return": 2.91,
-  "final_score": "Norway 1-2 England"
+  "final_score": "Norway 1-2 England",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.67
  },
  {
   "id": "160",
@@ -2113,11 +2113,8 @@
   "platform": "Sky Bet",
   "fixture": "Argentina v Switzerland",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Lionel Messi",
   "market": "To Score (incl. Extra Time)",
-  "pre_boost_odds": 1.83,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 7.0,
   "result": "lost",
@@ -2128,7 +2125,10 @@
   "edge_pct": 7,
   "def_modifier": true,
   "notes": "SOT/90: 3.73\u2713 [SS+OT] | G/A/90: 1.98\u2713 [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games.",
-  "final_score": "Argentina 3-1 Switzerland (AET)"
+  "final_score": "Argentina 3-1 Switzerland (AET)",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.83
  },
  {
   "id": "161",
@@ -2136,11 +2136,8 @@
   "platform": "Paddy Power",
   "fixture": "Norway v England",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "super_boost",
   "player": "Harry Kane",
   "market": "2+ Shots on Target incl. Woodwork (90 mins only)",
-  "pre_boost_odds": 1.73,
-  "boosted_odds": 2.0,
   "rating": 8,
   "stake": 5.0,
   "result": "lost",
@@ -2149,9 +2146,12 @@
   "ga_per_90": null,
   "threshold_met": true,
   "edge_pct": 15,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach.",
-  "final_score": "Norway 1-2 England"
+  "final_score": "Norway 1-2 England",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.73
  },
  {
   "id": "162",
@@ -2159,7 +2159,6 @@
   "platform": "Paddy Power",
   "fixture": "Norway v England",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "free_bet",
   "legs": [
    "Jude Bellingham - Player To Score (Anytime)",
    "Erling Haaland - Player To Have 2 Or More Shots On Target Including Woodwork",
@@ -2177,7 +2176,8 @@
   "edge_pct": 3,
   "def_modifier": true,
   "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)",
-  "final_score": "Norway 1-2 England"
+  "final_score": "Norway 1-2 England",
+  "type": "free_bet"
  },
  {
   "id": "163",
@@ -2185,7 +2185,6 @@
   "platform": "Betfair",
   "fixture": "Norway v England",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "free_bet",
   "legs": [
    "Harry Kane - Anytime Goalscorer (Safe Sub)",
    "Jude Bellingham - Player To Have 2 Or More Shots On Target (Safe Sub)",
@@ -2201,9 +2200,10 @@
   "ga_per_90": null,
   "threshold_met": null,
   "edge_pct": null,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "3-leg FREE BUILD, same fixture as bet 162, different legs (Rule 30: Kane/Bellingham/Norway-England corners now doubled up across bets 159/161/162/this - flagged, no Golden Rule breach, different markets/platforms) | Kane ATGS 1.8, G/A/90 1.42 cached see bet 159, def-mod Y applied (Norway underdog, likely deeper) | Bellingham 2+SOT 2.88, SOT/90 not independently sourced this session, flagged | England o5.5 corners 2.0, no reliable corners data found this session either, match-context only | actual platform bet builder price 10.47 (vs naive multiplication ~10.37, close)",
-  "final_score": "Norway 1-2 England"
+  "final_score": "Norway 1-2 England",
+  "type": "free_bet"
  },
  {
   "id": "164",
@@ -2211,7 +2211,6 @@
   "platform": "Sky Bet",
   "fixture": "Norway v England",
   "competition": "FIFA World Cup 2026 - Quarter-final",
-  "bet_type": "free_bet",
   "legs": [
    "Harry Kane - Anytime Goalscorer Including Extra Time (Super Sub)",
    "Erling Haaland - Player To Have 2 Or More Shots On Target Including Extra Time (Super Sub)",
@@ -2229,9 +2228,10 @@
   "ga_per_90": null,
   "threshold_met": null,
   "edge_pct": null,
-  "def_modifier": false,
+  "def_modifier": null,
   "notes": "5-leg FREE BUILD spanning all 5 Sky Bet categories (Goals/Shots/Fouls/Cards/Corners) at Chris's request to diversify beyond scorer/SOT/corners - flagged upfront as a long-shot spread, not a value-floor build, since Cards market has no short prices (all 4.0+) forcing odds well outside normal 8-15 target (naive multiplication ~30.8, actual bookmaker builder price 23.35) | Kane ATGS 1.73 G/A/90 1.42 cached bet 159 | Haaland 2+SOT 1.67 SOT/90 2.7-3.0 cached bet 162 | Wolfe 2+fouls 1.57 1.8 fouls/match single-sourced Sky in-house, flagged thin | Ryerson carded 4.33, 0 cards in 3 matches, thin sample | England o4.5 corners 1.57, no reliable corners baseline this session, match-context only | def-mod: N (Norway open/leaky, no low-block evidence, cached bet 159) | Rule 30: Kane/Haaland/Wolfe/Ryerson/England-corners all repeat exposures across bets 159/161/162/163/this fixture cluster - flagged, no Golden Rule breach, all different markets/platforms",
-  "final_score": "Norway 1-2 England"
+  "final_score": "Norway 1-2 England",
+  "type": "free_bet"
  },
  {
   "id": "165",
