@@ -2333,5 +2333,33 @@
   "odds": 1.83,
   "odds_was": null,
   "odds_closing": null
+ },
+ {
+  "id": "169",
+  "date": "2026-07-14",
+  "platform": "Bet365",
+  "fixture": "France v Spain",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "legs": [
+   "Kylian Mbappe - To Score at Any Time",
+   "Over 2.5 - Number of Cards in Match",
+   "Marc Cucurella - 1+ Fouls Committed (Alternative Player Fouls Committed)"
+  ],
+  "boost": "50% winnings boost",
+  "rating": 7,
+  "stake": 4.23,
+  "result": "pending",
+  "net_pl": 0.0,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 7,
+  "def_modifier": null,
+  "notes": "Mbappe ATGS: 8 goals in 5 WC26 games, scored in 4 of 5 [FIFA/FOX Sports/ESPN] prob ~58% | Over 2.5 cards: ref Ivan Barton rate noisy across trackers (3.0-5.03/game), WC26-specific sample used (4.18/game, FootyMetrics) prob ~55-60%, soft data flagged | Cucurella 1+ fouls: 1.53/90 [FootyStats], cross-checked via raw foul count/minutes [StatMuse] but largely same underlying data source, not fully independent, prob ~75-78% | def-mod: N (fouls-committed leg is about player combativeness not opposition setup, not Rule 26 applicable) | ctx: cached(166) - ref Ivan Barton, H2H, fatigue FRA 5d/ESP 4d rest | Combined naive prob ~26% vs quoted 4.00 (25% implied) - fair price standalone. 50% WINNINGS boost (not a price boost) changes effective payout to ~5.5, effective breakeven ~18% - true ~26% gives +7-8% edge | Rule 30: Mbappe now in 2 active bets this fixture (166 SOT combo, this ATGS leg) - different markets, no Golden Rule breach | Stake was actual full remaining balance (\u00a34.23), not the standard \u00a37 rating-based band - platform/balance constraint, not a bookmaker cap",
+  "bet_ref": "LE5478312831W",
+  "type": "builder_boost",
+  "odds": 4.0,
+  "odds_was": 4.0,
+  "odds_closing": null
  }
 ]
