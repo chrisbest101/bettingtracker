@@ -1160,11 +1160,12 @@
   "type": "builder_boost",
   "odds": 3.5,
   "stake": 1.0,
-  "result": "won",
+  "result": "cashed_out",
   "net_pl": 0.75,
   "rating": 7,
   "stake_cap": 1.0,
-  "odds_was": 3.0
+  "odds_was": 3.0,
+  "notes": "reclassified won->cashed_out 14 Jul 26 (net_pl 0.75 = cash-out at ~1.75 return, confirmed by Chris)"
  },
  {
   "id": "118",
