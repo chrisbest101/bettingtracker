@@ -236,7 +236,7 @@ Golden Rule override bets → rating: 0, not null.
 38. 🆕 WAS price logged at placement for all boosts; closing odds captured at settlement. CLV is the primary external check on edge — reviewed at T6 (C5).
 39. 🆕 Cash and free-bet performance reported separately. cash_roi is the number that says whether the operation profits; blended roi includes token value.
 40. 🆕 Builder correlation uplift: ×1.10 (2 legs) / ×1.15 (3 legs) only when all legs share one game state. Provisional values — Rule 31 governs changes.
-41. 🆕 Max open exposure cap: £25 total staked on unsettled bets at any time [PROVISIONAL — confirm or amend]. Checklist point 8 enforces. Explicit user override permitted, flagged in notes.
+41. 🆕 Max open exposure cap: £50 total staked on unsettled bets at any time (confirmed 14 Jul 2026). Checklist point 8 enforces. Explicit user override permitted, flagged in notes.
 42. 🆕 Read-back = programmatic schema assertion, not visual check.
 43. 🆕 active.json + pl.json written in one commit via Git Trees API. Never sequential PUTs.
 44. 🆕 Platform restriction events (stake caps tightening, account limits, gubbing) logged as watchlist items, category `platform_health`, at the session they're noticed.
