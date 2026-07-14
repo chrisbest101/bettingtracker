@@ -1155,7 +1155,7 @@
     "date": "2026-06-29",
     "fixture": "Germany v Paraguay",
     "player": "Jamal Musiala / Aleksandar Pavlovic / Germany",
-    "market": "Musiala Score or Assist / Pavlovic 1+ Fouls Committed / Germany Over 3 Corners (incl. ET) — 50% Winnings Boost",
+    "market": "Musiala Score or Assist / Pavlovic 1+ Fouls Committed / Germany Over 3 Corners (incl. ET) \u2014 50% Winnings Boost",
     "platform": "Bet365",
     "type": "builder_boost",
     "odds": 3.0,
@@ -1277,7 +1277,7 @@
     "stake": 3.0,
     "result": "cashed_out",
     "net_pl": 0.0,
-    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline. Cashed out pre-match for full stake back (£3) - Saka not starting.",
+    "notes": "Defensive context modifier applied (-1): DR Congo expected 5-3-2 low block. G/A per 90 (0.53) meets threshold narrowly; edge thin, propped up by strong WC form (2 contributions in 3 group games) vs season baseline. Cashed out pre-match for full stake back (\u00a33) - Saka not starting.",
     "actual_stake": 3.0,
     "actual_returns": 3.0
   },
@@ -1307,7 +1307,7 @@
     "free_bet_stake": 5.5,
     "result": "cashed_out",
     "net_pl": 2.36,
-    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT. Cashed out live at 54' (0-1) for £2.36 - free bet, no real stake at risk, straight profit.",
+    "notes": "Free bet builder. Narrative: England dominate a DR Congo low block - fouls/corners/cards/SOT volume from sustained pressure. Categories: D-Cards, F-Corners, B-SOT. Cashed out live at 54' (0-1) for \u00a32.36 - free bet, no real stake at risk, straight profit.",
     "actual_returns": 2.36,
     "rating": 0
   },
@@ -1407,7 +1407,7 @@
     "stake": 5.0,
     "result": "lost",
     "net_pl": -5.0,
-    "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of £5 applied by platform, overriding £7 rated stake.",
+    "notes": "G/A per 90: 1.07 (FootyStats, La Liga 25/26) cross-checked vs Sofascore totals (16G/11A) - two-source confirmed, threshold well met. WC26 sample small but supportive (G+A vs Saudi Arabia). Austria (Rangnick) press high rather than sit deep - no defensive context modifier. Both sides 5 days rest - fatigue even. True prob ~62% vs implied 50% at boosted odds - +12% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
     "actual_stake": 5.0,
     "stake_cap_applied": 5.0
   },
@@ -1494,7 +1494,7 @@
     "stake_cap_applied": 1.0,
     "result": "lost",
     "net_pl": -1.0,
-    "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap £1 applied by platform, overriding £3 rated stake."
+    "notes": "Bet365 OMAZING preset 2-leg builder, not Claude-constructed (no 3rd leg added). SOT: 3.87 shots/90 x 30% accuracy = ~1.16 SOT/90 (FootyStats, single-sourced, flagged). Fouls won leg: no numeric per-90 confirmed, WhoScored style tag 'Gets fouled often' qualitative only, flagged. Defensive context modifier applied (-1): Australia confirmed 5-4-1 low block. Pre-boost 1.66 below standard 2.0-3.5 target range (fixed bookmaker preset, no swap available). Max stake cap \u00a31 applied by platform, overriding \u00a33 rated stake."
   },
   {
     "id": "134",
@@ -1529,7 +1529,7 @@
     "stake_cap_applied": 5.0,
     "result": "won",
     "net_pl": 5.0,
-    "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of £5 applied by platform, overriding £7 rated stake.",
+    "notes": "G/A per 90: 1.54 (6 goals in 4 WC26 games, ~351 mins, FotMob match log + FIFA.com/ESPN two-source confirmed). Scored in 3 of 4 tournament games. Defensive context modifier applied (-1): Paraguay confirmed sitting in a deep compact block, averaging 0.36 xG at WC26 (RotoWire/Goal.com). True prob ~65-70% vs implied 50% at boosted odds - +15-20% edge. Max stake cap of \u00a35 applied by platform, overriding \u00a37 rated stake.",
     "actual_returns": 10.0
   },
   {
@@ -1581,7 +1581,7 @@
     "stake": 3.0,
     "result": "void",
     "net_pl": 0.0,
-    "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied. VOID - Rashford did not qualify (did not feature/insufficient participation), stake returned. £3 back."
+    "notes": "SOT per 90: 1.2-1.4 (FootyStats shot-accuracy calc 1.38, cross-checked vs StatMuse SOT/minutes ~1.23) - threshold met. G/A per 90 0.82, top 98th percentile npxG in La Liga, in strong form. Defensive context modifier applied (-1): Mexico run 5-3-2/5-4-1 low block, limiting opponents to 1.8 SOT/game across first 4 WC26 games, unbeaten and unscored-on. Referee Alireza Faghani. England short turnaround off laboured Round of 32 win, facing Azteca altitude (2,240m). Third separate England-attacker bet on this fixture tonight (Kane bet 136, Bellingham, now Rashford) - no Golden Rule breach, all different players, flagged per Rule 30. True prob ~56% vs implied 50% at boosted odds - +6% edge. No max stake cap applied. VOID - Rashford did not qualify (did not feature/insufficient participation), stake returned. \u00a33 back."
   },
   {
     "id": "139",
@@ -1810,7 +1810,7 @@
     "result": "lost",
     "net_pl": 0.0,
     "rating": 7,
-    "notes": "Free bet builder. Oyarzabal anytime scorer: SOT/90 2.0✓ [OT-WhoScored+OT-FoxSports], 4 goals/4 apps, Spain's top scorer this WC. Corners: Portugal 4.75/game [SS], home total 3.5 line. Ronaldo 2+SOT: SOT/90 ~1.75 tournament avg [SS+OT-FoxSports] - cumulative avg not per-game breakdown, flagged. def-mod: N (Rule 26 not evidenced, Spain suppress via possession not a low block). ctx: referee cached(144) - Anthony Taylor. Combined landed marginal band (7.85 vs 8-15 target) after two leg swaps under time pressure pre-KO: Fernandes 2+SOT dropped (SOT/90 marginal, sub-1.0 on WC-only sample), Oyarzabal shifted first-scorer→anytime to correct a 17.11 overshoot. Rule 30: Ronaldo also on bet 145 (Bet365, 1+ SOT, different market/platform) - flagged, no Golden Rule 2 breach."
+    "notes": "Free bet builder. Oyarzabal anytime scorer: SOT/90 2.0\u2713 [OT-WhoScored+OT-FoxSports], 4 goals/4 apps, Spain's top scorer this WC. Corners: Portugal 4.75/game [SS], home total 3.5 line. Ronaldo 2+SOT: SOT/90 ~1.75 tournament avg [SS+OT-FoxSports] - cumulative avg not per-game breakdown, flagged. def-mod: N (Rule 26 not evidenced, Spain suppress via possession not a low block). ctx: referee cached(144) - Anthony Taylor. Combined landed marginal band (7.85 vs 8-15 target) after two leg swaps under time pressure pre-KO: Fernandes 2+SOT dropped (SOT/90 marginal, sub-1.0 on WC-only sample), Oyarzabal shifted first-scorer\u2192anytime to correct a 17.11 overshoot. Rule 30: Ronaldo also on bet 145 (Bet365, 1+ SOT, different market/platform) - flagged, no Golden Rule 2 breach."
   },
   {
     "id": "148",
@@ -1832,7 +1832,7 @@
     "threshold_met": true,
     "edge_pct": 8,
     "def_modifier": false,
-    "notes": "SOT/90: 1.09✓ [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA."
+    "notes": "SOT/90: 1.09\u2713 [FM+FS] | def-mod: N | ctx: new | edge: +8% | Fouls drawn 8 total this WC [OT-USMNTCorner, 5 Jul], single-sourced, no per-90 confirmed - flagged. Referee Adham Makhadmeh 3.4 yellows/22 fouls per game career - high-foul-count ref favours fouled leg. Belgium played 130min AET last out (Senegal), USA 90min - slight fatigue edge USA."
   },
   {
     "id": "149",
@@ -1889,7 +1889,7 @@
     "threshold_met": true,
     "edge_pct": null,
     "def_modifier": false,
-    "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach. | SETTLEMENT: Cashed out live at 71:14, 0-0 (Ndoye 1+ SOT won, Puerta 1+ foul won, Rodriguez 1+ foul leg still live/undetermined at cash-out point). Stake £5 confirmed matches logged assumption. Cash out £7.88, net +£2.88.",
+    "notes": "SOT/90: unavail(per-game proxy ~1.67) [OT-RacingPost] | fouls: Rodriguez 1.4/90[OT-StadiumRant]+9foul/4apps[OT-RacingPost], Puerta 2.06/90[OT-SportingLife]+team-high[OT-RacingPost] | def-mod: N | ctx: new (ref Ivan Barton, Manzambi ruled out injured, Switzerland 5 days rest/Colombia 4 days rest) | edge: mixed, all 3 legs individually positive | Rebuilt from original 3-leg (Rodriguez O1.5 fouls/Ndoye O0.5 SOT/Puerta O1.5 fouls, 6.50 pre-boost) via 2 leg-line swaps (Rodriguez->alt 1+, Puerta->alt 1+, Ndoye->1+ SOT) to hit 2.0-3.5 target band. Stake logged at standard 7-band (GBP5) - exact platform-entered stake wasn't visible on slip screenshot (blank stake field), flag if different from actual. Second bet this session on this fixture (bet 149 Arias 1+SOT, Sky Bet) - different players/platform, Rule 30 flag, no Golden Rule breach. | SETTLEMENT: Cashed out live at 71:14, 0-0 (Ndoye 1+ SOT won, Puerta 1+ foul won, Rodriguez 1+ foul leg still live/undetermined at cash-out point). Stake \u00a35 confirmed matches logged assumption. Cash out \u00a37.88, net +\u00a32.88.",
     "bet_ref": null,
     "actual_stake": 5.0,
     "actual_returns": 7.88
@@ -1914,7 +1914,7 @@
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": true,
-    "notes": "G/A/90: 1.84✓ [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest. | PRICE CORRECTION at settlement: boosted price moved from 2.0 to 1.85 before placement was secured, actual bet placed and settled at 1.85. Same underlying bet, odds field corrected retroactively per Chris confirmation."
+    "notes": "G/A/90: 1.84\u2713 [FM] | def-mod: Y | ctx: new | edge: +15% | Ref Facundo Tello (Arg) ~4.6-4.7 YC/game, ~24 fouls/game [OT-FootyMetrics+OT-playerstats.football, FootyStats profile not found, flagged]. H2H: France won 2022 WC semi 2-0. Morocco's last two knockouts low-event/defensive (5 shots conceded vs Canada, pens win over Netherlands) - genuine low-block identity not just underdog caution, Rule 26 applied. Both sides 5 days rest. | PRICE CORRECTION at settlement: boosted price moved from 2.0 to 1.85 before placement was secured, actual bet placed and settled at 1.85. Same underlying bet, odds field corrected retroactively per Chris confirmation."
   },
   {
     "id": "152",
@@ -2007,7 +2007,7 @@
     "threshold_met": true,
     "edge_pct": 10,
     "def_modifier": true,
-    "notes": "SOT/90: 1.21✓ [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness."
+    "notes": "SOT/90: 1.21\u2713 [OT-matchbingo WC26 + FS Ligue1 1.53] | def-mod: Y | ctx: ref Tello/H2H/fatigue cached see bet 151 | edge: +10% | Morocco confirmed compact low block w/o Saibari, but Dembele's flank (vs Mazraoui/El Khannouss) draws tighter attention than the Hakimi-side gap France are targeting - true prob shaded to ~60% vs implied 50%. Rule 30: 5th active bet this fixture cluster (151 Mbappe ATGS, 152 free build, 153 Mbappe+Dembele SOT combo, 154 Dembele 2+ goals). Bet 153 (Paddy Power) already carries an identical Dembele 1+ SOT leg inside its combo - this is a standalone version of the same outcome on a different platform, no Golden Rule breach, flagged for calibration awareness."
   },
   {
     "id": "156",
@@ -2034,7 +2034,7 @@
     "threshold_met": true,
     "edge_pct": 4,
     "def_modifier": false,
-    "notes": "Leg1 Doue 1+SOT 1.72 [FM/Sofascore proxy ~1.0/game last-5] prob 63% edge +5% | Leg2 BTC 1+ cards 1.20 [FootyMetrics Tello WC26 avg 3.5 cards/2 matches, conservative vs 4.69 career, two-source flagged] prob 86% edge +3% | Leg3 France o4 corners 1.33 directional only, no independently re-derived corners baseline this session (Rule 33 session-scoped, bet 152's o7.5 corners line from prior session not reused) | Rule 26 NOT applied - volume markets (SOT/cards/corners) run opposite direction to conversion markets under a low block, mechanical -1 would misprice | Team news confirmed both XIs pre-placement, no surprises vs priced. Phase 2 est 2.75 vs actual slip 2.70, within tolerance, no backup swap needed. Combined edge avg ~4%, leg 3 uncertainty flagged as thinnest link. Rule 30: fixture cluster now 151/152/153/154/155, no player overlap with legs here beyond fixture-level Doue exposure (new, first Doue bet this fixture). | CASHED OUT at 92:31, France 2-0 up. Leg1 (Doue SOT) transferred to Barcola via Sub-On-Play-On after Doue withdrawn, that leg won. Cards/corners legs unresolved at cash-out. Actual return £1.35.",
+    "notes": "Leg1 Doue 1+SOT 1.72 [FM/Sofascore proxy ~1.0/game last-5] prob 63% edge +5% | Leg2 BTC 1+ cards 1.20 [FootyMetrics Tello WC26 avg 3.5 cards/2 matches, conservative vs 4.69 career, two-source flagged] prob 86% edge +3% | Leg3 France o4 corners 1.33 directional only, no independently re-derived corners baseline this session (Rule 33 session-scoped, bet 152's o7.5 corners line from prior session not reused) | Rule 26 NOT applied - volume markets (SOT/cards/corners) run opposite direction to conversion markets under a low block, mechanical -1 would misprice | Team news confirmed both XIs pre-placement, no surprises vs priced. Phase 2 est 2.75 vs actual slip 2.70, within tolerance, no backup swap needed. Combined edge avg ~4%, leg 3 uncertainty flagged as thinnest link. Rule 30: fixture cluster now 151/152/153/154/155, no player overlap with legs here beyond fixture-level Doue exposure (new, first Doue bet this fixture). | CASHED OUT at 92:31, France 2-0 up. Leg1 (Doue SOT) transferred to Barcola via Sub-On-Play-On after Doue withdrawn, that leg won. Cards/corners legs unresolved at cash-out. Actual return \u00a31.35.",
     "bet_ref": null
   },
   {
@@ -2103,7 +2103,7 @@
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": false,
-    "notes": "SOT/90: 2.0✓ [FM+SS] | G/A/90: 1.42✓ [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games.",
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | G/A/90: 1.42\u2713 [OT+SS] | def-mod: N | ctx: new | edge: +15% | Norway open/leaky (~2 conceded/game), no low block evidence. Ref Turpin lenient (7 cards/3 games, no reds). Both sides 5 days rest. Kane 3G+1A last 2 knockout games.",
     "actual_return": 2.91,
     "final_score": "Norway 1-2 England"
   },
@@ -2127,7 +2127,7 @@
     "threshold_met": true,
     "edge_pct": 7,
     "def_modifier": true,
-    "notes": "SOT/90: 3.73✓ [SS+OT] | G/A/90: 1.98✓ [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games.",
+    "notes": "SOT/90: 3.73\u2713 [SS+OT] | G/A/90: 1.98\u2713 [SS+OT] | def-mod: Y | ctx: new | edge: +7% | Switzerland run confirmed 5-4-1/4-5-1 low block vs top possession sides (tightest defence left, 3 conceded all WC). Ref Pinheiro cards-heavy career avg but restrained so far this WC. Both sides 4 days rest off 120min AET games.",
     "final_score": "Argentina 3-1 Switzerland (AET)"
   },
   {
@@ -2150,7 +2150,7 @@
     "threshold_met": true,
     "edge_pct": 15,
     "def_modifier": false,
-    "notes": "SOT/90: 2.0✓ [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=£7 -> £5). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach.",
+    "notes": "SOT/90: 2.0\u2713 [FM+SS] | 2+SOT hit-rate 3-4/5 games [FM+CBS] | def-mod: N | ctx: cached(159) | edge: +15% | Rule 27: priced 2.0 <2.5, stake one band below rated (8=\u00a37 -> \u00a35). Rule 30: same player+fixture as bet 159 (score/assist mkt), different market, not a GR breach.",
     "final_score": "Norway 1-2 England"
   },
   {
@@ -2176,7 +2176,7 @@
     "threshold_met": null,
     "edge_pct": 3,
     "def_modifier": true,
-    "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0✓ [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)",
+    "notes": "3-leg FREE BUILD | Bellingham ATGS 3.3, G/A conflict-flagged (2-4 G/A in ~314min) [SQ+FM], prob~30%, edge thin | Haaland 2+SOT 1.67, SOT/90 2.7-3.0\u2713 [S52+ESPN], prob~68%, edge+6 | England o4.5 corners 1.5, no reliable corners data found (sources conflicted/unusable), match-context only, low-confidence | def-mod: Y - Norway underdog, evidence of deep/counter setup, applied to Bellingham leg | ctx: new | Slip check: platform bet builder price 7.79 (post-margin, not naive multiplication of 3.3x1.67x1.5)",
     "final_score": "Norway 1-2 England"
   },
   {
@@ -2258,5 +2258,28 @@
     "def_modifier": -1,
     "notes": "SOT/90: 3.4 checkmark [OT+SS] (Messi, OddsCalendar 3.8/gm + Sofascore 17/5=3.4/90) | def-mod: Y(-1) Rule26 confirmed deep block (SUI 3 conceded all tourn, 2 regulation CS in KO, Yakin low block, Manzambi out) | ctx: new | edge: +2.9% comb at pre-boost 3.00 | builder_boost 3 legs: ARG 5+ corners (o4) 1.83 / Messi 2+ SOT 1.36 / 3+ cards combined (o2) 1.40 | 50% winnings boost applied, stake 3 pounds cash, To Return 12 incl 3 boost | Rule27: stake dropped 1 band (Messi 2+ SOT @1.36 sub-2.5) | Rule30: same-fixture cluster with pending bet 160 (Sky super_boost 7 pounds) - diff platform+structure, no GR breach",
     "final_score": "Argentina 3-1 Switzerland (AET)"
+  },
+  {
+    "id": "166",
+    "date": "2026-07-14",
+    "platform": "Paddy Power",
+    "fixture": "France v Spain",
+    "competition": "FIFA World Cup 2026 - Semi-final",
+    "bet_type": "super_boost",
+    "player": "Kylian Mbappe, Ousmane Dembele & Lamine Yamal",
+    "market": "All 3 to have 1+ Shots on Target Each (incl. woodwork)",
+    "pre_boost_odds": 2.2,
+    "boosted_odds": 2.5,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": null,
+    "threshold_met": true,
+    "edge_pct": 10,
+    "def_modifier": false,
+    "notes": "SOT/90: Mbappe ~3.0-3.2\u2713 [OddsCalendar+Yahoo/Opta] | Dembele 1.2\u2713 [FM+OddsCalendar] | Yamal 2.3\u2713 [FM/Opta via PrizePicks+Threads+OddsCalendar] | def-mod: N | ctx: new (ref Ivan Barton - no FootyStats profile, CONCACAF-based, flagged; H2H Spain lead 18-13-7, won 2 of last 3 majors; fatigue FRA 5d/ESP 4d rest, both fresh) | edge: +10% (true ~50% vs implied 40% at 2.5) | 3-leg SOT combo incl. woodwork. Rule 27: priced at 2.5 -> full rated stake, no reduction. No max stake cap applied.",
+    "bet_ref": null
   }
 ]
