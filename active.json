@@ -2309,5 +2309,29 @@
   "odds": 2.63,
   "odds_was": 2.38,
   "odds_closing": null
+ },
+ {
+  "id": "168",
+  "date": "2026-07-14",
+  "platform": "Bet365",
+  "fixture": "France v Spain",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "player": "Dani Olmo",
+  "market": "2+ Shots (Gem Bet)",
+  "rating": 8,
+  "stake": 7.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 20,
+  "def_modifier": null,
+  "notes": "Shots/90: 2.91 [FS] cross-checked 3.03 [Sky Bet promo]/3.16 [Yahoo Sports] - two-source confirmed, no formal gate for shots-total markets but comfortably clears | def-mod: N (Spain attacking side here, not applicable) | ctx: cached(166) - ref Ivan Barton, H2H Spain lead 18-13, fatigue FRA 5d/ESP 4d rest | edge: +20% (true ~75-78% vs implied 54.6% at 1.83; market consensus elsewhere ~77% at 1.30, unusually well-aligned with model) | Perfect 3/3 WC knockout record hitting 2+ shots verified independently (Austria 3, Portugal 2, Belgium 2) [FOX Sports match logs] | Rule 30: 3rd active bet this fixture cluster (166 SOT combo Paddy Power, 167 Dembele score/assist Sky Bet) - different player/platform, no Golden Rule breach",
+  "bet_ref": null,
+  "type": "super_boost",
+  "odds": 1.83,
+  "odds_was": null,
+  "odds_closing": null
  }
 ]
