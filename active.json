@@ -2281,5 +2281,28 @@
     "def_modifier": false,
     "notes": "SOT/90: Mbappe ~3.0-3.2\u2713 [OddsCalendar+Yahoo/Opta] | Dembele 1.2\u2713 [FM+OddsCalendar] | Yamal 2.3\u2713 [FM/Opta via PrizePicks+Threads+OddsCalendar] | def-mod: N | ctx: new (ref Ivan Barton - no FootyStats profile, CONCACAF-based, flagged; H2H Spain lead 18-13-7, won 2 of last 3 majors; fatigue FRA 5d/ESP 4d rest, both fresh) | edge: +10% (true ~50% vs implied 40% at 2.5) | 3-leg SOT combo incl. woodwork. Rule 27: priced at 2.5 -> full rated stake, no reduction. No max stake cap applied.",
     "bet_ref": null
+  },
+  {
+    "id": "167",
+    "date": "2026-07-14",
+    "platform": "Sky Bet",
+    "fixture": "France v Spain",
+    "competition": "FIFA World Cup 2026 - Semi-final",
+    "bet_type": "super_boost",
+    "player": "Ousmane Dembele",
+    "market": "To Score or Assist (incl. Extra Time)",
+    "pre_boost_odds": 2.38,
+    "boosted_odds": 2.63,
+    "rating": 8,
+    "stake": 7.0,
+    "result": "pending",
+    "net_pl": 0.0,
+    "sot_per_90": null,
+    "ga_per_90": 1.17,
+    "threshold_met": true,
+    "edge_pct": 22,
+    "def_modifier": false,
+    "notes": "G/A/90: 1.17\u2713 [Squawka+Threads community tracker, sources conflict on assist count (1 vs 2 through QF), conservative figure used] | def-mod: N | ctx: cached(166) - ref Ivan Barton, H2H, fatigue (FRA 5d/ESP 4d rest), no low-block evidence either side | edge: +22% (true ~58-63% vs implied 38% at 2.63) | In career-best tournament form: 5 goals in last 3 games incl. a hat-trick, scored in QF. Rule 30: Dembele also in bet 166's SOT combo (Paddy Power) - different market/platform, flagged, no Golden Rule breach.",
+    "bet_ref": null
   }
 ]
