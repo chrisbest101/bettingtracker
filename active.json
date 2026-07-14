@@ -794,9 +794,13 @@
   "type": "super_boost",
   "odds": 6.5,
   "stake": 10.0,
-  "result": "pending",
-  "net_pl": 0.0,
-  "rating": 0
+  "result": "cashed_out",
+  "net_pl": 21.34,
+  "rating": 0,
+  "actual_returns": 31.34,
+  "bet_ref": "O/10074925/0002013",
+  "odds_closing": 1.71,
+  "notes": "Cashed out pre-final, tournament still live (Golden Boot outright). Odds_closing 1.71 approx from -140 (FanDuel/SI, 13 Jul) converted to decimal, single-sourced/flagged - antepost market odds move fast and vary by book, treat as indicative not exact CLV. Mbappe tied with Messi on 8 goals entering SF, tiebreak (assists) favours him."
  },
  {
   "id": "094",
