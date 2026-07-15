@@ -2440,5 +2440,33 @@
   "odds_was": null,
   "odds_closing": null,
   "notes": "3-leg FREE BUILD (all cards) | Bellingham anytime card 3.6, booked in R32 vs DR Congo, card-prone this WC [ESPN/Goal, ctx cached(170/171)] | Romero anytime card 2.8, 1.4 fouls/match avg highest Argentina CB, shortest price in market [book] | Spence anytime card, 0.2 fouls/match avg, no disciplinary signal - flagged as weak leg pre-placement, Chris kept as-is (overruled swap suggestion) | def-mod: N | ctx: cached(170/171) - ref Ismail Elfath ~3.8-4.4 yellows/game (2-source flagged), WC semi rivalry stakes | corr: weakened vs originally pitched combo (Martinez fouls/Romero/Rice) - Spence swap breaks the shared-combative-duel story, edge on leg 3 unverified | Rule 30: 3rd active bet this fixture cluster (170 Bellingham SOT Sky Bet, 171 Messi/Kane fouled-2+ Betfair, this) - Bellingham now in 2 bets this fixture, different markets, no Golden Rule breach | Combined price 18.22, above free bet 8-15 target band, proceeded anyway (free bet, no cash at risk) | Odds captured off lineup-adjusted (post-XI-confirmation) market after Sky Bet repriced on team news | Rating logged 0: final leg composition was user-overridden after analyst flagged Spence as unsupported, not a clean GemBets-verdict-approved combo, logged for accurate tracking per Rule 30/precedent (bet 130)."
+ },
+ {
+  "id": "173",
+  "date": "2026-07-15",
+  "platform": "Paddy Power",
+  "fixture": "England v Argentina",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "type": "builder_boost",
+  "legs": [
+   "Jude Bellingham - Player Shown a Card",
+   "Jude Bellingham - Player To Commit 2 Or More Fouls",
+   "Enzo Fernandez - Player To Commit 2 Or More Fouls",
+   "Enzo Fernandez - Player Shown a Card"
+  ],
+  "odds": 31.55,
+  "stake": 5.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "rating": 6,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": null,
+  "def_modifier": null,
+  "odds_was": null,
+  "odds_closing": null,
+  "notes": "4-leg CASH builder, two same-player pairs (Bellingham fouls+card, Enzo Fernandez fouls+card) - fouls/90 both clear 1.0 threshold (Bellingham 1.0, Enzo 1.2, [book]), Enzo backed further by 10 Y/C this PL season [FotMob], genuine card-prone profile not just a WC sample. Combined price outside standard 2.0-3.5 cash builder band (31.55 vs 33.54 quoted pre-placement, natural drift not a boost - odds_was left null, not a promo mechanism). No Rule 40 uplift value defined for this shape (2 correlated same-player pairs, not the standard 2-3 leg shared-game-state case) - logged as directional edge only, true prob estimated ~7% (conditional card-probability bump after 2+ fouls) vs quoted implied ~3.2%, edge_pct left null since the conditional bump is an unsourced estimate not hard data. Rated 6/10, recommended stake was GBP3, Chris staked GBP5 (his call, longshot-dressed-as-value flagged before placement). Paddy Power 'Money Back' promotion applied to this bet (conditional stake-back mechanic, not a free bet - GBP5 real cash at risk from balance). No stake cap flagged by platform. ctx: cached(170/171/172) - ref Elfath, WC semi rivalry stakes.",
+  "promo": "Money Back"
  }
 ]
