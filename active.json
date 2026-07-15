@@ -2390,5 +2390,28 @@
   "odds": 2.0,
   "odds_was": 1.53,
   "odds_closing": null
+ },
+ {
+  "id": "171",
+  "date": "2026-07-15",
+  "platform": "Betfair",
+  "fixture": "England v Argentina",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "player": "Lionel Messi & Harry Kane",
+  "market": "To Be Fouled 2 or More Times Each",
+  "rating": 6,
+  "stake": 3.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 2,
+  "def_modifier": null,
+  "notes": "Fouls won/90: Messi ~2.2-2.6 (13 fouls won through R16 per Opta [OT-worldsoccertalk], post-QF count not independently confirmed, single-sourced/estimated) | Kane fouls drawn/90: 1.4 (7/444min, [OT-worldcuplocaltime], single-sourced) | both clear 1.0 threshold, Kane narrower margin | def-mod: N (fouls-drawn is a volume market, not mechanically -1 under Rule 26, same precedent as bets 156/158) | ctx: cached(170) - ref Elfath ~2.3 cards/game so far, no fouls-awarded rate sourced for him | Argentina foul at ~league-average (12.2/game), England below average (10.3/game) - cuts against Messi's number, roughly neutral for Kane | Fixture has real needle/rivalry history (Hand of God, Beckham-Simeone) + semi-final stakes, could run feistier than season averages, qualitative overlay not hard data | edge: marginal, model range -3.5pp to +4.6pp vs implied 30.8% depending on how much rivalry-intensity bump is applied - genuinely close to breakeven, flagged to Chris as a coin-flip rather than a clean value play before placement | Rule 30: 2nd bet this fixture cluster (bet 170, Bellingham 1+SOT, Sky Bet) - different players/market/platform, no Golden Rule breach.",
+  "type": "super_boost",
+  "odds": 3.25,
+  "odds_was": 2.88,
+  "odds_closing": null
  }
 ]
