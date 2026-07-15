@@ -2367,5 +2367,28 @@
   "odds": 4.0,
   "odds_was": 4.0,
   "odds_closing": null
+ },
+ {
+  "id": "170",
+  "date": "2026-07-15",
+  "platform": "Sky Bet",
+  "fixture": "England v Argentina",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "player": "Jude Bellingham",
+  "market": "1+ Shot on Target (incl. extra time)",
+  "rating": 8,
+  "stake": 7.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "sot_per_90": 2.0,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 18,
+  "def_modifier": null,
+  "notes": "SOT/90: 2.0 [FM, WC26 tournament stats, 75% shot accuracy] | def-mod: N (no evidence Argentina sit deep, WC semi, both attack) | ctx: new (ref Ismail Elfath; H2H first meeting since 2002, not predictive; fatigue even, both sides 4 days rest since Sat QFs, Argentina played 120min AET vs Switzerland) | edge: +18% (true ~68% vs implied 50%) | corr: none (single player) | WAS 1.53 -> NOW 2.0, genuine price jump not token boost | 'incl. extra time' widens window vs 90-min-only markets | Earlier same-fixture Bellingham+Kane dual-player 1+SOT-each combo was hard-skipped per Rule 28 (priced 2.0, below 2.5 combo floor) - not placed, not logged, this is a separate single-player market on the same fixture.",
+  "type": "super_boost",
+  "odds": 2.0,
+  "odds_was": 1.53,
+  "odds_closing": null
  }
 ]
