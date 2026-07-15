@@ -2413,5 +2413,32 @@
   "odds": 3.25,
   "odds_was": 2.88,
   "odds_closing": null
+ },
+ {
+  "id": "172",
+  "date": "2026-07-15",
+  "platform": "Sky Bet",
+  "fixture": "England v Argentina",
+  "competition": "FIFA World Cup 2026 - Semi-final",
+  "type": "free_bet",
+  "legs": [
+   "Jude Bellingham - Player to be Carded Including Extra Time - Super Sub",
+   "Cristian Romero - Player to be Carded Including Extra Time - Super Sub",
+   "Djed Spence - Player to be Carded Including Extra Time - Super Sub"
+  ],
+  "odds": 18.22,
+  "stake": 0.0,
+  "free_bet_stake": 1.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "rating": 0,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": null,
+  "edge_pct": null,
+  "def_modifier": null,
+  "odds_was": null,
+  "odds_closing": null,
+  "notes": "3-leg FREE BUILD (all cards) | Bellingham anytime card 3.6, booked in R32 vs DR Congo, card-prone this WC [ESPN/Goal, ctx cached(170/171)] | Romero anytime card 2.8, 1.4 fouls/match avg highest Argentina CB, shortest price in market [book] | Spence anytime card, 0.2 fouls/match avg, no disciplinary signal - flagged as weak leg pre-placement, Chris kept as-is (overruled swap suggestion) | def-mod: N | ctx: cached(170/171) - ref Ismail Elfath ~3.8-4.4 yellows/game (2-source flagged), WC semi rivalry stakes | corr: weakened vs originally pitched combo (Martinez fouls/Romero/Rice) - Spence swap breaks the shared-combative-duel story, edge on leg 3 unverified | Rule 30: 3rd active bet this fixture cluster (170 Bellingham SOT Sky Bet, 171 Messi/Kane fouled-2+ Betfair, this) - Bellingham now in 2 bets this fixture, different markets, no Golden Rule breach | Combined price 18.22, above free bet 8-15 target band, proceeded anyway (free bet, no cash at risk) | Odds captured off lineup-adjusted (post-XI-confirmation) market after Sky Bet repriced on team news | Rating logged 0: final leg composition was user-overridden after analyst flagged Spence as unsupported, not a clean GemBets-verdict-approved combo, logged for accurate tracking per Rule 30/precedent (bet 130)."
  }
 ]
