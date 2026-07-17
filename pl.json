@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-16",
-  "total": 174,
-  "won": 71,
-  "lost": 91,
-  "void": 3,
-  "cashed_out": 11,
-  "staked": 727.98,
-  "pnl": 238.18,
-  "win_rate": 41.5,
-  "best_return": 26.25,
-  "roi": 32.7,
-  "cash_pnl": 232.29,
-  "cash_staked": 722.98,
-  "cash_roi": 31.9,
-  "known_variance": {
-    "noted": "2026-07-14",
-    "cause": "bet records 54-56 lost in historical archive migration + one legacy count drift; aggregates (updated incrementally at settlement) are canonical per decision 14 Jul 2026",
-    "records_plus_variance_equals_aggregates": true,
-    "delta": {
-      "total": 1,
-      "won": 1,
-      "lost": 3,
-      "pnl": 9.0,
-      "staked": 35.0
-    }
-  },
-  "open_staked": 5.0
+ "updated": "2026-07-17",
+ "total": 175,
+ "won": 71,
+ "lost": 91,
+ "void": 3,
+ "cashed_out": 11,
+ "staked": 734.98,
+ "pnl": 238.18,
+ "win_rate": 41.3,
+ "best_return": 26.25,
+ "roi": 32.4,
+ "cash_pnl": 232.29,
+ "cash_staked": 729.98,
+ "cash_roi": 31.8,
+ "known_variance": {
+  "noted": "2026-07-14",
+  "cause": "bet records 54-56 lost in historical archive migration + one legacy count drift; aggregates (updated incrementally at settlement) are canonical per decision 14 Jul 2026",
+  "records_plus_variance_equals_aggregates": true,
+  "delta": {
+   "total": 1,
+   "won": 1,
+   "lost": 3,
+   "pnl": 9.0,
+   "staked": 35.0
+  }
+ },
+ "open_staked": 12.0
 }
