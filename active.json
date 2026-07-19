@@ -845,9 +845,12 @@
   "type": "super_boost",
   "odds": 5.5,
   "stake": 5.0,
-  "result": "pending",
-  "net_pl": 0.0,
-  "rating": 0
+  "result": "won",
+  "net_pl": 22.5,
+  "rating": 0,
+  "actual_returns": 27.5,
+  "odds_closing": 1.72,
+  "notes": " | Spain won World Cup 2026 (beat Argentina 1-0 in the final). Closing odds searched: no single bookmaker decimal line found for Sky Bet specifically on the day; used Kalshi implied probability (58.1% Spain, Covers.com, 19 Jul) converted to decimal ~1.72 as an approximate proxy - prediction-market derived, not a bookmaker closing line, flagged per Rule 48. Backed pre-tournament at 5.5, well ahead of the eventual price move - clear positive CLV on this one."
  },
  {
   "id": "097",
@@ -2483,8 +2486,8 @@
   "market": "To Score or Assist (incl. Extra Time)",
   "rating": 8,
   "stake": 7.0,
-  "result": "pending",
-  "net_pl": 0.0,
+  "result": "lost",
+  "net_pl": -7.0,
   "sot_per_90": null,
   "ga_per_90": 1.36,
   "threshold_met": true,
@@ -2492,9 +2495,10 @@
   "def_modifier": null,
   "odds": 2.0,
   "odds_was": 1.73,
-  "odds_closing": null,
+  "odds_closing": 2.0,
   "type": "super_boost",
-  "notes": "G/A/90: 1.36✓ [FIFA official stats, 8G/4A/794min] | def-mod: N (Spain deny time on ball high up, not a sitting-deep block, Rule 26 not evidenced) | ctx: new - ref unconfirmed (Faghani AUS tipped, multiple outlets), H2H 14 meetings 6-6-2 dead even no signal, fatigue ARG 4d/ESP 5d rest both fine | edge: +15-20% (true ~65-70% vs implied 50%) | Scored or assisted in 11 straight internationals, 2 assists in England semi. incl.ET widens window. No max stake cap applied."
+  "notes": "G/A/90: 1.36✓ [FIFA official stats, 8G/4A/794min] | def-mod: N (Spain deny time on ball high up, not a sitting-deep block, Rule 26 not evidenced) | ctx: new - ref unconfirmed (Faghani AUS tipped, multiple outlets), H2H 14 meetings 6-6-2 dead even no signal, fatigue ARG 4d/ESP 5d rest both fine | edge: +15-20% (true ~65-70% vs implied 50%) | Scored or assisted in 11 straight internationals, 2 assists in England semi. incl.ET widens window. No max stake cap applied. | FT Spain 1-0 Argentina, Messi did not score or assist. Closing odds searched: Oddschecker had 'Messi To Score or Assist at 1/1' (2.0) shortly pre-kickoff - single-sourced, general market price not this specific Sky Bet line, treated as approximate/indicative per Rule 48. No material CLV either way vs our 2.0 taken.",
+  "final_score": "Spain 1-0 Argentina"
  },
  {
   "id": "175",
