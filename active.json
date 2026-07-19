@@ -2510,7 +2510,7 @@
   "market": "To Score (incl. Extra Time)",
   "rating": 8,
   "stake": 7.0,
-  "result": "pending",
+  "result": "void",
   "net_pl": 0.0,
   "sot_per_90": null,
   "ga_per_90": 0.96,
@@ -2519,9 +2519,9 @@
   "def_modifier": null,
   "odds": 2.3,
   "odds_was": 2.1,
-  "odds_closing": null,
+  "odds_closing": 2.5,
   "type": "super_boost",
-  "notes": "G/90: 0.96 (not G+A - pure scorer market) [FIFA official stats, 6G/564min] | def-mod: N (dead-rubber 3rd place game, no low-block evidence either side, if anything less defensive discipline typical of this fixture type) | ctx: new - ref unconfirmed, H2H 32 meetings France won last 2 (incl. this WC's 2022-cycle QF where Kane missed a pen), fatigue FRA 4d/ENG 3d rest both fine | edge: +15-18% (true ~58-62% vs implied 43.5%) | Kane + Mbappe both reported expected to start despite dead rubber - Golden Boot subplot keeps them motivated for full minutes, rotation risk flagged but mitigated by reporting. incl.ET widens window (ET does apply to 3rd place match under WC26 rules). Kane/Dembele dual-SOT combo boost on same fixture was hard-skipped per Rule 28 (combined 2.0 < 2.5 floor), not placed."
+  "notes": "G/90: 0.96 (not G+A - pure scorer market) [FIFA official stats, 6G/564min] | def-mod: N (dead-rubber 3rd place game, no low-block evidence either side, if anything less defensive discipline typical of this fixture type) | ctx: new - ref unconfirmed, H2H 32 meetings France won last 2 (incl. this WC's 2022-cycle QF where Kane missed a pen), fatigue FRA 4d/ENG 3d rest both fine | edge: +15-18% (true ~58-62% vs implied 43.5%) | Kane + Mbappe both reported expected to start despite dead rubber - Golden Boot subplot keeps them motivated for full minutes, rotation risk flagged but mitigated by reporting. incl.ET widens window (ET does apply to 3rd place match under WC26 rules). Kane/Dembele dual-SOT combo boost on same fixture was hard-skipped per Rule 28 (combined 2.0 < 2.5 floor), not placed. | VOID - confirmed by Chris, stake returned. Exact void reason not specified in-session. Closing odds searched: Sportscasting had 'Kane to score anytime @ +150' (2.5) pre-match - this is the standard 90-min anytime market not the specific incl.ET Sky Bet line, treated as an approximate proxy, single-sourced."
  },
  {
   "id": "176",
