@@ -2540,14 +2540,42 @@
   "odds_was": null,
   "odds_closing": null,
   "stake": 3.0,
-  "result": "pending",
-  "net_pl": 0.0,
+  "result": "lost",
+  "net_pl": -3.0,
   "rating": 6,
   "sot_per_90": 1.1,
   "ga_per_90": 2.0,
   "threshold_met": true,
   "edge_pct": 6.2,
   "def_modifier": null,
-  "notes": "3-leg CASH builder | Oyarzabal ATGS G/A/90: 2.0check [FM, 6G+4A ~450min] prob~45% edge+6.5 | Romero 1+ fouls, fouls/90: 1.6check [FM] prob~80% edge-6 (short, filler leg for combined price) | Baena 1+ SOT, SOT/90: 1.1 [FM only - could not get a 2nd source despite checking FBref/Sofascore/FootyStats, flagged single-sourced; leg downgraded from originally-proposed 2+ SOT (6.50) to 1+ SOT (2.00) specifically to de-risk the unconfirmed stat for cash money] prob~60% edge+10 | def-mod: N (neither side a confirmed deep block) | ctx: cached this session (ref Vincic, fatigue even, WC final stakes) | corr: none (3 independent players/markets, no shared game-state) | combined true prob ~21.6% vs implied ~15.4% at 6.50, edge +6.2pts | Rule 27: Baena leg priced 2.00 (<2.5), stake dropped one band (rec was GBP2 from a 6/10 base, GBP3 band) | Stake override: Chris staked GBP3 cash, GemBets-recommended GBP2 (his call, logged accurately) | 50% winnings boost applied at settlement (not a price boost - no pre-boost/post-boost price pair, so odds_was left null) | Combined odds 6.50 still above the 2.0-3.5 cash builder target range but far closer than the originally-priced 21.00 version (2+ SOT Baena leg) that was held back over the same confirmation gap. | No Golden Rule 2 breach vs same-session Paddy Power free bet (bet on this fixture, different players/markets: Messi/Yamal/Enzo there vs Oyarzabal/Romero/Baena here)."
+  "notes": "3-leg CASH builder | Oyarzabal ATGS G/A/90: 2.0check [FM, 6G+4A ~450min] prob~45% edge+6.5 | Romero 1+ fouls, fouls/90: 1.6check [FM] prob~80% edge-6 (short, filler leg for combined price) | Baena 1+ SOT, SOT/90: 1.1 [FM only - could not get a 2nd source despite checking FBref/Sofascore/FootyStats, flagged single-sourced; leg downgraded from originally-proposed 2+ SOT (6.50) to 1+ SOT (2.00) specifically to de-risk the unconfirmed stat for cash money] prob~60% edge+10 | def-mod: N (neither side a confirmed deep block) | ctx: cached this session (ref Vincic, fatigue even, WC final stakes) | corr: none (3 independent players/markets, no shared game-state) | combined true prob ~21.6% vs implied ~15.4% at 6.50, edge +6.2pts | Rule 27: Baena leg priced 2.00 (<2.5), stake dropped one band (rec was GBP2 from a 6/10 base, GBP3 band) | Stake override: Chris staked GBP3 cash, GemBets-recommended GBP2 (his call, logged accurately) | 50% winnings boost applied at settlement (not a price boost - no pre-boost/post-boost price pair, so odds_was left null) | Combined odds 6.50 still above the 2.0-3.5 cash builder target range but far closer than the originally-priced 21.00 version (2+ SOT Baena leg) that was held back over the same confirmation gap. | No Golden Rule 2 breach vs same-session Paddy Power free bet (bet on this fixture, different players/markets: Messi/Yamal/Enzo there vs Oyarzabal/Romero/Baena here). | SETTLEMENT: Oyarzabal WON (scored), Baena WON (1+ SOT), Romero LOST (0 fouls committed) - needed all 3 legs, Romero's leg (the filler/short-priced one, flagged pre-placement as no standalone value) is what sank it. Closing odds searched - no publicly archived line for this specific 3-leg combo (standard for niche builders), logged null per Rule 48. FT Spain 1-0 Argentina.",
+  "final_score": "Spain 1-0 Argentina"
+ },
+ {
+  "id": "177",
+  "date": "2026-07-19",
+  "platform": "Paddy Power",
+  "fixture": "Spain v Argentina",
+  "competition": "FIFA World Cup 2026 - Final",
+  "type": "free_bet",
+  "legs": [
+   "Lionel Messi - Anytime Goalscorer",
+   "Lamine Yamal - 2+ Shots on Target Including Woodwork",
+   "Enzo Fernandez - 1+ Fouls Committed"
+  ],
+  "odds": 6.06,
+  "stake": 0.0,
+  "free_bet_stake": 4.0,
+  "result": "lost",
+  "net_pl": 0.0,
+  "rating": 6,
+  "sot_per_90": null,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 1.8,
+  "def_modifier": null,
+  "odds_closing": null,
+  "bet_ref": "O/10074925/0002063",
+  "notes": "Logged retroactively - was placed same session as verdict but placement confirmation never chased down before the conversation moved to the Bet365 promo; caught and corrected once results came in. 3-leg free bet builder | Messi ATGS SOT/90 3.7check FM prob~42% edge~+1% - LOST, Messi blanked (FT Spain 1-0) | Yamal 2+ SOT SOT/90 2.2check FM prob~58% edge+18pts - WON | Enzo Fernandez 1+ foul fouls/90 1.4check FM prob~75% edge-7pts (filler leg) - WON | corr: none | combined true prob ~18.3% vs implied ~16.5% at 6.06, edge +1.8pts | Needed all 3 legs, Messi leg lost it. Free bet, no cash lost, just the GBP4 token."
  }
 ]
