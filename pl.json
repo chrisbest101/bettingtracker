@@ -1,17 +1,17 @@
 {
- "updated": "2026-07-18",
+ "updated": "2026-07-19",
  "total": 176,
  "won": 71,
  "lost": 91,
  "void": 3,
  "cashed_out": 11,
- "staked": 741.98,
+ "staked": 744.98,
  "pnl": 238.18,
  "win_rate": 41.0,
  "best_return": 26.25,
  "roi": 32.1,
  "cash_pnl": 232.29,
- "cash_staked": 736.98,
+ "cash_staked": 739.98,
  "cash_roi": 31.5,
  "known_variance": {
   "noted": "2026-07-14",
@@ -25,5 +25,5 @@
    "staked": 35.0
   }
  },
- "open_staked": 19.0
+ "open_staked": 22.0
 }
