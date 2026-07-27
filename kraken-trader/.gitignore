@@ -1,0 +1,6 @@
+# Never commit credentials
+.env
+.env.local
+*.credentials
+kraken_credentials
+.kraken_credentials
