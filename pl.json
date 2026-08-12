@@ -1,18 +1,18 @@
 {
- "updated": "2026-07-19",
- "total": 181,
+ "updated": "2026-08-12",
+ "total": 182,
  "won": 72,
  "lost": 94,
  "void": 4,
  "cashed_out": 11,
- "staked": 744.98,
+ "staked": 747.98,
  "pnl": 250.68,
- "win_rate": 40.7,
+ "win_rate": 40.4,
  "best_return": 27.5,
- "roi": 33.6,
+ "roi": 33.5,
  "cash_pnl": 244.79,
- "cash_staked": 739.98,
- "cash_roi": 33.1,
+ "cash_staked": 742.98,
+ "cash_roi": 32.9,
  "known_variance": {
   "noted": "2026-07-14",
   "cause": "bet records 54-56 lost in historical archive migration + one legacy count drift; aggregates (updated incrementally at settlement) are canonical per decision 14 Jul 2026",
@@ -25,5 +25,5 @@
    "staked": 35.0
   }
  },
- "open_staked": 0.0
+ "open_staked": 3.0
 }

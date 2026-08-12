@@ -2577,5 +2577,28 @@
   "odds_closing": null,
   "bet_ref": "O/10074925/0002063",
   "notes": "Logged retroactively - was placed same session as verdict but placement confirmation never chased down before the conversation moved to the Bet365 promo; caught and corrected once results came in. 3-leg free bet builder | Messi ATGS SOT/90 3.7check FM prob~42% edge~+1% - LOST, Messi blanked (FT Spain 1-0) | Yamal 2+ SOT SOT/90 2.2check FM prob~58% edge+18pts - WON | Enzo Fernandez 1+ foul fouls/90 1.4check FM prob~75% edge-7pts (filler leg) - WON | corr: none | combined true prob ~18.3% vs implied ~16.5% at 6.06, edge +1.8pts | Needed all 3 legs, Messi leg lost it. Free bet, no cash lost, just the GBP4 token."
+ },
+ {
+  "id": "178",
+  "date": "2026-08-12",
+  "platform": "Paddy Power",
+  "fixture": "PSG v Aston Villa",
+  "competition": "UEFA Super Cup 2026",
+  "player": "Khvicha Kvaratskhelia",
+  "market": "1+ Shot on Target (incl. woodwork) & To Be Fouled 2+ Times",
+  "rating": 6.5,
+  "stake": 3.0,
+  "result": "pending",
+  "net_pl": 0.0,
+  "sot_per_90": 1.76,
+  "ga_per_90": null,
+  "threshold_met": true,
+  "edge_pct": 12,
+  "def_modifier": null,
+  "odds": 3.0,
+  "odds_was": 2.0,
+  "odds_closing": null,
+  "type": "super_boost",
+  "notes": "SOT/90: 1.76 (met) [FS 29SOT/1484min, cross-check FM 3.94 shots/90] | fouls-drawn ~1.5-1.8/90 [SS/StatMuse: 29 drawn/16 CL apps; Ligue1 sits below Doue's team-leading 1.87/90] per-90 single-sourced, flagged | def-mod: N | ctx: new | edge: +12% (true ~44-48% at full 90 vs implied 33.3% at 3.0) | corr: none (bookmaker preset combo, not GemBets-built) | Start confirmed by Chris pre-placement, removes main minutes risk though fouls leg still minutes-sensitive if hooked early. Ref Omar Artan (Somalia), first ever European match, no foul/card profile available, adds variance to fouls leg. 'Super Sub Applies' = bet stands if subbed. Fouls leg is the swing leg (~coin-flip). No max stake cap (Chris confirmed). Rating 6 base, nudged to 6.5 on start confirmation."
  }
 ]
