@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-14",
+  "updated": "2026-09-01",
   "items": [
     {
       "id": "W1",
       "opened": "2026-07-08",
-      "status": "open",
+      "status": "closed",
       "category": "rating_band",
       "candidate": "8-8.9 band underperforming 7-7.9 band per pound staked",
       "snapshot": {
-        "band_8": "13W-16L, +19.80",
-        "band_7": "10W-25L... see note",
-        "note": "active.json window only, 8 Jul 26: 8-8.9 = 13W-16L +GBP19.80 at GBP7 stakes; 7-7.9 = +GBP63.32 at GBP5 stakes"
+        "band_8_8_9": "n=57, 28W-26L, WR 51.9%, pnl +106.71 (settled records, 1 Sep 26 T6)",
+        "band_7_7_9": "n=58, 23W-35L, WR 39.7%, pnl +80.34 (settled records, 1 Sep 26 T6)",
+        "note": "Both bands now >=30 settled (action_threshold met). 8-8.9 outperforms 7-7.9 on both WR and pnl. Original underperformance hypothesis rejected."
       },
       "action_threshold": "n>=30 settled in 8-8.9 band under v3.8+ fields",
-      "resolution": null
+      "resolution": "Closed 1 Sep 2026 (T6). Hypothesis rejected: 8-8.9 band outperforms 7-7.9, no rating-scale change indicated."
     },
     {
       "id": "W2",
@@ -22,7 +22,8 @@
       "category": "platform",
       "candidate": "Betfair only negative platform",
       "snapshot": {
-        "betfair": "2W-6L, -1.50 (active window, 8 Jul 26)"
+        "betfair": "n=18, 5W-12L-1V, pnl -23.96 (settled records, 1 Sep 26 T6)",
+        "note": "Still the only negative platform. n<30, action_threshold not met, watch-only."
       },
       "action_threshold": "n>=30 settled Betfair bets",
       "resolution": null
@@ -34,8 +35,8 @@
       "category": "concentration",
       "candidate": "Profit concentration on Sky Bet",
       "snapshot": {
-        "sky_bet": "16W-22L, +79.83 (active window, 8 Jul 26)",
-        "note": "not a fault - monitor dependence of total pnl on one account"
+        "sky_bet": "n=66, 32W-33L-1V, pnl +153.54, 59.1% of total settled pnl (1 Sep 26 T6)",
+        "note": "Concentration has grown (was flagged 8 Jul 26). Over half of total profit now sits on one platform. Monitor only per action_threshold, no action."
       },
       "action_threshold": "monitor only - review share of total pnl monthly",
       "resolution": null
@@ -47,7 +48,7 @@
       "category": "stat_gate",
       "candidate": "1.0 SOT/90 gate too loose for 2+ SOT legs - implied hit rate ~26% at gate needs ~3.8 odds to break even; candidate gate ~1.5 SOT/90 for 2+ SOT markets",
       "snapshot": {
-        "note": "logic-derived candidate 8 Jul 26, not data-derived. Rule 27 stake reduction manages exposure meanwhile. Test via sot_per_90 field on settled 2+ SOT legs."
+        "note": "n=9 bets with sot_per_90 populated total (bet-level, not leg-level) as of 1 Sep 26 T6 - far below n>=30. Builder-boost 'legs' field remains free-text strings, no structured per-leg sot_per_90 captured, so the original 2+ SOT leg-level test still can't be run. Logic-derived candidate gate (1.5 SOT/90) remains untested against data."
       },
       "action_threshold": "n>=30 settled 2+ SOT bets/legs with sot_per_90 populated",
       "resolution": null
@@ -59,9 +60,8 @@
       "category": "free_bet_ev",
       "candidate": "Free build parameters miscalibrated: hypothesis is per-leg edge threshold should be LOWER (token stake, maximise expected return) while correlation requirement gets STRICTER. Possible band shift beyond 8.0-15.0.",
       "snapshot": {
-        "record": "1W-14L-1CO from 16 settled free bets",
-        "pnl": 5.89,
-        "note": "0-for-7 recent run is within variance at 8-15 odds (~45% chance of 0/7 at fair value) - do not overreact"
+        "record": "n=29 settled free bets, 5W-24L, pnl +42.82 (1 Sep 26 T6)",
+        "note": "1 bet away from the 30-settled action_threshold. Direction unchanged from 14 Jul snapshot (poor W/L offset by token-stake asymmetry). Next settled free bet should trigger the C4/C6-style review."
       },
       "action_threshold": "30 settled free bets (Rule 31)"
     },
@@ -72,7 +72,8 @@
       "category": "edge_calibration",
       "candidate": "Stated edge_pct may not be calibrated - do 15%+ edge bets win more than 0-5% edge bets? Reviewed via new C4 bucket.",
       "snapshot": {
-        "note": "edge_pct field populated from v3.8 (6 Jul 26) forward; clean sample builds from there. CLV (C5) is the external cross-check once odds_closing accumulates."
+        "record": "n=26 settled bets with edge_pct populated (1 Sep 26 T6): 0-5%=6 (1W-5L,-10.65) | 5-10%=6 (0W-6L,-23.23) | 10-15%=3 (2W-1L,+6.00) | 15%+=11 (3W-7L,-30.84)",
+        "note": "n<30 per band, watch-only. Early read shows NO clean separation - if anything the 15%+ band is doing worst. Flag for continued tracking, do not action yet."
       },
       "action_threshold": "30 settled bets per edge band (Rule 31)"
     },
@@ -83,9 +84,52 @@
       "category": "staking_method",
       "candidate": "Replace rating-band staking with edge-proportional sizing once edge_pct is proven calibrated",
       "snapshot": {
-        "note": "Opened at v4.3. Depends on C4 (edge bands) and C6 (stake bands) separating. If C4 shows no separation, staking method is moot until true-prob method fixed."
+        "record": "C4 (edge bands): all bands <30 (max n=11). C6 (stake bands, 1 Sep 26 T6): GBP2=4, GBP3=26, GBP5=56, GBP7=32, GBP10=12.",
+        "note": "C6 has two bands >=30 (GBP5: n=56, pnl +166.68, ROI ~59.5%; GBP7: n=32, pnl +9.91, ROI ~4.4%) but C4 has none >=30, so action_threshold (both C4 AND C6 >=30) not met - stays watch-only. Early signal worth flagging: bigger stakes (GBP7) are NOT earning proportionally more than GBP5 stakes, consistent with edge-proportional sizing being worth revisiting once C4 catches up."
       },
       "action_threshold": "n>=30 settled bets per C4 edge band AND per C6 stake band (Rule 31)",
+      "resolution": null
+    },
+    {
+      "id": "W8",
+      "opened": "2026-09-01",
+      "status": "open",
+      "category": "reconciliation",
+      "candidate": "pl.json aggregates do not reconcile with active+archive records + known_variance as of T6 1 Sep 26. Needs manual review before pl.json is trusted.",
+      "snapshot": {
+        "records_total_settled_plus_pending": 178,
+        "records_staked": 735.98,
+        "records_pnl": 259.68,
+        "records_cash_staked": 735.98,
+        "records_cash_pnl": 216.86,
+        "known_variance_applied": {
+          "total": 1,
+          "won": 1,
+          "lost": 3,
+          "pnl": 9.0,
+          "staked": 35.0
+        },
+        "expected_after_variance": {
+          "total": 182,
+          "staked": 770.98,
+          "pnl": 268.68
+        },
+        "stored_pl_json": {
+          "total": 182,
+          "staked": 747.98,
+          "pnl": 250.68,
+          "cash_staked": 742.98,
+          "cash_pnl": 244.79
+        },
+        "deltas_vs_stored": {
+          "staked": 23.0,
+          "pnl": 18.0,
+          "cash_staked": -7.0,
+          "cash_pnl": -27.93
+        },
+        "note": "total/won/lost/void/cashed_out counts all reconcile cleanly (182/72/94/4/11). Only the monetary fields (staked, pnl, cash_staked, cash_pnl) are off, and none of the four mismatches is explained by the existing known_variance entry. Per Step 0a, this is a NEW mismatch - pl.json monetary fields were NOT overwritten this run. Left as stored pending manual review."
+      },
+      "action_threshold": "Chris to review and either identify the missing bet(s)/adjustment or extend known_variance with a dated explanation",
       "resolution": null
     }
   ]
